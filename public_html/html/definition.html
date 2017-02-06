@@ -1,0 +1,84 @@
+<div>
+<h1 id="txtTerme"> </h1>
+
+<div  class="ctnBloc">
+<h3>Définition</h3>
+<p id="txtDefinition"></p>
+</div>
+
+<!--<div  class="ctnBloc">
+<h3>Références </h3>
+<div id="txtReferences" class="ctnBloc">références (un texte à venir</div>
+</div>-->
+
+<div id="ctnItems" class="ctnBloc">
+	<h3>Vidéos</h3>
+</div>
+
+</div>
+
+<script>
+$(function(){
+	$("#menuGeneral button").removeClass("menuClicableChoisi");
+	
+	$("#ctnFituraide").hide("slow");
+	$("#colGaucheBas").html("");
+	parcours ={"index" : -1 ,"etape": -1 , "id" : "z"};//annule un éventuel parcours
+	
+	var catTag = window.location.hash.split("_")[1];
+	var tagId = window.location.hash.split("_")[2];
+	var tagInd ;
+	var tagSInd ;
+	
+	
+	if (tagId.length < 3 ){
+		for (var k = 0 ; k < listeMotsCles[catTag].tags.length ; k ++){
+			if  (listeMotsCles[catTag].tags[k].id === tagId){
+				tagInd = k;
+				break;
+			}
+		}
+		//affichage def
+		document.getElementById("txtTerme").innerHTML = listeMotsCles[catTag].tags[tagInd].titre;
+		document.getElementById("txtDefinition").innerHTML =listeMotsCles[catTag].tags[tagInd].definition;
+	}else{
+		for (var k = 0 ; k < listeMotsCles[catTag].tags.length ; k ++){
+			if (listeMotsCles[catTag].tags[k].sous){
+				for (var m = 0 ; m < listeMotsCles[catTag].tags[k].sous.length ; m++){
+					if  (listeMotsCles[catTag].tags[k].sous[m].id === tagId){
+						tagInd = k;
+						tagSInd = m;
+						break;
+					}
+				}
+			}
+		}
+		//affichage def
+		document.getElementById("txtTerme").innerHTML = listeMotsCles[catTag].tags[tagInd].sous[tagSInd].titre;
+		document.getElementById("txtDefinition").innerHTML =listeMotsCles[catTag].tags[tagInd].sous[tagSInd].definition;
+	}
+	
+	//affichage lien video
+	var listeVideos = document.createElement("ul");
+	for (var i = 0 ; i < listeItems.length ; i++){
+		for (var j = 0 ; j < listeItems[i].questions.length ; j++){
+			for (var k = 0 ; k < listeItems[i].questions[j][catTag].length ; k++){
+				if (listeItems[i].questions[j][catTag][k] == tagId) {
+					var element = document.createElement("li");
+					element.innerHTML = listeItems[i].questions[j].titre;
+					element.id = "autresItems_" + i + "_" + j; 
+					element.className = "tagClicable";
+					element.onclick = tagVidClcHdlr;
+					listeVideos.appendChild(element);
+				}	
+			}
+		}
+	}
+	document.getElementById("ctnItems").appendChild(listeVideos);
+
+});
+
+function tagVidClcHdlr(e){
+	window.location.hash = "#item_" + e.target.id.split("_")[1] + "_" + e.target.id.split("_")[2];
+}
+</script>

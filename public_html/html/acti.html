@@ -1,0 +1,44 @@
+<div style="display:flex;flex-direction:row;justify-content:center;">
+<button id="ctnParcoursPrec" class="actiVignetteNav" onClick="avance(this , -1)" style="display:none"></button> 
+	<div id="ctnEval" style="display:none;"> évaluation</div>
+</div>
+
+<div id="ctnQuestionsActi"></div>
+
+<div style="display:flex; flex-direction:row-reverse; ">
+	<button id="ctnParcoursSuiv"  class="actiVignetteNav"  onClick="avance(this , 1)" style="display:none;"></button> 
+	
+</div>
+<!--popin affichage-->
+<div onClick="$('.ctnEvalPopin').hide('slow');" class="ctnEvalPopin" style="display:none;" >
+    <div id="ctnVoileEval" class="ctnVoileModal" ></div>
+    <div id="ctnPopinEval"></div>
+</div>
+    	 <!--<div id="ctnQuestionsActi"></div>
+       <button id="ctnFermer" onClick="$('.qEval').hide('slow');" class="btnValid" style="display:none" >Fermer</button>-->
+<script>
+$(function(){
+	//***cette page n'est plus utilisée que pour l'activité finale
+	 
+
+	$("#ctnFituraide").hide("slow");
+	//$("#colGaucheBas").html("");
+	
+	activiteId = window.location.hash.split("_")[1];
+	parcours.id = activiteId.substr(0 , 1); 
+	
+	$("#colGaucheBas").load("html/barreParcours.html" , function(){
+		//*********** afficher activité(s)
+		for (var i = 0 ; i < listeActivites[activiteId].length ; i ++){
+			if (listeActivites[activiteId][i].type === "qcu"){
+				qcuCreation(activiteId , i);
+			} else if (listeActivites[activiteId][i].type === "qcm"){
+				qcmCreation(activiteId , i);
+			} 
+		}
+	affichParcours();
+	});
+	
+	
+});
+</script>

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="img/favicon.png" />
+
+<title>Cité Langage</title>
+
+<link rel="stylesheet" href="css/citeL.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/citeLpetit.css" type="text/css" media="all and (max-width:640px)">
+<link rel="stylesheet" href="css/activite.css" type="text/css" media="all">
+
+<link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css">
+
+<!-- Piwik -->
+<script type="text/javascript">
+   var _paq = _paq || [];
+   _paq.push(["setDomains", ["*.rpn.univ-lille3.fr"]]);
+   _paq.push(['trackPageView']);
+   _paq.push(['enableLinkTracking']);
+   (function() {
+     var u="https://piwik.univ-lille3.fr/";
+     _paq.push(['setTrackerUrl', u+'piwik.php']);
+     _paq.push(['setSiteId', 19]);
+     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+   })();
+ </script>
+ <noscript><p><img src="https://piwik.univ-lille3.fr/piwik.php?idsite=19" style="border:0;" alt="" /></p></noscript>
+ <!-- End Piwik Code -->
+
+</head>
+<body><!--
+<div id="marginGauche"><img src="img/textures/bord_gauche.png" alt="" /></div>-->
+<div id="top" role="document">
+	<div id="ctnCols">
+	
+	<div id="colGauche">
+            <header id="ctnLogo" >
+                <a href="home.html">
+                    <img src="img/logos/logo-cl.svg" alt="" style="width:11rem;" >
+                </a>
+            </header>
+            <div id="colGaucheBas"></div>
+	</div>
+	<div id="colDroite">
+            <div id="menuGeneral" role="menubar" >
+<!--                <nav role="navigation" aria-label="Menu principal">-->
+                <button id="ctnMenuCarte" onClick=" window.location.hash = '#parcours';"  class="menuClicable " >Parcours</button>
+                <button id="ctnMenuQuestion"  onClick="window.location.hash = '#questions'; " class="menuClicable " >Vidéothèque	</button>
+                <button id="ctnMenuGlossaire" onClick="window.location.hash = '#glossaire';" class="menuClicable " >Glossaire</button>
+                <div id="ctnRecherche" role="search">Recherche...</div>
+<!--                </nav>-->
+            </div>
+            <div id="ctnFituraide"></div>
+            <main id="ctnPrincipal" role="main">
+		
+			<div id="ctnHome">
+					<div id="ctnResumeItem_0_0" onkeypress="if (event.keyCode==13) {window.location.hash = '#parcours';}" onClick="window.location.hash = '#parcours';" class="ctnLienHome" tabindex="0"><!-- l'id est celui du premier lien de la page vidéothèque : le bouton d'évitement du fituraide pointe dessus-->
+					<img  src="img/interface/btn_parcours.svg" alt="">
+					<h3 class="h3FondBlanc">Les parcours</h3>
+					<p>Prêt pour un voyage à travers les Sciences du Langage ?<br>Choisissez le parcours thématique qui vous intéresse, <br>testez vos connaissances grâce à des activités <br>et découvrez les différentes branches de la linguistique<br>en regardant nos vidéos.</p>
+					</div>
+					
+					
+					<div onkeypress="if (event.keyCode==13) {window.location.hash = '#questions';}" onClick="window.location.hash = '#questions'; "  class="ctnLienHome"  tabindex="0">
+						<img src="img/interface/btn_videotheque.svg" alt="">
+						<h3 class="h3FondBlanc">La vidéothèque</h3>
+						<p>Retrouvez toutes nos vidéos à l’aide de notre outil de recherche</p>
+					</div>
+			</div>
+		</main>
+	</div>
+	</div>
+	<footer id="ctnPiedPage">
+	<img src="img/logos/logo-uoh.png" alt=""/><img src="img/logos/logo-l3.png" alt=""/>
+	<div class="ctnFooter" role="contentinfo" >
+		<ul>
+			<li><a href="home.html#planDuSite">Plan du site</a></li>
+			<li><a href="home.html#contact">Nous contacter</a></li>
+<!--                        <li>Accessibilité</li>-->
+			<li>Crédits</li>
+		</ul>
+	</div>
+	</footer>
+</div>
+
+<!--<div id="marginDroite"><img src="img/textures/bordDroit.png" alt="" /></div>-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!--<script src="js/jquery-2.2.1.js" type="text/javascript"></script>-->
+<script src="js/citeL.js" type="text/javascript"></script>
+<script src="js/activite.js" type="text/javascript"></script>
+<script>
+
+$(function(){
+	window.addEventListener("resize", windowResizeHdlr);
+
+	//****mettre le footer en pied de page
+	var temp = parseInt($("html").css("height")) - 84;
+	$("#ctnCols").css("min-height" , temp);
+
+	//*************************
+	//****lecture des data
+	//************************
+	
+	var url='donnees/listeItems.json';
+	var nbCharge = 0;
+	
+	// lecture listeItems
+	$.ajax({
+		type: 'GET',
+		url: url,
+		dataType: 'json',
+		success: function(data) {
+			if (data){
+				listeItems = data;
+				nbCharge +=1;
+				if (nbCharge > 3) {initDataOk();}
+			}
+		},
+		error: function() { alert('Pas de lecture du fichier : ' + url , 'erreur');}
+	});
+
+	// lecture listeMotsCles
+	var url2='donnees/listeMotsCles.json';
+	$.ajax({
+		type: 'GET',
+		url: url2,
+		dataType: 'json',
+		success: function(data) {
+			if (data) {
+				listeMotsCles = data;
+				nbCharge +=1;
+				if (nbCharge > 3) {initDataOk();}
+			}
+		},
+		error: function() { alert('Pas de lecture du fichier : ' + url2 , 'erreur');}
+	});
+
+	// lecture listeParcours
+	var url3='donnees/listeParcours.json';
+	$.ajax({
+		type: 'GET',
+		url: url3,
+		dataType: 'json',
+		success: function(data) {
+			if (data){
+				listeParcours = data;
+				nbCharge +=1;
+				if (nbCharge > 3) {initDataOk();}
+			}
+		},
+		error: function() { alert('Pas de lecture du fichier : ' + url3 , 'erreur');}
+	});
+
+// lecture listeParcours
+	var url4='donnees/listeActivites.json';
+	$.ajax({
+		type: 'GET',
+		url: url4,
+		dataType: 'json',
+		success: function(data) {
+			if (data){
+				listeActivites = data;
+				nbCharge +=1;
+				if (nbCharge > 3) {initDataOk();}
+			}
+		},
+		error: function() { alert(' Pas de lecture du fichier : ' + url4 , 'erreur');}
+	});
+	
+	
+
+	/******* change de hash *****/
+	// au changement de HASH dans l'URL (#...)
+	$(window).on('hashchange', function() {
+		// on récupère le HASH sans le # et on charge la page correspondante
+		chargePage(window.location.hash.substr(1));
+	  });
+
+
+
+});
+
+function initDataOk(){
+	//***** depuis lecture item
+	//lecture transcriptions (pour fonction recherche)
+	for (var iCat = 0 ; iCat < listeItems.length ; iCat++){
+		for (var iQ = 0 ; iQ < listeItems[iCat].questions.length ; iQ++){	
+			lectureTranscriptions(iCat , iQ ); //listeItems[iCat].questions[iQ].questionNum );
+		}
+	}
+	
+	//**** depuis lecture listePArcours
+	creeListePourFituraide();
+	
+	//***** action sur entete *****
+	$("#txtEntete").on("click" , function(){ window.location.hash = '#questions';});
+
+	$("#ctnRecherche").load("html/recherche.html");
+	$("#ctnFituraide").load("fituraide/fituraide.html");
+
+	//ouvrir la page si on a un hash du départ
+	chargePage(window.location.hash.substr(1));
+}
+
+
+function chargePage(pId){
+	pId = pId.split("?")[0];//pour fonction recherche (si deux recherche successive...
+	var nomPage = pId.split("_")[0];
+	if (pId){
+		$("#ctnPrincipal").load("html/"+nomPage+".html");
+	}
+	if (titrePages[pId]){
+		window.document.title = titrePages[pId];
+	}else{
+		window.document.title = "Cité-langage";
+	}
+}
+
+</script>
+</body>
+</html>

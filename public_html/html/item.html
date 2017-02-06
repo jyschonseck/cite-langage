@@ -1,0 +1,57 @@
+<div id="ctnItem">
+	<div style="display:flex;flex-direction:row; justify-content:space-between;">
+		<button id="ctnParcoursPrec" class="actiVignetteNav" onClick="avance(this , -1)" style="display:none;flex:none;"></button>
+		<h1 ><!--<img id="ctnIllus" src="img/illus-A1.jpg" width="80px" alt="illustration Item">--><span id="ctnNum" style="display:none;"></span><span id="ctnTitre"></span></h1>
+		<button id="ctnParcoursSuiv" class="actiVignetteNav" onClick="avance(this , 1)" style="display:none;flex:none;"></button>
+		
+	</div>
+	<div id="ctnBlocVideo" >
+		<div id="ctnVideo" class="ctnBloc"><!-- class="ctnBloc"-->
+			<iframe id="vidItem" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><!--width="640" height="360" -->
+			<div id="separateur" style="height: 1rem;background-color: white;margin:0 -0.5rem;"></div>
+			<div id="ctnTxtVid" style="display:flex;flex-direction:row; " >
+				<div  id="ctnBaratinPlus" class="ctnBloc" style="flex:1;">
+				<div id="ctnBaratin"></div>
+				<button  id="btnPdf" onClick="btnPdfClckHdlr();" title="Fichier de transcription en .pdf" style="">
+					<img src="img/interface/btn_pdf.svg" alt="">
+				</button>
+				<button  id="btnTranscript" onClick="btnTranscriptionClckHdlr();" title="Transcrition" style="width: 3rem;" >
+					<img src="img/interface/btn_transcription.svg" alt="">
+				</button>
+			</div>
+	</div>
+		</div>
+		
+		<div id="ctnTranscription" class="ctnBloc depart" title="Cliquez sur le texte pour visionner le passage correspondant "><!---->			
+			<p id="txtTranscription" onClick="txtTranscriptionClckHdlr(event);" >texte</p>
+		</div>
+		
+	</div>
+	
+	<div  style="display:flex;flex-direction:row;">
+		
+		<div class="ctnBloc itemTagBloc" >
+			<h3 class="titreTags">Notions<!--de base des sciences du langage--></h3>
+		<div id="txtNotions"></div>
+		</div>
+		
+		<div class="ctnBloc  itemTagBloc">
+			<h3 class="titreTags">Domaines</h3>
+			<div id="txtDomaines"></div>
+		</div>
+	</div>
+	
+	<div id="ctnAutresRes" class="ctnBloc">
+		<h3> Autres ressources</h3>
+		<div id="txtAutresRes"></div>
+	</div>
+	
+</div>
+<!--les acitvité-->
+<div id="ctnVoileActivite" class="qActivite ctnVoileModal"></div>
+	<div id="ctnActivite" class="qActivite">
+    	<div id="ctnQuestionsActi"></div>
+        <button id="ctnFermer" onClick="$('.qActivite').fadeOut('slow');" class="btnValid" style="display:none" >Accéder à la vidéo</button>
+    </div>
+
+<script src="js/item.js" type="text/javascript"> </script>

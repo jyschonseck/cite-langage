@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Arrière boutique</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+<style>
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+main {
+	display: flex;
+	flex-direction: row;
+}
+ul {
+	padding: 0;
+	width: 100%;
+}
+nav, section {
+	border: solid 1px black;
+}
+nav {
+	width: 250px;
+}
+section {
+	flex: 5;
+}
+nav li {
+	margin-top: 10px;
+	list-style-type: none;
+	cursor: pointer;
+}
+nav li:hover {
+	background-color: #C3C3C3;
+}
+nav p {
+	font-size: 9px;
+	margin: 0 0 50px 30px;
+	cursor: pointer;
+}
+nav p:hover {
+	background-color: #9AB2CB;
+}
+</style>
+</head>
+
+<body>
+<main>
+	<nav>
+		
+<button onClick="lectureDonneesSite()">Recharger données site</button><br>(Attention cela effacera les éventuelles modifs locales)
+<br>
+<br>		
+		<ul>
+		
+			<li onClick="$('#colDroite').load('editItem.html'); $('#btnSauvG').hide('fast'); $('#btnSauvI').show('fast');">fiches question</li>
+			<button id="btnSauvI" onClick="btnSauvHdlr('I')" style="display:none;">Sauver fichier</button>
+			<li onClick="$('#colDroite').load('editGlossaire.html'); $('#btnSauvI').hide('fast'); $('#btnSauvG').show('fast');">fiches glossaire</li>
+			<button id="btnSauvG" onClick="btnSauvHdlr('G')" style="display:none;">Sauver fichier</button>
+		</ul>
+	</nav>
+	<section id="colDroite" > contenu main </section>
+</main>
+<div id="ctnPopupOuvreFichier">
+	<input style="width:100%" type="file" id="txtFichier"/>
+</div>
+<div id="ctnPopupSauveFichier"></div>
+<script src="https://code.jquery.com/jquery-2.1.4.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+<script src="nicEdit.js" type="text/javascript"></script>
+<script>
+//****variables gloables***/
+var listeMotsCles = [];
+var listeItems =[];
+var contenu = "";
+var nomFichierI = "listeItems";
+var nomFichierG = "listeMotsCles";
+
+var editeur1, editeur2 ,editeur3;
+var configNicedit = {buttonList : ['bold','italic','underline','strikeThrough','subscript','superscript','left', 'center', 'right', 'ol','ul','indent','outdent','removeformat','image', 'link', 'unlink']};
+/*************************/
+
+$(function(){
+	
+	if (localStorage.getItem("listeItems")){
+		listeItems = jQuery.parseJSON(localStorage.getItem("listeItems"));
+	}else{	
+		// lecture listeItems	
+		//var url='http://rpn.univ-lille3.fr/public/cite-langage/donnees/listeItems.json';//../donnees/listeItems.json';
+		lectureDonneesSite();
+		
+	}
+	
+/***********popup ouvre / sauver*********/
+$( "#ctnPopupOuvreFichier" ).dialog({
+		modal: true,
+		autoOpen: false,
+		width: 500,
+		show: {
+			effect: "fade",
+			duration: 333
+		},
+		hide: {
+			effect: "fade",
+			duration: 333
+		},
+		buttons: {
+			"OK": function() {
+				var fileInput = document.querySelector('#txtFichier');
+				nomFichier = fileInput.files[0].name;
+				$("#txtNomFichier").val(nomFichier);
+				var lecteur = new FileReader();
+				lecteur.onload = function(){
+					validOuvrir(jQuery.parseJSON(lecteur.result));
+				}
+				lecteur.readAsText(fileInput.files[0]);
+				$( this ).dialog("close" );
+			},
+			"Annuler": function(){
+				$( this ).dialog( "close" );
+			}
+		}
+    });
+	
+	$("#ctnPopupSauveFichier" ).dialog({
+		modal: true,
+		autoOpen: false,
+		width: 500,
+		show: {
+			effect: "fade",
+			duration: 333
+		},
+		hide: {
+			effect: "fade",
+			duration: 333
+		}
+	});
+
+	$('#ctnPopupSauveFichier').load('sauvegardeG.html');
+});/// fin $(function
+
+function btnSauvHdlr(wiche){
+	if (wiche == "I"){
+		sauvNiceditItem();
+		localStorage.setItem("listeItems" , JSON.stringify(listeItems));
+		contenu = listeItems;
+		document.getElementById("txtNomFichier").value = "listeItems.json";
+	}else if (wiche == "G"){
+		validModifGlossaire();
+		localStorage.setItem("listeMotsCles" , JSON.stringify(listeMotsCles));
+		contenu = listeMotsCles;
+		document.getElementById("txtNomFichier").value = "listeMotsCles.json";
+	}
+	
+	$('#ctnPopupSauveFichier').dialog('open');
+}
+
+function lectureDonneesSite(){
+	var url='../donnees/listeItems.json';
+		$.ajax({
+			type: 'GET',
+			url: url,
+			dataType: 'json',
+			success: function(data) {
+				if (data) listeItems = data;
+				//$("#ctnPrincipal").load("questions.html");
+			},
+			error: function() { alert(' 4 - Pas de lecture du fichier : ' + url , 'erreur');}
+		});
+	}
+	
+	// lecture listeMotsCles
+	/*if (localStorage.getItem("listeMotsCles")){
+		listeMotsCles = jQuery.parseJSON(localStorage.getItem("listeMotsCles"));
+	}else{*/
+	//url='http://rpn.univ-lille3.fr/public/cite-langage/donnees/listeMotsCles.json';
+	var urlé='../donnees/listeMotsCles.json';	
+	$.ajax({
+		type: 'GET',
+		url: urlé,
+		dataType: 'json',
+		success: function(data) {
+			if (data) listeMotsCles = data;
+			//$("#ctnPrincipal").load("questions.html");
+		},
+		error: function() { alert('Pas de lecture du fichier : ' + url , 'erreur');}
+	});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style>
+	
+.ctnImg{
+	float:left;
+	width:60px;
+	height:70px;
+	overflow:hidden;
+}
+
+img{
+	width:40px;	
+}
+
+.ctnRow{
+	display:flex;
+	flex-direction:row;
+	border:solid red 1px;
+	max-height:18.5rem;
+	overflow:auto;
+}
+
+#txtTranscription{
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<div id="ctnItem">
+	<h1 ><!--<img id="ctnIllus" src="img/illus-A1.jpg" width="80px" alt="illustration Item">--><span id="ctnNum"></span> - <span id="ctnTitre">aaaa</span></h1>
+	<div id="ctnBlocVideo"  class="ctnRow" >
+		<div id="ctnVideo" >
+			<iframe id="vidItem" src= "https://player.vimeo.com/video/159517440  " width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		
+		<div id="ctnTranscription"  ><!---->
+			<div id="ctnBtnTranscription" class="ctnImg" >
+				<button  id="btnTranscript"  title="Transcrition" >
+					<img src="../img/interface/btn_transcription.svg" alt="">
+				</button>
+				<br>
+				<button  id="btnPdf" title="Fichier de transcription en .pdf" >
+					<img src="../img/interface/btn_pdf.svg" alt="">
+				</button>
+			</div>
+			
+			<p id="txtTranscription" onClick="txtTranscriptionClckHdlr(event);" > <span data-caract="0" data-debut="0.52" data-fin="1.5" > Isabelle Léglise bonjour.</span><span data-caract="25" data-debut="1.5" data-fin="2.08" > Bonjour.</span><span data-caract="33" data-debut="2.26" data-fin="7.22" > Vous êtes directrice de recherche au CNRS, au laboratoire "Structure et Dynamique des Langues".</span><span data-caract="128" data-debut="7.89" data-fin="10.1" > Et selon vous, qu'est-ce que "bien parler" ?</span><span data-caract="172" data-debut="10.7" data-fin="21.31" > Alors si on demande à des gens dans la rue "Qu'est-ce que bien parler ?", Ils vont peut-être répondre "Bien parler, c'est parler comme dans un livre, avec beaucoup de vocabulaire, faire des belles phrases".</span><span data-caract="378" data-debut="22.22" data-fin="26.1" > Alors ça, ça renvoie, à mon sens, à un modèle de l'écrit.</span><span data-caract="435" data-debut="26.4" data-fin="30.4" > Or, là on est en train de parler de l'oral, donc de l'oralité, et il y a des règles différentes.</span><span data-caract="531" data-debut="30.41" data-fin="36.12" > En français parlé par exemple, une règle c'est de ne pas utiliser les deux parties de la négation.</span><span data-caract="629" data-debut="36.19" data-fin="40.78" > On va dire "Je sais pas" - "J'sais pas", et pas forcément "Je ne sais pas".</span><span data-caract="704" data-debut="41.61" data-fin="45.95" > Ça on va peut-être le dire à des enfants, s'ils nous posent vingt fois une question, mais pas tout le temps.</span><span data-caract="812" data-debut="46.92" data-fin="50.98" > Donc je crois qu'il faut oublier la référence à l'écrit pour pouvoir répondre à cette question.</span><span data-caract="907" data-debut="51.54" data-fin="55.34" > Cependant, "bien parler" pourrait signifier "savoir faire de beaux discours" ?</span><span data-caract="985" data-debut="55.93" data-fin="61.21" > Oui ça peut évoquer l'art oratoire, la façon de parler d'un avocat,d'un homme politique qui fait des grands discours.</span><span data-caract="1102" data-debut="61.31" data-fin="67.02" > On a dit de Mitterrand que c'était l'un des derniers grands hommes politiques à savoir faire de grands discours.</span><span data-caract="1214" data-debut="67.64" data-fin="71.92" > Mais là on est encore sur un modèle de l'écrit, puisque les discours politiques sont d'abord écrits.</span></p>
+		</div>
+		
+		
+		<!--  ---------------  --> 
+		
+	</div>
+	<!--<button onclick="test();">test</button>
+-->
+	<div  class="ctnRow">
+		<div class="ctnBloc  itemTagBloc">
+			<h3 class="titreTags">Domaines</h3>
+			<div id="txtDomaines">liste des domaines</div>
+		</div>
+		<!--<div><span class="titreTags">Prénotions, notions profanes : </span><span id="txtPrenotions"></span></div>-->
+		<div class="ctnBloc itemTagBloc" >
+			<h3 class="titreTags">Notions <!--de base des sciences du langage--></h3>
+			<div id="txtNotions"> liste des notions</div>
+		</div>
+	</div>
+</div>
+
+
+	<div id="ctnGeneral">
+		<div class="ctnImg">
+			<img src="../img/interface/btn_transcription.svg" alt=""/>
+		</div>
+		<p id="ctnTexte"> <span data-caract="0" data-debut="0.52" data-fin="1.5" > Isabelle Léglise bonjour.</span><span data-caract="25" data-debut="1.5" data-fin="2.08" > Bonjour.</span><span data-caract="33" data-debut="2.26" data-fin="7.22" > Vous êtes directrice de recherche au CNRS, au laboratoire "Structure et Dynamique des Langues".</span><span data-caract="128" data-debut="7.89" data-fin="10.1" > Et selon vous, qu'est-ce que "bien parler" ?</span><span data-caract="172" data-debut="10.7" data-fin="21.31" > Alors si on demande à des gens dans la rue "Qu'est-ce que bien parler ?", Ils vont peut-être répondre "Bien parler, c'est parler comme dans un livre, avec beaucoup de vocabulaire, faire des belles phrases".</span><span data-caract="378" data-debut="22.22" data-fin="26.1" > Alors ça, ça renvoie, à mon sens, à un modèle de l'écrit.</span><span data-caract="435" data-debut="26.4" data-fin="30.4" > Or, là on est en train de parler de l'oral, donc de l'oralité, et il y a des règles différentes.</span><span data-caract="531" data-debut="30.41" data-fin="36.12" > En français parlé par exemple, une règle c'est de ne pas utiliser les deux parties de la négation.</span><span data-caract="629" data-debut="36.19" data-fin="40.78" > On va dire "Je sais pas" - "J'sais pas", et pas forcément "Je ne sais pas".</span><span data-caract="704" data-debut="41.61" data-fin="45.95" > Ça on va peut-être le dire à des enfants, s'ils nous posent vingt fois une question, mais pas tout le temps.</span><span data-caract="812" data-debut="46.92" data-fin="50.98" > Donc je crois qu'il faut oublier la référence à l'écrit pour pouvoir répondre à cette question.</span><span data-caract="907" data-debut="51.54" data-fin="55.34" > Cependant, "bien parler" pourrait signifier "savoir faire de beaux discours" ?</span><span data-caract="985" data-debut="55.93" data-fin="61.21" > Oui ça peut évoquer l'art oratoire, la façon de parler d'un avocat,d'un homme politique qui fait des grands discours.</span><span data-caract="1102" data-debut="61.31" data-fin="67.02" > On a dit de Mitterrand que c'était l'un des derniers grands hommes politiques à savoir faire de grands discours.</span><span data-caract="1214" data-debut="67.64" data-fin="71.92" > Mais là on est encore sur un modèle de l'écrit, puisque les discours politiques sont d'abord écrits.</span></p>
+		
+	</div>
+
+</body>
+</html>

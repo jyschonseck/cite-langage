@@ -1,0 +1,228 @@
+<!--Page édition glossaire-->
+<style>
+#mainEditGlossaire {
+	display: flex;
+	flex-direction: row;
+}
+nav {
+	width: 200px;
+}
+#ctnEdition {
+	width: 100%;
+}
+textarea {
+	
+	width: 100%;
+}
+ul {
+	margin-left: 15px;
+}
+</style>
+
+<div id="mainEditGlossaire">
+	<nav>
+		<ul id="listeQuestions">
+		</ul>
+	</nav>
+	<div id="ctnEdition">
+		<table  onChange="txtChange(event);">
+			<tr>
+				<td>questionNum</td>
+				<td  width="100%" id="txt_questionNum">questionNum</td>
+			</tr>
+			<tr>
+				<td>Questions</td>
+				<td><textarea id="txt_titre" >Questions</textarea></td>
+			</tr>
+			<!--<tr>
+				<td>illustration</td>
+				<td><textarea id="txt_illustration" rows="1" style="width:350px;">Questions</textarea>
+					<img id="imgIllus" width="100px" alt="Illustration liée à la question"></td>
+			</tr>-->
+			<tr>
+				<td>Id video (Viméo)</td>
+				<td><input type="text" id="txt_video"  >
+					<!--<video id="vid" width="240px" controls></video>-->
+					<iframe id="vidItem" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</td>
+			</tr>
+			<tr>
+				<td>Texte</td>
+				<td><textarea id="txt_texte">texte n</textarea></td>
+			</tr>
+			<tr>
+				<td>Autres ressources</td>
+				<td><textarea id="txt_autresRes">texte n</textarea></td>
+			</tr>
+			<tr>
+				<td>Tag-domaines</td>
+				<td><ul id="liste_tag_domaines">
+					</ul>
+					<select id="sel_domaines">
+					</select>
+					<button onClick="ajoutTag('domaines');">Ajout</button></td>
+			</tr>
+			<!--<tr>
+				<td>Tag-prenotions</td>
+				<td><ul id="liste_tag_prenotions">
+					</ul>
+					<select id="sel_prenotions">
+					</select>
+					<button onClick="ajoutTag('prenotions');">Ajout</button></td>
+			</tr>-->
+			<tr>
+				<td>Tag-notions</td>
+				<td><ul id="liste_tag_notions">
+					</ul>
+					<select id="sel_notions">
+					</select>
+					<button onClick="ajoutTag('notions');">Ajout</button></td>
+			</tr>
+		</table>
+	</div>
+</div>
+<script>
+	var itemCatInd = 0;
+	var itemInd = 0;
+	var listeTypesTags = [ "domaines" ,  "notions"];
+	
+	$(function(){
+		
+		//*****création liste clicable
+		for (var i = 0 ; i < listeItems.length ; i++){
+			for ( var j = 0 ; j < listeItems[i].questions.length ; j++){
+				var element = document.createElement("li");
+				element.id= "questions_" + i + "_" + j;
+				element.className = "tagClicable"; //la même classe que les tag dans le page item
+				element.onclick = questionClckHdlr; 
+				//element.innerHTML = listeItems[i].questions[j].titre;
+				element.innerHTML = listeItems[i].questions[j].questionNum;
+				document.getElementById("listeQuestions").appendChild(element);
+			}
+		}
+		
+		/********creation select Tag ****/
+		
+		for ( var tt =0 ; tt < listeTypesTags.length ; tt++){
+			for (var i = 0 ; i < listeMotsCles[listeTypesTags[ tt ]].tags.length ; i++){
+				
+				var element = document.createElement("option");
+				element.text = listeMotsCles[listeTypesTags[ tt ]].tags[ i ].titre;
+				element.value = listeMotsCles[listeTypesTags[ tt ]].tags[ i ].id;
+				document.getElementById("sel_"+listeTypesTags[tt]).appendChild(element);
+				if (listeMotsCles[listeTypesTags[ tt ]].tags[i].sous){
+					for (var j = 0 ; j < listeMotsCles[listeTypesTags[ tt ]].tags[i].sous.length ; j++){
+						var element = document.createElement("option");
+						element.text = listeMotsCles[listeTypesTags[ tt ]].tags[ i ].titre + " - " + listeMotsCles[listeTypesTags[ tt ]].tags[ i ].sous[j].titre;
+						element.value = listeMotsCles[listeTypesTags[ tt ]].tags[ i ].sous[j].id;
+						document.getElementById("sel_"+listeTypesTags[tt]).appendChild(element);	
+					}
+				}
+			}
+		}
+		
+		affichQuestion();
+	});
+	
+	function questionClckHdlr(e){
+		"use strict";
+		sauvNiceditItem(); // on sauve le contenu nicedit ici 
+		itemCatInd = e.target.id.split("_")[1];
+		itemInd = e.target.id.split("_")[2];
+		affichQuestion();
+	}
+	
+	function affichQuestion(){
+		//on va loader ...
+		//document.getElementById("txtCat").innerHTML = listeItems[itemCatInd].categorie;
+		document.getElementById("txt_questionNum").innerHTML = listeItems[itemCatInd].questions[itemInd].questionNum;
+		document.getElementById("txt_titre").value = listeItems[itemCatInd].questions[itemInd].titre;
+		//document.getElementById("txt_illustration").value = listeItems[itemCatInd].questions[itemInd].illustration;
+		//document.getElementById("imgIllus").src = "../img/" + listeItems[itemCatInd].questions[itemInd].illustration;
+		document.getElementById("txt_video").value = listeItems[itemCatInd].questions[itemInd].idVimeo;
+		
+		if ( listeItems[itemCatInd].questions[itemInd].idVimeo) {
+			$("#vidItem").attr("src" , "https://player.vimeo.com/video/" +  listeItems[itemCatInd].questions[itemInd].idVimeo);
+		}else {
+			$("#vidItem").attr("src" , "https://player.vimeo.com/video/170475416?api=1&amp;player_id=player_1");
+		}
+		
+		//document.getElementById("vid").src = listeItems[itemCatInd].questions[itemInd].idVimeo;
+		//document.getElementById("txt_texte").value = listeItems[itemCatInd].questions[itemInd].texte;
+		if (!nicEditors.findEditor('txt_texte')) {editeur3 = new nicEditor(configNicedit).panelInstance('txt_texte');}
+		nicEditors.findEditor('txt_texte').setContent(listeItems[itemCatInd].questions[itemInd].texte);
+		
+		if (!nicEditors.findEditor('txt_autresRes')) {editeur4 = new nicEditor(configNicedit).panelInstance('txt_autresRes');}
+		nicEditors.findEditor('txt_autresRes').setContent(listeItems[itemCatInd].questions[itemInd].autresRes);
+		
+		//****affichage des tag 
+		var listeEnCours ;
+		for ( var tt =0 ; tt < listeTypesTags.length ; tt++){
+			listeEnCours= document.getElementById("liste_tag_" + listeTypesTags[tt]);
+			while (listeEnCours.firstChild) {listeEnCours.removeChild(listeEnCours.firstChild);} //vider la liste
+			for ( var i= 0 ;  i < listeItems[itemCatInd].questions[itemInd][listeTypesTags[tt]].length ; i++){
+				var element = document.createElement("li");
+				var elementA = document.createElement("span");
+				
+				//elementA.innerHTML = listeMotsCles[tt].listeTermes[listeItems[itemCatInd].questions[itemInd][listeTypesTags[tt]][i]].titre;
+				var tagId = listeItems[itemCatInd].questions[itemInd][listeTypesTags[tt]][i];
+				var tagInd =-1;
+				var tagSInd =-1;
+				if ( tagId.length < 3){
+					for (var k = 0 ; k < listeMotsCles[listeTypesTags[tt]].tags.length ; k ++){
+						if  (listeMotsCles[listeTypesTags[tt]].tags[k].id == tagId){
+							tagInd = k // listeMotsCles[listeTypesTags[tt]].tags[k].titre;
+							break;
+						}
+					}
+					elementA.innerHTML = listeMotsCles[listeTypesTags[ tt ]].tags[tagInd].titre;
+				}else{
+					for (var k = 0 ; k < listeMotsCles[listeTypesTags[tt]].tags.length ; k ++){
+						if  (listeMotsCles[listeTypesTags[tt]].tags[k].id === tagId.substring(0 , 2 )){
+							tagInd = k // listeMotsCles[listeTypesTags[tt]].tags[k].titre;
+							break;
+						}
+					}
+					for (var m = 0 ; m < listeMotsCles[listeTypesTags[ tt ]].tags[tagInd].sous.length ; m++){
+						if  (listeMotsCles[listeTypesTags[tt]].tags[tagInd].sous[m].id === tagId ){
+							tagSInd = m ;// listeMotsCles[listeTypesTags[tt]].tags[k].titre;
+							break;
+						}
+					}
+					elementA.innerHTML = listeMotsCles[listeTypesTags[ tt ]].tags[tagInd].sous[tagSInd].titre;
+				}
+				
+				var elementB =document.createElement("button");
+				elementB.innerHTML = "supprimer";
+				elementB.id = "suppr_" +tt + "_" + i;
+				elementB.onclick = btnSupprHdlr;
+				element.appendChild(elementA);
+				element.appendChild(elementB);
+				listeEnCours.appendChild(element);
+			}
+		}
+	}
+	
+	function txtChange(e) {
+		if (e.target.nodeName == "TEXTAREA"){
+			var modifObjet = e.target.id.split("_")[1];
+			listeItems[itemCatInd].questions[itemInd][modifObjet] = e.target.value;
+		}
+	}
+	
+	function sauvNiceditItem(){ //déclenché par cahngemant d'item et sauv
+		listeItems[itemCatInd].questions[itemInd].texte = nicEditors.findEditor("txt_texte").getContent();
+		listeItems[itemCatInd].questions[itemInd].autresRes = nicEditors.findEditor("txt_autresRes").getContent();
+	}
+	
+	function ajoutTag(type){
+		listeItems[itemCatInd].questions[itemInd][type].push(document.getElementById("sel_"+type).value);
+		affichQuestion();
+	}
+	
+	function btnSupprHdlr(e){
+		var temp = e.target.id.split("_");
+		listeItems[itemCatInd].questions[itemInd][listeTypesTags[temp[1]]].splice(temp[2] , 1);
+		affichQuestion();
+	}
+</script> 

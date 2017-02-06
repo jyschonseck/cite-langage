@@ -1,0 +1,172 @@
+<div>
+<h1> Résultat recherche : <span id="txtRappelRecherche"></span></h1>
+
+<div id="ctnResultatsRecherche"></div>
+</div>
+<script>
+$(function(){
+	$("#ctnFituraide").hide("slow");
+	$("#colGaucheBas").html("");
+	
+	$("#txtRappelRecherche").html(window.location.hash.split("?")[1]);
+	
+	var tempo = window.setInterval(	function(){
+		if (nbTranscriptionsLues >26 ){
+			recherche();
+			clearInterval(tempo);
+		}
+	}, 300);
+	
+});
+
+function recherche(){
+//***** la fonction recherche sur titre, texte et transcription (pas sur les tags pour le moment). Elle met à jour le tableau global resultatsRecherche, qui sera affiché par la function resultats-recherche
+	txtRecherche = window.location.hash.split("?")[1]; 
+	resultatsRecherche = [ [{},{},{},{},{},{},{},{}] , [{},{},{},{},{}] , [{},{},{},{},{},{},{},{},{}] , [{},{},{},{},{}] ]; 
+	//var txtRecherche = $("#txtRecherche").val().toLowerCase();
+	for (var iCat = 0 ; iCat < listeItems.length ; iCat++){
+		for (var iQ = 0 ; iQ < listeItems[iCat].questions.length ; iQ++){
+			//***** recherche sur titre
+			//var indRecherche = listeItems[iCat].questions[iQ].titre.toLowerCase().indexOf(txtRecherche);
+			//if (indRecherche != -1){
+				//resultatsRecherche[iCat][iQ].titre = indRecherche ;
+			//}// else {
+				
+			//***** recherche sur texte
+			//indRecherche = listeItems[iCat].questions[iQ].texte.toLowerCase().indexOf(txtRecherche);
+			//if (indRecherche != -1){
+				//resultatsRecherche[iCat][iQ].texte = indRecherche ;
+			//}
+			//}
+			
+			//***** recherche sur transcription
+			var indRecherche = listeTranscriptions[iCat][iQ].toLowerCase().indexOf(txtRecherche);
+			resultatsRecherche[iCat][iQ].transcription = [];
+			resultatsRecherche[iCat][iQ].transcription.push(indRecherche);
+			while (indRecherche != -1){
+				indRecherche = listeTranscriptions[iCat][iQ].toLowerCase().indexOf(txtRecherche , indRecherche+1);
+				resultatsRecherche[iCat][iQ].transcription.push(indRecherche);
+			}
+			//}
+		}
+	}
+		
+	affichRecherche();
+}
+
+function affichRecherche(){
+	var nbCarRecherche = window.location.hash.split("?")[1].length;
+	for (var iCat = 0 ; iCat < listeItems.length ; iCat++){
+		for (var iQ = 0 ; iQ < listeItems[iCat].questions.length ; iQ++){
+			if (resultatsRecherche[iCat][iQ].titre > -1 || resultatsRecherche[iCat][iQ].texte > -1 || resultatsRecherche[iCat][iQ].transcription.length >1){
+				var element = document.createElement("div");
+				element.className = "ctnResumeItem";
+				element.id = "ctnResumeItem_" + iCat+"_" + iQ;
+				
+				var elt1a =document.createElement("button");
+				elt1a.onclick =  affichRechercheDetail;//rechercheClcHdlr;
+				var elt1 = document.createElement("h3");
+				elt1.innerHTML = listeItems[iCat].questions[iQ].titre;
+				elt1a.appendChild(elt1);
+				element.appendChild(elt1a);
+				
+				
+				if (resultatsRecherche[iCat][iQ].texte > -1){
+					var elt2 = document.createElement("p");
+					elt2.innerHTML = listeItems[iCat].questions[iQ].texte;
+					elt2.className = "texte eltAmasquer";
+					element.appendChild(elt2);
+				}
+				
+				if (resultatsRecherche[iCat][iQ].transcription.length > 1){ 
+					var elt3 = document.createElement("ul");
+					elt3.className = "rechercheTranscription eltAmasquer";
+					for (var i = 0 ; i < resultatsRecherche[iCat][iQ].transcription.length -1 ; i++){
+						var elt3a = document.createElement("li");
+						var texte1 = "...";
+						var texteDeb = positionMot(listeTranscriptions[iCat][iQ] , resultatsRecherche[iCat][iQ].transcription[i] , -8);// -20 ;
+						var texteFin = positionMot(listeTranscriptions[iCat][iQ] , resultatsRecherche[iCat][iQ].transcription[i] , 12);
+						if ( texteDeb === 0 ) { texteDeb = 0; texte1 = ""}				
+						texte1 += listeTranscriptions[iCat][iQ].substring( texteDeb , resultatsRecherche[iCat][iQ].transcription[i]);
+						var texte2 = listeTranscriptions[iCat][iQ].substr(resultatsRecherche[iCat][iQ].transcription[i], nbCarRecherche) ;
+						var texte3 = listeTranscriptions[iCat][iQ].substring(resultatsRecherche[iCat][iQ].transcription[i] + nbCarRecherche  , texteFin);
+						if ( texteFin < listeTranscriptions[iCat][iQ].length ) {  texte3 += "..."}
+						var elt3a1 = document.createElement("span");
+						elt3a1.innerHTML = texte1 ;
+						var elt3a2 = document.createElement("span");
+						elt3a2.innerHTML = texte2 ;
+						elt3a2.className = "recherche";
+						var elt3a3 = document.createElement("span");
+						elt3a3.innerHTML = texte3 ;
+						elt3a.appendChild(elt3a1);
+						elt3a.appendChild(elt3a2);
+						elt3a.appendChild(elt3a3);
+						
+						elt3.appendChild(elt3a);
+					}
+					element.appendChild(elt3);
+				}
+				var elt4 = document.createElement("button");
+				elt4.className = "btnRechercheNav eltAmasquer ";
+				elt4.innerHTML = " Voir la vidéo...";
+				elt4.onclick = rechercheClcHdlr;
+				element.appendChild(elt4);
+				
+				document.getElementById("ctnResultatsRecherche").appendChild(element);
+			}
+		}
+	}
+}
+
+function rechercheClcHdlr(e){
+	var temp = e.currentTarget.parentElement.id.split("_");
+		catInd = temp[1];
+		itemInd = temp[2];
+		//on va loader ...
+		//$("#ctnPrincipal").load("item.html");
+		window.location.hash = "#item_" + catInd + "_" + itemInd;
+		//window.location.hash = "#item_" + this.id.split("_")[1];
+}
+
+function affichRechercheDetail(e){
+	
+	if( $("#" + e.currentTarget.parentElement.id + " .btnRechercheNav").css("display") === "inline-block"){
+		//$("#" + e.currentTarget.id + " .eltAmasquer").css("display" , "none");
+		$("#" + e.currentTarget.parentElement.id + " .eltAmasquer").hide("slow");
+	}else{
+		//$("#" + e.currentTarget.id + " .eltAmasquer").css("display" , "block");
+		$("#" + e.currentTarget.parentElement.id + " .eltAmasquer").show("slow");
+	}
+}
+
+function positionMot (texte , base , nbMots){
+	var curseur = base;
+	if (nbMots < 0 ) {
+		texte = texte.substring(0 , curseur);
+		for (var i = 0 ; i < -nbMots ; i++ ){
+			curseur = texte.lastIndexOf(" ");
+			if (curseur > 0 ) { 
+				texte = texte.substring(0 , curseur);
+			} else {
+				curseur = 0;
+				break;
+			}
+		}
+	}else{
+		for (var j = 0 ; j < nbMots ; j++ ){
+			var temp = texte.indexOf(" " , curseur + 1);
+			if (temp > 0 ){
+				curseur = temp ; 
+			}else{
+				curseur = texte.length;
+				break;
+			}
+			
+		}
+	}
+	return curseur;
+}
+
+
+
+</script>

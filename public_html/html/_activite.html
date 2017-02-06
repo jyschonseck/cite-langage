@@ -1,0 +1,23 @@
+<style>
+article{
+	margin: 1rem;
+	border:solid 1px blue;
+	border-radius:5px;
+	padding:0.5rem;
+}
+</style>
+<div id="ctnItem">
+
+</div>
+<script>
+var activiteId ="";
+	$(function(){
+		$("#ctnFituraide").hide("slow");
+		$("#colGaucheBas").html("");
+		$("#colGaucheBas").load("html/barreParcours.html");
+		
+		activiteId = window.location.hash.split("_")[1];
+		
+		$("#ctnItem").load("html/activites/" + activiteId +".html");
+	});
+</script>

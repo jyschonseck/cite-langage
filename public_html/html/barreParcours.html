@@ -1,0 +1,148 @@
+
+<div id="ctnParcours">
+
+    <h2 id="txtTitreParcours"></h2>
+    <button id="bpBtnPrec" onClick="avance(this, -1)" >
+        <svg viewBox="0 0 36 14"> <polygon class="navigFleche"   points="20,2 32,12 8,12 "></polygon></svg>
+    </button>
+    <div id="ctnEltsParcours"></div>
+    <button id="bpBtnSuiv" onClick="avance(this, 1)" >
+        <svg viewBox="0 0 36 14"> <polygon class="navigFleche"   points="20,12 32,2 8,2 "></polygon></svg>
+    </button>
+</div>
+<script>
+    var enteteSVG = " <svg viewBox='0 0 30 20'>";// width='3em' height='2em' 
+    var enteteSVG2 = " <svg viewBox='0 0 30 35'>";// width='3em' height='3.5em' 
+
+    $(function () {
+        //*******trouver étape:
+        parcoursMAJparId(parcours.id);
+
+        document.getElementById("txtTitreParcours").innerHTML = listeParcours[parcours.index].nom;
+
+        $(".navigFleche").addClass("bpStation_" + parcours.id);
+
+        for (var i = 0; i < listeParcours[parcours.index].listeObjets.length; i++) {
+            //création station
+            var objId = listeParcours[parcours.index].listeObjets[i].objId;
+            //var element = document.createElement("button"); // bug avec FF (svg ne se dimensionne plus)
+            var elementFF = document.createElement("div");
+            //element.id = "ctnStation_"+i;
+            elementFF.id = "ctnStation_" + i;
+            elementFF.tabIndex = "1";
+            elementFF.className = "bpBtnStation";
+            elementFF.onclick = bpBtnStationClcHdlr;
+            elementFF.onkeypress = bpBtnStationClcHdlr;
+            //text etiquettte
+            var element1 = document.createElement("div");
+            var element1b = document.createElement("div");
+            if (listeParcours[parcours.index].listeObjets[i].etiq || listeParcours[parcours.index].listeObjets[i].type.indexOf("acti") === 0) {
+                element1b.innerHTML = listeParcours[parcours.index].listeObjets[i].etiq;
+            } else {
+                element1b.innerHTML = listeItems[objId.split("_")[0]].questions[objId.split("_")[1]].titre;//questionNum;
+            }
+            element1.appendChild(element1b);
+            element1.className = "bpEtiquette"
+            //****partie graphique
+            var element2 = document.createElement("div");
+            element2.className = "bpCtnSvg";
+            var classSVG = "";
+            if (i === parcours.etape) {
+                classSVG = "bpStationAct bpStation_" + parcours.id;
+            } else {
+                classSVG = "bpStation bpStation_" + parcours.id;
+            }
+            if (listeParcours[parcours.index].listeObjets[i].type === "item") {
+                //******test si correspondance !
+                var tblCorrespondances = [];
+                for (var iParcours = 0; iParcours < listeParcours.length; iParcours++) {
+                    for (var iObj = 0; iObj < listeParcours[iParcours].listeObjets.length; iObj++) {
+                        if (listeParcours[iParcours].listeObjets[iObj].objId === objId && listeParcours[iParcours].id !== parcours.id) {
+                            tblCorrespondances.push(listeParcours[iParcours].id);
+                        }
+                    }
+                }
+                if (tblCorrespondances.length === 0) {
+                    element2.innerHTML = enteteSVG + "<circle class='" + classSVG + "' cx='20' cy='10' r='7'></circle></svg>";
+                } else if (tblCorrespondances.length === 1) {
+                    var classSVG2 = "bpStation2_" + tblCorrespondances[0];
+                    element2.innerHTML = enteteSVG + "<line id='corr_" + tblCorrespondances[0] + "' class='" + classSVG2 + "' x1='0' y1='10' x2='20' y2='10'></line><circle class='" + classSVG + "' cx='20' cy='10' r='7'></circle></svg>";
+                } else if (tblCorrespondances.length === 2) {
+                    var classSVG2 = "bpStation2_" + tblCorrespondances[0];
+                    var classSVG3 = "bpStation2_" + tblCorrespondances[1];
+                    element2.innerHTML = enteteSVG + "<line id='corr_" + tblCorrespondances[0] + "' class='" + classSVG2 + "' x1='0' y1='0' x2='20' y2='10'></line><line id='corr_" + tblCorrespondances[1] + "' class='" + classSVG3 + "' x1='0' y1='20' x2='20' y2='10'></line><circle class='" + classSVG + "' cx='20' cy='10' r='7'></circle></svg>";
+                }
+                //****
+            } else { // activité
+                element2.innerHTML = enteteSVG + '<rect class="' + classSVG + '" x="12.5" y="12.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.1421 10)" width="9" height="9"></rect></svg>';
+            }
+            elementFF.appendChild(element2);
+            elementFF.appendChild(element1);
+            document.getElementById("ctnEltsParcours").appendChild(elementFF);
+            //lien interstation
+            if (i < listeParcours[parcours.index].listeObjets.length - 1) {
+                var element3 = document.createElement("div");
+                element3.innerHTML = enteteSVG2 + "<line class='" + classSVG + "' x1='20' y1='2' x2='20' y2='35'></line></svg>";
+                element3.className = "bpCtnLigne";
+                document.getElementById("ctnEltsParcours").appendChild(element3);
+            }
+        }
+
+        //****masquer bouton suivant / précédnet
+        if (parcours.etape > 0) {
+            $("#bpBtnPrec").addClass("bpBtnActif");
+        } else {
+            $("#bpBtnPrec").removeClass("bpBtnActif");
+        }
+        if ((parcours.etape + 1) != listeParcours[parcours.index].listeObjets.length) {
+            $("#bpBtnSuiv").addClass("bpBtnActif");
+        } else {
+            $("#bpBtnSuiv").removeClass("bpBtnActif");
+        }
+
+    });
+
+
+    function avance(obj, sens) {
+        if ($(obj).hasClass("bpBtnActif") || $(obj).hasClass("actiVignetteNav")) {
+            parcours.etape = parseInt(parcours.etape) + parseInt(sens);
+            navEtape();
+        }
+    }
+
+    function navEtape() {
+        //****affiche la page ITEM ou ACTIVITÉ qui correspond au tablo "parcours"
+        var objectif = listeParcours[parcours.index].listeObjets[parcours.etape].objId;
+        if (listeParcours[parcours.index].listeObjets[parcours.etape].type == "item") {
+            window.location.hash = "#item_" + objectif;
+        } else if (listeParcours[parcours.index].listeObjets[parcours.etape].type.indexOf("acti") === 0) {
+            window.location.hash = "#acti_" + objectif;
+        }/* else if (listeParcours[parcours.index].listeObjets[parcours.etape].type == "bilan"){
+         window.location.hash = "#bila_" +  objectif ;
+         }*/
+    }
+
+    function bpBtnStationClcHdlr(evt) {
+       console.log ("-- " + evt.keyCode);
+       if (!evt.keyCode || evt.keyCode===13){
+        if (evt.target.id.indexOf("corr") > -1) { //on a cliqué sur lien correspondance 
+             //***2 cas : on change  de parcours || on change de parcours ET d'item ..
+             if (evt.currentTarget.id.split("_")[1] == parcours.etape) { // attention : pas le même type :/
+                 parcours.id = evt.target.id.split("_")[1];//parcours.ind et parcoursEtape se majent lors du chargement de barreParcours.html
+                 $("#colGaucheBas").load("html/barreParcours.html");
+             } else {
+                 //***cible le nouvel item
+                 parcours.etape = evt.currentTarget.id.split("_")[1];
+                 var objectif = listeParcours[parcours.index].listeObjets[parcours.etape].objId;
+                 //***on change de parcoure
+                 parcours.id = evt.target.id.split("_")[1];//parcours.ind et parcoursEtape se majent lors du chargement de barreParcours.html
+                 //*** on change
+                 window.location.hash = "#item_" + objectif;
+             }
+         } else {
+             parcours.etape = parseInt(evt.currentTarget.id.split("_")[1]);
+             navEtape();
+         }
+     }
+    }
+</script>

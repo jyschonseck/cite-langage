@@ -1,0 +1,25 @@
+<div id="questionsColGauche">
+	<div id="ctn2Filtres">
+		<div style="display:flex;flex-direction:row;justify-content:space-around;align-items:center; padding:0 0.5rem;">
+			<img src="./img/interface/btn_filtre.svg" alt="" style="width:3rem;">
+			<span style="font-size:2rem; font-family: 'Open Sans', sans-serif;" >Filtres</span>
+		</div>
+		<ul id="ctnFiltres" >
+			<li id="ctnNotions" class="ssMenu"></li>
+			<li id="ctnDomaines" class="ssMenu"></li>
+		</ul>
+	</div>
+</div>
+
+<script>
+$(function(){
+
+	$("#ctnDomaines").load("html/domaines-menu.html");
+	$("#ctnNotions").load("html/notions-menu.html");
+	//itemsFiltre_ET();
+	itemsFiltre_OU();
+});
+
+
+
+</script>

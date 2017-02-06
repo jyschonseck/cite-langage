@@ -1,0 +1,103 @@
+
+<div id="ctnGlossaire">
+<h1 > Glossaire</h1>
+
+<!--<ul id="listeGlossaire"></ul>-->
+<div id="listeGlossaire"></div>
+</div>
+
+<script>
+
+
+$(function(){
+	$("#ctnMenuCarte").removeClass("menuClicableChoisi");
+	$("#ctnMenuQuestion").removeClass("menuClicableChoisi");
+	$("#ctnMenuGlossaire").addClass("menuClicableChoisi");
+	
+	
+	var listeLettres = [
+  {
+    "etiq": "A, B",
+    "list": "A, B"
+  },
+  {
+    "etiq": "C, D",
+    "list": "C, D"
+  },
+  {
+    "etiq": "E, F, G, H",
+    "list": "E, É , F, G, H"
+  },
+  {
+    "etiq": "I, J, K, L",
+    "list": "I, J, K, L"
+  },
+  {
+    "etiq": "M , N, O",
+    "list": "M , N, O"
+  },
+  {
+    "etiq": "P",
+    "list": "P"
+  },
+  {
+    "etiq": "Q, R, S",
+    "list": "Q, R, S"
+  },
+  {
+    "etiq": "T, U, V...",
+    "list": "T, U, V..."
+  }
+];
+	//parcours ={"index" : -1 ,"etape": -1 };//annule un éventuel parcours
+	$("#ctnFituraide").hide("slow");
+	//$("#ctnFituraide").load("html/vide.html");
+	
+	$("#colGaucheBas").html("");
+	
+	if (listeGlossaire.length === 0 ){
+		for (var tempD =0 ; tempD <listeMotsCles.domaines.tags.length ; tempD++){
+			var temp = {"motCle" :	listeMotsCles.domaines.tags[tempD].titre , "indC" :"domaines" , "indM" : listeMotsCles.domaines.tags[tempD].id};
+			listeGlossaire.push(temp);
+			if (listeMotsCles.domaines.tags[tempD].sous){
+				for (var tempS = 0 ; tempS < listeMotsCles.domaines.tags[tempD].sous.length ; tempS++){
+					var temp = {"motCle" :	listeMotsCles.domaines.tags[tempD].sous[tempS].titre , "indC" :"domaines" , "indM" : listeMotsCles.domaines.tags[tempD].sous[tempS].id};
+					listeGlossaire.push(temp);
+				}
+			}
+		}
+		for (var tempN = 0 ; tempN <  listeMotsCles.notions.tags.length ; tempN++){
+			var temp = {"motCle" :	listeMotsCles.notions.tags[tempN].titre , "indC" :"notions" , "indM" : listeMotsCles.notions.tags[tempN].id};
+			listeGlossaire.push(temp);
+		}
+		listeGlossaire.sort(triGlossaire);
+	}
+	//affichage 
+		for (var l = 0 ; l < listeLettres.length ; l++){
+			var element = document.createElement("div");
+			element.className = "ctnLettreGloss";
+			//mettre le titre
+			var elt0 = document.createElement("div");
+			elt0.innerHTML = listeLettres[l].etiq;
+			element.appendChild(elt0);
+			//***contenu
+			for (var i = 0 ; i < listeGlossaire.length ; i++){
+				var temp = listeGlossaire[i].motCle.substr(0,1);
+				if (listeLettres[l].list.indexOf(temp) > -1){ 
+					var elt1 = document.createElement("button");
+					elt1.id= "glossaire_" +listeGlossaire[i].indC + "_" + listeGlossaire[i].indM;
+					elt1.onclick = glossaireClckHdlr; 
+					elt1.innerHTML = listeGlossaire[i].motCle;
+					element.appendChild(elt1);	
+				}
+				document.getElementById("listeGlossaire").appendChild(element);
+			}
+		}
+});
+
+function triGlossaire( a , b) {
+	//return (a.motCle > b.motCle)?1:-1;
+	 return a.motCle.localeCompare(b.motCle);
+}
+
+</script>

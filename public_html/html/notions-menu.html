@@ -1,0 +1,80 @@
+<button class="menuClicable titreFiltre"  onClick="listeNotionsAff();" >Notions</button>
+<div id="ctnListNotions" style="display:none;" class="ctnMotsCle">
+		<button onClick="notionReset();" class="filtreReset">Tout décocher</button>
+</div>
+
+<script>
+$(function(){
+
+	for ( var i  =0  ; i < listeMotsCles.notions.tags.length ; i++ ){
+		var elt = document.createElement("button");
+		elt.id ="notion_" +   listeMotsCles.notions.tags[i].id ;
+		elt.innerHTML = listeMotsCles.notions.tags[i].titre;
+		elt.className = "motCleMenu";
+		
+		if (filtres.notions.tags.indexOf( listeMotsCles.notions.tags[i].id ) > -1 ){
+			 elt.className = "motCleMenu menuChoisi";
+		}
+		elt.onclick = notionClick;	
+		ctnListNotions.appendChild(elt); 
+	}
+	
+	if ( filtres.notions.actif == 1){ $('#ctnListNotions').show('fast');} //filtresV2
+
+});
+
+
+function notionClick(e){
+	var notionId =e.currentTarget.id.split("_")[1];
+	filtres.notions.actif = 1;
+	
+	if ($(e.currentTarget).hasClass("menuChoisi")){
+		$(e.currentTarget).removeClass("menuChoisi");
+		var i = filtres.notions.tags.indexOf(notionId);
+		filtres.notions.tags.splice( i , 1 );
+		//filtres.notions.tags[notionId] = 0;
+	}else{
+		$(e.currentTarget).addClass("menuChoisi");
+		//filtres.notions.tags[notionId] = 1;
+		filtres.notions.tags.push(notionId);
+	}
+	//************
+	if (window.location.hash ==="#questions"){
+		//itemsFiltre_ET();
+		itemsFiltre_OU();
+	}else{
+		window.location.hash = '#questions';
+	}
+}
+
+function listeNotionsAff(){
+	if ( $('#ctnListNotions').css("display") === "none"){
+		$('#ctnListNotions').show('slow');
+		filtres.notions.actif = 1;
+		$('#ctnListDomaines').hide('slow');
+		filtres.domaines.actif = 0;
+	}else{
+		$('#ctnListNotions').hide('slow');
+		filtres.notions.actif = 0;
+	}
+	
+	if (window.location.hash ==="#questions"){
+		//itemsFiltre_ET();
+		itemsFiltre_OU();
+	}else{
+		//window.location.hash = '#questions';
+	}
+}
+
+function notionReset(){
+	for ( var i =0 ; i <  listeMotsCles.notions.tags.length ; i++){
+		var tagId = listeMotsCles.notions.tags[i].id;
+		document.getElementById("notion_" + tagId).className = "motCleMenu";
+	}
+	filtres.notions.tags =[] ;
+	//filtres.notions.actif = 0;
+	//itemsFiltre_ET();
+	itemsFiltre_OU();
+}
+	
+</script>

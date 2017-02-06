@@ -1,0 +1,93 @@
+<!--Page édition glossaire-->
+<style>
+#mainEditGlossaire {
+	display: flex;
+	flex-direction: row;
+}
+nav {
+	flex: 1;
+}
+#ctnEdition {
+	flex: 4;
+}
+textarea {
+	color: blue;
+	width: 100%;
+}
+</style>
+
+<div id="mainEditGlossaire">
+	<nav>
+		<ul id="listeTermes">
+		</ul>
+	</nav>
+	<div id="ctnEdition">
+		<table >
+			<tr>
+				<td>type terme</td>
+				<td id="txtType" width="100%">txtType</td>
+			</tr>
+			<tr>
+				<td>Terme</td>
+				<td id="txtTerme">txtTerme</td>
+			</tr>
+			<tr>
+				<td>Définition</td>
+				<td><textarea id="txt_definition" rows="4" >texte de la définition (avec nicedit)</textarea></td>
+			</tr>
+			<!--<tr>
+				<td>Références</td>
+				<td><textarea id="txt_references" rows="4" >Les références (avec nicedit)</textarea></td>
+			</tr>-->
+		</table>
+	</div>
+</div>
+<script>
+	var termeCatInd = 0;
+	var termeInd = 0;
+	var listeTypesTags = [ "domaines" ,  "notions"];
+	
+	$(function(){
+		for (var i = 0 ; i < listeTypesTags.length ; i++){
+			for ( var j = 0 ; j < listeMotsCles[listeTypesTags[i]].tags.length ; j++){
+				var element = document.createElement("li");
+				element.id= "glossaire_" + i + "_" + j;
+				element.className = "tagClicable"; //la même classe que les tag dans le page item
+				element.onclick = glossaireClckHdlr; 
+				element.innerHTML = listeMotsCles[listeTypesTags[i]].tags[j].titre;
+				document.getElementById("listeTermes").appendChild(element);
+			}
+		}
+		
+		affichGlossaire();
+	});
+	
+	function glossaireClckHdlr(e){
+		"use strict";
+		//on sauve ici
+		validModifGlossaire();
+		termeCatInd = e.target.id.split("_")[1];
+		termeInd = e.target.id.split("_")[2];
+		affichGlossaire();
+	}
+	
+	function affichGlossaire(){
+		//on va loader ...
+		document.getElementById("txtType").innerHTML = listeTypesTags[termeCatInd];
+		document.getElementById("txtTerme").innerHTML = listeMotsCles[listeTypesTags[termeCatInd]].tags[termeInd].titre;
+		
+		//document.getElementById("txt_definition").value = listeMotsCles[termeCatInd].listeTermes[termeInd].definition;
+		if (!nicEditors.findEditor('txt_definition')) {editeur1 = new nicEditor(configNicedit).panelInstance('txt_definition');}
+		nicEditors.findEditor('txt_definition').setContent(listeMotsCles[listeTypesTags[termeCatInd]].tags[termeInd].definition);
+		
+		//if (!nicEditors.findEditor('txt_references')) {editeur2 = new nicEditor(configNicedit).panelInstance('txt_references');}
+		//nicEditors.findEditor('txt_references').setContent(listeMotsCles[listeTypesTags[termeCatInd]].tags[termeInd].references);
+	}
+	
+	
+	function validModifGlossaire(){ //déclenché par changement de mot, sauve 
+		listeMotsCles[listeTypesTags[termeCatInd]].tags[termeInd].definition = nicEditors.findEditor("txt_definition").getContent();
+		//listeMotsCles[listeTypesTags[termeCatInd]].tags[termeInd].references = nicEditors.findEditor("txt_references").getContent();
+		//listeMotsCles[termeCatInd].listeTermes[termeInd].references = document.getElementById("txt_references").value;
+	}
+</script> 

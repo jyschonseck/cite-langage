@@ -1,0 +1,287 @@
+{
+  "domaines": {
+    "tags": [
+      {
+        "id": "0",
+        "titre": "Analyse de discours",
+        "definition": "L’<b>analyse du discours</b> est un champ de recherche qui a émergé tardivement. Au croisement de la linguistique, de l’analyse conversationnelle, de la <b><a href=\"home.html#definition_domaines_9\" >sociolinguistique</a></b>, de la rhétorique et de la psychologie, elle vise à rapporter les textes qu’elle étudie aux espaces sociaux qui les rendent possibles et qu’elle rend possibles en retour.&nbsp;"
+      },
+      {
+        "id": "1",
+        "titre": "Didactique et acquisition",
+        "definition": "<div>La <b>didactique </b>est la science dont l’objet est constitué de l’étude des méthodes et des théories de l’enseignement. Ce champ de recherche s’intéresse aussi aux questions posées par l’enseignement et l’acquisition des connaissances dans les différentes disciplines scolaires, ainsi qu’aux conditions de la transmission des connaissances.&nbsp;</div><div>L’<b>acquisition</b> (du langage) est la branche de la <b><a href=\"home.html#definition_domaines_7\" >psycholinguistique</a></b>&nbsp;dont la tâche est de rendre compte de l'émergence du langage dans le développement de l'individu (en premier lieu, chez l’enfant), dans des conditions normales (langue première ou langue étrangère) ou pathologiques (troubles dans la production ou la réception). Elle convoque plusieurs disciplines parmi lesquelles on citera en premier lieu la linguistique, mais aussi la psychologie, les sciences de l’éducation et les neurosciences cognitives.</div><div>On peut par conséquent considérer que les résultats des recherches en acquisition peuvent nourrir celles qui sont menées en didactique, et que les points de vue de chacune de ces disciplines sur l’objet langage sont complémentaires : de l’appropriation linguistique par le sujet parlant vers la théorie de cette appropriation pour l’acquisition, de la théorisation des méthodes d’enseignement vers l’enseignement de la langue pour la didactique. En somme, cette complémentarité entre les deux disciplines peut être ramenée à l’articulation entre apprenabilité et enseignabilité.</div>"
+      },
+      {
+        "id": "2",
+        "titre": "Étude des interactions",
+        "definition": "<div>L’<b>étude des interactions</b> est le champ de recherche qui prend pour objet les interactions entre locuteurs lors d’un échange. Ces interactions peuvent être verbales, c’est-à-dire passer par la langue, ou non verbales, c’est-à-dire consister en des gestes ou des mimiques.&nbsp;</div><div>Longtemps, l’étude des interactions a été délaissée par les sciences du langage, qui, héritières de la grammaire, ne s’intéressaient qu’aux aspects formels de la langue et non aux usages effectifs qu’en font quotidiennement les locuteurs de façon spontanée dans des situations réelles : entretien d’embauche, salon de coiffure, guichet administratif, etc.&nbsp;</div><div>De nos jours, l’étude des interactions se situe au croisement de la linguistique, de la psychologie, de la <a href=\"home.html#definition_domaines_9\" ><b>sociolinguistique</b>&nbsp;</a>et de l’anthropologie. Elle ne s’intéresse pas à la compétence linguistique des participants en tant que telle, mais prend en compte leur compétence communicative, ce qui inclut des éléments extralinguistiques, notamment culturels.&nbsp;</div>",
+        "references": ""
+      },
+      {
+        "id": "3",
+        "titre": "Histoire des langues",
+        "definition": "<p>Les langues évoluent, elles changent de génération en génération, en  même temps que les communautés humaines qui les parlent. Et cette histoire dure  depuis près de 150 000 ans, depuis que notre espèce a commencé à peupler la  Terre, et a produit une diversité linguistique immense – plus de 6000 langues  différentes&nbsp;! <br>  Pour raconter cette longue <strong>histoire  des langues</strong>, la <strong>linguistique  historique</strong> part de la description des langues, compare leurs ressemblances  et leurs différences pour reconstituer comment elles ont changé dans le temps,  dans l&rsquo;espace et en fonction de l&rsquo;histoire (sociale, politique et culturelle)  des populations qui les parlent. </p><p>Cette  exploration croise les connaissances linguistiques avec celles issues de  l&rsquo;histoire, de l&rsquo;anthropologie et de l&rsquo;archéologie pour reconstruire la  généalogie des langues, et plus récemment, grâce aux sciences de l&rsquo;évolution,  pour modéliser les processus socio-démographiques impliqués dans la formation  des grandes familles de langues.<p>"
+      },
+      {
+        "id": "4",
+        "titre": "Histoire de la réflexion sur le langage",
+        "definition": "<div>L'<b>histoire de la réflexion sur le langage</b> (ou <b>historiographie des sciences du langage</b>) se situe au croisement de la linguistique, de l’histoire, de la philosophie et de l’épistémologie des sciences. Ce champ de recherche s’intéresse non pas au langage en tant que tel mais aux théories, conceptions ou débats contradictoires auxquels ont donné lieu l’objet langage et les langues au fil des siècles, chacun étant façonné par son époque.&nbsp;</div><div>L’édifice du savoir sur le langage et sur les langues est en effet une construction théorique de longue haleine, qui varie selon les lieux et les périodes : des premiers instants de réflexivité consciente sur les langues, toutes civilisations confondues, à l’institutionnalisation du champ de la linguistique à la fin du XIXe siècle, le parcours est long et fait apparaître à la fois continuité et discontinuité dans la réflexion sur le langage.&nbsp;</div>",
+        "references": ""
+      },
+      {
+        "id": "10",
+        "titre": "Linguistique du système",
+        "sous": [
+          {
+            "id": "100",
+            "titre": "Morphologie",
+			  "definition":"<p>La <strong>morphologie</strong> est la branche des sciences  du langage qui étudie les corrélations systématiques entre forme  et sens au niveau des <strong><a href=\"home.html#definition_notions_5\">lexèmes</a></strong> (c&rsquo;est là l&rsquo;objet de la morphologie dérivationnelle ou constructionnelle) et  des <strong><a href=\"home.html#definition_notions_28\">mots-formes</a></strong> (c&rsquo;est là l&rsquo;objet de la morphologie flexionnelle).</p>"
+          },
+          {
+            "id": "101",
+            "titre": "Phonologie",
+			  "definition":"<p>La <strong>phonologie</strong> est la branche des sciences  du langage qui porte sur le fonctionnement du système des <strong><a href=\"home.html#definition_notions_10\">phonèmes</a></strong> d'une langue d'un point de vue théorique. </p>"
+          },
+          {
+            "id": "102",
+            "titre": "Sémantique",
+            "definition": "<p>La <strong>sémantique</strong> est la branche de la  linguistique dont l&rsquo;objet d&rsquo;étude réside dans la signification des  unités linguistiques d&rsquo;une langue donnée. Ces unités peuvent aller du <strong><a href=\"home.html#definition_notions_7\">morphème</a></strong> à la <strong><a href=\"home.html#definition_notions_32\">phrase</a></strong> ou <strong><a href=\"home.html#definition_notions_32\">l&rsquo;énoncé</a> </strong>en  passant par les <strong><a href=\"home.html#definition_notions_5\">lexèmes</a></strong> construits,  c&rsquo;est-à-dire les lexèmes dont le sens est calculable à partir de leur structure  (par exemple, <em>montagnette </em>par rapport  à <em>montagne</em>) et les syntagmes,  c&rsquo;est-à-dire les séquences d&rsquo;éléments linguistiques formant une unité dans  l&rsquo;organisation hiérarchisée que constitue la phrase (par exemple, <em>les </em><em>souris </em>dans <em>Les  souris dansent</em>). </p><p>En  tant qu&rsquo;adjectif, le mot <strong>sémantique</strong> signifie «&nbsp;qui se rapporte au sens&nbsp;». On parlera ainsi, entre autres,  de la mémoire sémantique (l'un des trois types de mémoire à long terme,  dans laquelle les individus stockent leurs connaissances sur  les mots, les concepts ainsi que leurs connaissances générales sur le monde),  du champ sémantique d&rsquo;un mot (ensemble des sens de ce mot), etc.</p>"
+          },
+          {
+            "id": "103",
+            "titre": "Syntaxe",
+			  "definition":"<p>Le  nom <strong>syntaxe</strong> renvoie à la fois à l&rsquo;organisation des constituants de la phrase (c&rsquo;est  par exemple grâce à l&rsquo;indice syntaxique que constitue, dans une langue comme le  français, l&rsquo;ordre des constituants que nous comprenons que <em>Le chat poursuit le chien </em>et <em>Le  chien poursuit le chat </em>sont deux phrases différentes) et à la branche de la  linguistique dont l&rsquo;objet d&rsquo;étude est cette organisation. Selon les courants  théoriques, les fondements de la syntaxe, en tant que branche de la linguistique,  peuvent être différents. </p>"
+          }
+        ],
+        "definition": "<div>La <b>linguistique du système</b> cherche à dégager les règles, principes et contraintes à l’œuvre dans la langue, conçue comme un système abstrait et stable, en dehors de ses emplois effectifs. &nbsp;</div><div>Pour l’essentiel, relèvent ainsi de la linguistique du système la <b><a href=\"home.html#definition_domaines_101\" >phonologie</a></b>, qui porte sur le fonctionnement du système des <b><a href=\"home.html#definition_notions_10\" >phonèmes</a></b>&nbsp;d'une langue d'un point de vue théorique, la <b><a href=\"home.html#definition_domaines_100\" >morphologie</a></b>, qui recherche les corrélations systématiques entre forme et sens au niveau des <a href=\"home.html#definition_notions_5\" ><b>lexèmes</b></a>&nbsp;et des<b><a href=\"home.html#definition_notions_28\"> mots-formes</a></b>, la <b><a href=\"home.html#definition_domaines_103\" >syntaxe</a></b>, dont l’objet d’étude est l’organisation des constituants de la phrase, et la <b><a href=\"home.html#definition_domaines_102\" >sémantique</a></b>, qui s’intéresse à la signification des unités linguistiques d’une langue donnée.</div>"
+      },
+      {
+        "id": "5",
+        "titre": "Linguistique cognitive",
+        "definition": "La <b>linguistique cognitive</b> réunit différent courants dont le point commun est de chercher à proposer des théories de la langue qui, non seulement, soient opératoires et générales mais, également, puissent s’articuler avec les modèles généraux de l’architecture fonctionnelle et neuronale du cerveau et de la cognition humaine en général. L’hypothèse que partagent les linguistes cognitivistes est en effet que, chez l’individu, le stockage, le mode d’accès et l’utilisation du langage, en production et en réception, recourent à des capacités cognitives similaires à celles qui sont mobilisées dans des tâches non linguistiques.&nbsp;"
+      },
+      {
+        "id": "14",
+        "titre": "Neurolinguistique",
+        "definition": "<p>La  neurolinguistique est le champ de recherche portant sur l&rsquo;étude des phénomènes  neuronaux contrôlant la compréhension, la production et l&rsquo;<strong><a href=\"home.html#definition_domaines_1\">acquisition du  langage</a></strong>. Ce champ de recherche se situe à l&rsquo;interface de la  linguistique, des neurosciences, des sciences cognitives et de la neurospsychologie.  Il repose fondamentalement sur l&rsquo;étude des troubles de l&rsquo;émission et/ou de la  réception des signes verbaux (il s&rsquo;agit là du versant clinique du domaine), en  tant qu&rsquo;ils nous informent sur la compatibilité et la mise en relation des  connaissances linguistiques et neurophysiologiques nécessaires à la  compréhension des pathologies du langage (c&rsquo;est là l&rsquo;objet de la  neurolinguistique théorique). </p>"
+      },
+      {
+        "id": "11",
+        "titre": "Phonétique",
+        "definition": "La <b>phonétique </b>est le domaine de recherche qui porte sur l’étude des sons d’une langue, du point de vue de leur production (phonétique articulatoire), de leur transmission (phonétique acoustique) et de leur perception (phonétique auditive)."
+      },
+      {
+        "id": "6",
+        "titre": "Pragmatique et actes de langage",
+        "definition": "<div>La théorie des <b>actes de langage</b> (<i>speech act theory</i>) a vu le jour dans les années 1960 sous l’impulsion du philosophe anglais John Langshaw Austin, avec son ouvrage <i>How to do Things with Words</i> [traduit par <i>Quand dire, c’est faire</i>]. Ce dernier s’attaque alors à ce qu’il appelle «&nbsp;l’illusion descriptive&nbsp;» de la philosophie analytique, selon laquelle les expressions linguistiques auraient toutes pour rôle de décrire le monde. Pour J. L. Austin, certaines expressions linguistiques n’ont en effet pas pour fonction de décrire le monde (ce ne sont pas des constatifs), mais constituent à proprement parler des actes (ce sont des performatifs). C’est par exemple le cas, dans des conditions très précises, des <b><a href=\"home.html#definition_notions_32\">énoncés</a></b> «&nbsp;Je vous adoube chevalier&nbsp;» ou de «&nbsp;Je vous déclare mari et femme&nbsp;» : prononcer l’un ou l’autre de ces énoncés, dans les conditions idoines, c’est effectuer l’acte qu’ils décrivent. La remarque vaut aussi de «&nbsp;Je te promets de venir&nbsp;». Cette distinction initiale entre énoncés constatifs et performatifs a ensuite été étendue pour donner une théorie générale des actes de langage distinguant actes locutoire, illocutoire et perlocutoire.&nbsp;</div><div>La notion d’acte de langage est une notion centrale qui, à son tour, a donné naissance au champ de recherche qu’on appelle <b>pragmatique</b>. Cette dernière s'intéresse aux éléments du langage dont la signification ne peut être comprise qu'en connaissant le co(n)texte de leur emploi. Pour certains linguistes, elle constitue une science de la communication.&nbsp;</div> "
+      },
+      {
+        "id": "7",
+        "titre": "Psycholinguistique",
+        "definition": "<div>La <b>psycholinguistique </b>est un champ de recherche interdisciplinaire dont on peut situer l’émergence au milieu du XXe siècle. Réunissant psychologues expérimentaux et linguistes théoriciens désirant comprendre la nature fondamentale du langage, elle s'intéresse aux processus cognitifs mis en œuvre dans le traitement et la production du langage, et articule ses démarches avec celles qui sont à l'œuvre dans d'autres secteurs d'étude de l'activité mentale (la perception, l'attention, la mémoire, la résolution de problèmes).</div>"
+      },
+      {
+        "id": "9",
+        "titre": "Sociolinguistique",
+        "definition": "La <b>sociolinguistique </b>est le champ de recherche qui envisage l'activité langagière dans son ou ses contextes sociaux. Les phénomènes qu’elle étudie sont très variés : fonctions et usages de la langue dans la société, <b><a href=\"home.html#definition_domaines_0\" >analyse du discours</a></b>, jugements que les communautés linguistiques portent sur leur(s) langue(s), <b><a href=\"home.html#definition_notions_12\" >politiques et aménagements linguistiques</a></b>, <b><a href=\"home.html#definition_notions_8\" >norme(s)</a></b>&nbsp;et représentations, <b><a href=\"home.html#definition_notions_17\" >variations</a></b>, <b><a href=\"home.html#definition_notions_11\" >plurilinguisme</a></b>, etc.  "
+      },
+      {
+        "id": "13",
+        "titre": "Traduction",
+        "definition": "<div>La <b>traduction </b>(dans son acception principale de <b>traduction interlinguale</b>) est le fait de faire passer un texte formulé dans une langue (appelée «&nbsp;langue source&nbsp;» ou «&nbsp;langue de départ&nbsp;») dans une autre langue («&nbsp;langue cible&nbsp;» ou «&nbsp;langue d'arrivée&nbsp;»). Elle met en relation au moins deux langues et deux cultures et, parfois, deux époques.&nbsp;</div><div>La traduction relève d’un champ de recherche qu’on appelle <b>traductologie</b>. Ce dernier étudie les processus cognitifs et linguistiques inhérents à l’activité traduisante. Longtemps rattaché à d’autres disciplines telles que la critique littéraire, la linguistique, l’informatique, les sciences cognitives, ce n’est que très récemment que ce champ s’est constitué en tant que domaine de recherche autonome.</div> "
+      },
+      {
+        "id": "12",
+        "titre": "Traitement Automatique des Langues",
+        "definition": "<div>Le<b> Traitement Automatique des Langues</b> (en abrégé : TAL) est un champ de recherche à la frontière de la linguistique, de l'informatique et de l'intelligence artificielle. Il porte sur l'ensemble des techniques et programmes informatiques permettant à une machine d’analyser et de comprendre les langues, sous tous leurs aspects et quelle que soit leur modalité, écrite ou orale (y compris les langues signées). Pour ne citer que quelques exemples, les correcteurs orthographiques ou grammaticaux, les systèmes de traduction automatique, les générateurs multilingues, les logiciels d’apprentissage des langues, les systèmes de dialogue homme-machine, les avatars signés relèvent du champ du TAL.&nbsp;</div>"
+      },
+      {
+        "id": "15",
+        "titre": "Typologie des langues",
+        "definition": "<div>La<b> typologie des langues</b> est le champ de recherche qui porte sur la mise au jour de critères linguistiques permettant de classer les langues du monde selon les principes d’organisation qui en assurent le fonctionnement, indépendamment de leurs liens génétiques ou historiques. La recherche des différents types de langues est consubstantielle à la quête d’universaux ou invariants linguistiques (Greenberg, 1963), c’est-à-dire de traits ou de phénomènes présents dans toutes les langues du monde (par exemple, toutes les langues connaissent le phénomène de l’interrogation ou possèdent des éléments permettant de distinguer celui qui parle, c’est-à-dire la première personne des grammaires, etc.).</div><div>Les spécialistes de ce champ (appelés typologues) sont parfois amenés à s'appuyer sur le travail des linguistes descripteurs, lesquels effectuent ce qu’on appelle de la linguistique de terrain, c’est-à-dire des enquêtes menées auprès d'informateurs parlant une langue donnée afin de recueillir des données linguistiques authentiques et fiables. De telles enquêtes sont particulièrement importantes pour les langues qui comptent très peu de locuteurs. Certains typologues font eux-mêmes leurs enquêtes et combinent donc la recherche des universaux avec la linguistique de terrain.</div>"
+      }
+    ]
+  },
+  "notions": {
+    "tags": [
+      {
+        "id": "18",
+        "titre": "Accent",
+        "definition": "En <b>linguistique </b>et, en particulier, en <b><a href=\"home.html#definition_domaines_11\" >phonétique</a></b> et en <b><a href=\"home.html#definition_domaines_10\" >phonologie</a></b>, la notion d’accent recouvre des phénomènes qui peuvent varier selon les langues : il peut s’agir d’une manifestation d’intensité, de hauteur et/ou de durée portant sur une syllabe ou un fragment de syllabe afin de les mettre en relief. On distingue les langues à accent fixe (comme le français) et à accent libre (comme l’allemand).<div>Du point de vue de <b><a href=\"home.html#definition_notions_29\" >l’orthographe</a></b>, les signes graphiques qu’on nomme <i>accents </i>(par exemple en français accents grave, aigu, circonflexe) et qu’on place sur des éléments vocaliques ont pour rôle d’en préciser la prononciation (timbre ouvert, timbre fermé, hauteur, etc.). Ils peuvent aussi avoir une fonction de démarcation de sens (par exemple en français a, forme du verbe <i>avoir </i>et <i>à</i>, préposition).</div><div>Dans la <b>langue commune</b>, l’accent correspond à l’ensemble des traits de prononciation qui sont jugés s'écarter de la prononciation standard, et qui révèlent l'appartenance d'une personne à un pays (« parler anglais avec l’accent français »), une province (« avoir l’accent du poitevin ») ou un milieu déterminés (« parler avec un accent faubourien »).</div>"
+      },
+      {
+        "id": "19",
+        "titre": "Argot",
+        "definition": "<div>On appelle <b>argot </b>une façon familière de s'exprimer, à l'intérieur d'un groupe social particulier, qui a souvent une fonction cryptique (c'est-à-dire non accessible facilement à quelqu'un d'extérieur au groupe) : on parle ainsi de l’argot des banlieues, l’argot des jeunes, l’argot de Saint-Cyr, etc. À cet égard, un argot peut être considéré comme un <b>sociolecte</b>, c’est-à-dire comme la variété d’une langue donnée, caractéristique d’un groupe social.</div><div>Le terme a d’abord désigné le langage particulier aux vagabonds, aux mendiants et aux voleurs, et intelligible pour eux seuls. </div>",
+        "references": "undefined"
+      },
+      {
+        "id": "20",
+        "titre": "Bilingue",
+        "definition": "Une personne est dite <b>bilingue </b>lorsqu’elle peut communiquer en deux langues, que ce soit sous une forme active (à l’oral et/ou par écrit, pour les langues disposant d’un système d’écriture) ou passive (par l'écoute et/ou la lecture) : contrairement à une idée reçue, les compétences dans chaque langue peuvent donc être différentes.",
+        "references": "undefined"
+      },
+      {
+        "id": "21",
+        "titre": "Conjugaison",
+        "definition": "Dans les langues dites flexionnelles, la <b>conjugaison</b> est l’ensemble des formes que peut prendre un verbe en contexte, selon un certain nombre de traits grammaticaux (pour l’essentiel : la personne, le nombre, le genre, le temps, la voix, le mode, l’aspect). Par exemple, en français, <i>chanterons </i>appartient à la conjugaison du verbe <i>chanter </i>: c’est la forme que prend ce verbe au mode indicatif, temps futur simple, première personne du pluriel. Toutes les langues n’exploitent pas l’ensemble des variations possibles (comparer le français et l’anglais).<div>Pour les autres catégories de mots connaissant des variations en contexte, on ne parle pas de conjugaison mais de déclinaison.<br>En <b>linguistique</b>, les deux notions sont généralement réunies sous l’appellation <i>paradigme </i>(ensemble des formes que peut prendre un <b><a href=\"home.html#definition_notions_5\" >lexème</a> </b>en contexte).</div>",
+        "references": "undefined"
+      },
+      {
+        "id": "0",
+        "titre": "Contact de langues",
+        "definition": "<div>Le <b>contact de langues</b> est la situation humaine dans laquelle un individu ou un groupe sont conduits à utiliser deux ou plusieurs langues. La notion rencontre donc celles de <b><a href=\"home.html#definition_TODO\" >bilinguisme</a></b> et de <b><a href=\"home.html#definition_notions_1\" >diglossie</a></b>.</div><div>La question du <b>contact des langues</b> peut être abordée sous un angle <b>historique </b>: on étudie alors, dans une langue donnée, les emprunts, les influences étrangères, l’idée sous-jacente étant que ces contacts sont à ramener à des contacts de civilisations. </div><div>Elle peut aussi abordée sous un angle <b><a href=\"home.html#definition_TODO\" >sociolinguistique</a></b>, dans une perspective synchronique : sont alors étudiés la valeur sociale des langues, jusque dans leurs usages quotidiens, ainsi que les usages linguistiques en milieux multilingues. </div><div>Enfin, du point de vue de la <b><a href=\"home.html#definition_TODO\" >psycholinguistique</a> </b>et des recherches en <b><a href=\"home.html#definition_domaines_1\" > acquisition des langues</a></b>, l’accent est davantage porté sur les frontières internes aux sujets et la gestion des passages interlinguistiques.</div>"
+      },
+      {
+        "id": "22",
+        "titre": "Dialecte",
+        "definition": "<div>En <b>linguistique</b>, on appelle <b>dialectes </b>les variations géographiques ou régionales d’une langue. Toutes les langues parlées sur un territoire donné ne sont pas pour autant des dialectes d’une même langue : certaines ont pleinement le statut de langue (par exemple, pour ce qui est de la France, le breton ou le basque) ; d’autres sont des dialectes par rapport à la langue d’une autre entité géographique (par exemple, l’alsacien, dialecte de l’allemand). La branche de la linguistique qui étudie les dialectes se nomme <b>dialectologie</b>. </div><div>Il n’existe pas de critère universellement accepté permettant de distinguer un dialecte d’une <b><a href=\"home.html#definition_notions_26\">langue</a></b>, ce qui explique l’une des difficultés à chiffrer exactement le nombre de langues dans le monde. Le principe parfois invoqué pour trancher entre les deux est celui de l’intercompréhension. </div><div>Dans la <b>langue commune</b>, le terme <b>dialecte </b>est parfois utilisé comme synonyme de celui de <b><a href=\"home.html#definition_notions_31\" >patois</a></b>.</div>",
+        "references": "undefined"
+      },
+      {
+        "id": "1",
+        "titre": "Diglossie",
+        "definition": "Le concept de <b>diglossie </b>relève de la <b><a href=\"home.html#definition_domaines_9\" >sociolinguistique</a></b>. À l'origine, la diglossie représente la répartition fonctionnelle de deux variétés d'une même langue au sein d'une même communauté, l'une étant considérée comme variété «&nbsp;haute&nbsp;», standardisée, enseignée à l’école et possédant un prestige social supérieur à l’autre, considérée comme variété «&nbsp;basse&nbsp;». Dans cette acception, on considère que chaque langue peut être utilisée par les mêmes locuteurs, mais dans des fonctions communicatives complémentaires. Depuis, la définition a été élargie aux situations mettant en présence des langues différentes en distribution fonctionnelle complémentaire sur un même territoire, qu’elles soient ou non utilisées par les mêmes locuteurs."
+      },
+      {
+        "id": "2",
+        "titre": "Discours, texte",
+        "definition": "<div>Dans la <b>langue commune</b>, le <b>discours </b>est un développement oratoire sur un thème déterminé, conduit d'une manière méthodique, adressé à un auditoire. En ce sens, il s’oppose au <b>texte</b>, conçu comme une suite de <b><a href=\"home.html#definition_notions_14\"/> signes linguistiques</a></b> constituant un écrit ou une œuvre.</div><div>En <b>linguistique</b>, la dichotomie <b>discours</b> / <b>texte </b>ne fait pas jouer l’opposition oral <i>vs</i> écrit qui précède. On appelle <b>discours </b>un ensemble d’usages codifiés, subordonné à une pratique sociale, quelle qu’elle soit (discours philosophique, discours politique, discours des jeunes, etc.), soumis, en tant que tel, aux règles d’organisation en vigueur dans le groupe social considéré, et <b>texte </b>une suite linguistique autonome, écrite ou orale, constituant un objet empirique, cohésif et cohérent, produite par un énonciateur dans le cadre d’une pratique sociale spécifique, et pouvant être amené à circuler loin de son contexte d’origine. </div><div>Parfois, le terme <b>discours </b>entre également dans le système d‘opposition discours / <b>récit</b>, en ceci que seul le discours, ancré dans une situation d’<b><a href=\"home.html#definition_notions_36\" >énonciation</a></b>, est pris en charge par le sujet. </div>"
+      },
+      {
+        "id": "36",
+        "titre": "Énonciation",
+        "definition": "L’<b>énonciation </b>est un acte linguistique, individuel et unique, par lequel un locuteur produit un <b><a href=\"home.html#definition_notions_32\" >énoncé</a></b>, c'est-à-dire un message oral ou écrit, dans une situation déterminée. L’énonciation suppose par conséquent une situation d’énonciation (a minima, circonstances de temps et de lieu), qui peut être accompagnée d’indices d’énonciation, aussi appelés <b>embrayeurs</b>, marquant les traces de la prise en charge de l’énoncé produit par le locuteur. Les principaux embrayeurs sont les pronoms de première et deuxième personnes et les désinences de personne portées par les verbes, les embrayeurs spatiaux (<i>ici, là-bas, derrière toi</i>…) ou temporels (<i>maintenant, hier, en ce moment, la semaine prochaine</i>…). "
+      },
+      {
+        "id": "23",
+        "titre": "Faute",
+        "definition": "En <b>linguistique</b>, on préfère parler d’<b>écart</b> ou d’<b>erreur</b> plutôt que de <b>faute</b>, qui est une notion empreinte d’un jugement de valeur. En matière de langue, les écarts (ou erreurs) peuvent concerner tous les niveaux d’analyse : lexique, <b><a href=\"home.html#definition_domaines_103\" >syntaxe</a></b>, <b><a href=\"home.html#definition_domaines_101\">phonologie</a></b>, notamment. En <b><a href=\"home.html#definition_domaines_1\">didactique des langues</a></b>, on considère que les erreurs font partie du processus normal d’apprentissage.",
+        "references": "undefined"
+      },
+      {
+        "id": "24",
+        "titre": "Grammaire",
+        "definition": "Le terme <b>grammaire </b>a plusieurs acceptions. Il peut désigner :<div><ul><li>une discipline à visée normative, dont l’objet est de distinguer ce qui se dit de ce qui ne se dit pas,</li><li> un traité ou un ouvrage de référence à visée pédagogique dans lequel sont énoncées les règles d’une langue, </li><li>la description du système (ou des sous-systèmes) d’une langue donnée ou d’un ensemble de langues.</li></ul> En <b>linguistique</b>, selon les courants linguistiques, une grammaire peut être notamment une classification des segments qui apparaissent dans des énoncés d’un corpus (grammaire distributionnelle) ou la description syntaxique d’une langue particulière (grammaire générative). On appelle aussi <b>grammaire </b>le <b><a href=\"home.html#definition_notions_16\">système linguistique</a></b> observable chez un groupe de locuteurs défini : grammaire enfantine, grammaire des personnes aphasiques, etc.</div>",
+        "references": "undefined"
+      },
+      {
+        "id": "3",
+        "titre": "Graphème",
+        "definition": "Dans les langues à système alphabétique, le <b>graphème</b> est la plus petite unité distinctive de la chaîne écrite ayant une référence phonique et/ou sémique dans la chaîne parlée. Elle peut être composée d’une lettre seule, d’une lettre accentuée ou pourvue d’un signe auxiliaire, ou d’un groupe de lettres (digramme, trigramme). En somme, c’est l’équivalent, pour l’écrit, du <b><a href=\"home.html#definition_notions_10\">phonème</a></b> pour l’oral.<br> Dans une langue comme le français, il n’y a toutefois pas de biunivocité entre le système des graphèmes et celui des phonèmes : ainsi, la même suite de lettres «&nbsp;ch&nbsp;» correspond à deux phonèmes, selon qu’elle se prononce /k/ comme dans <i>chaos</i>, ou /ʃ/ comme dans <i>cheval</i>. On distinguera donc deux graphèmes «&nbsp;ch&nbsp;», chacun correspondant à une de ces deux prononciations. Inversement, un même phonème peut se réaliser orthographiquement de deux façons différentes, comme le phonème /f/, qui peut prendre la forme graphique «&nbsp;f&nbsp;» comme dans <i>girafe</i>, ou «&nbsp;ph&nbsp;» comme dans <i>pharmacie</i>."
+      },
+      {
+        "id": "25",
+        "titre": "Langage",
+        "definition": "En <b>linguistique</b>, depuis Ferdinand de Saussure, on a coutume de distinguer le <b>langage</b>, défini comme la faculté inhérente et universelle que possèdent les humains de construire des langues ou des codes pour communiquer, et la <b><a href=\"home.html#definition_notions_26\" >langue</a></b>, qui est une manifestation de cette aptitude.",
+        "references": "undefined"
+      },
+      {
+        "id": "26",
+        "titre": "Langue",
+        "definition": "<div>La notion de <b>langue </b>peut être définie de plusieurs façons : <ul><li> dans l’opposition saussurienne <b><a href=\"home.html#definition_notions_25\" >langage</a></b>/<b>langue</b>, le terme désigne ce par quoi se manifeste la faculté de langage ; </li><li> dans l’opposition saussurienne <b>langue</b>/<b><a href=\"home.html#definition_notions_30\" >parole</a></b>, la langue est considérée comme le résultat d’une convention sociale transmise par la société à l'individu ;</li><li> indépendamment de ces oppositions, la langue peut être définie comme un système abstrait de signes, c’est-à-dire comme un ensemble structuré de signes vocaux ou gestuels et de signes graphiques (pour les langues à système d’écriture) et de règles permettant la communication au sein d’un groupe humain. Ainsi définie, la langue peut s’incarner en des langues, correspondant à autant de groupes humains. Selon les estimations, le nombre de langues dans le monde est évalué entre 3000 et 7000, avec un consensus autour de 6000, dont environ 200 possèdent un système d’écriture.</li></ul>",
+        "references": "undefined"
+      },
+      {
+        "id": "27",
+        "titre": "Langue maternelle",
+        "definition": "<div>La <b>langue maternelle</b> est la langue apprise pendant l'enfance et transmise par l’environnement social immédiat. En <b><a href=\"home.html#definition_domaines_1\" >didactique des langues</a></b> et en <b><a href=\"home.html#definition_domaines_7\" > psycholinguistique</a> développementale</b>, on préfère toutefois parler de langue première, dans la mesure où, dans certaines sociétés, la langue de la mère n’est pas celle que le petit enfant acquiert en premier. </div><div>La langue maternelle (ou première) se distingue des langues pouvant être acquises ultérieurement, en ceci que le petit enfant acquiert l’usage de sa langue première grâce aux interactions avec son entourage social immédiat, alors que les langues vivantes étrangères peuvent s’apprendre dans un contexte d’enseignement spécifique. </div>",
+        "references": "undefined"
+      },
+      {
+        "id": "5",
+        "titre": "Lexème",
+        "definition": "En linguistique, on appelle <b>lexème </b>une unité lexicale abstraite, hors contexte. Les réalisations que peut prendre un lexème en contexte sont appelées <b>mots-formes</b>. La notion a été inventée pour éviter l’ambiguïté du mot <a href=\"home.html#definition_notions_28\" ><i><b>mot</b></i></a>.<div>Ainsi, lorsque l’on parle du verbe <i>laver </i>(par exemple : « le verbe <i>laver </i>est un verbe du premier groupe »), il s’agit du lexème LAVER. Et si on demande d’analyser le mot <i>lavait</i>, il s’agit de décrire un mot-forme : « imparfait 3ème personne singulier du lexème LAVER&nbsp;».</div>",
+        "references": "undefined"
+      },
+      {
+        "id": "6",
+        "titre": "Littératie",
+        "definition": "<div>Traduit de l’anglais <i>literacy</i>, le terme <b>littératie </b>renvoie à «&nbsp;l’aptitude à comprendre et à utiliser l’information écrite dans la vie courante, à la maison, au travail et dans la collectivité en vue d’atteindre des buts personnels et d'étendre ses connaissances et ses capacités&nbsp;» (Organisation de Coopération et de Développement Économiques). </div><div>Cette aptitude peut être mesurée grâce à l’évaluation de certaines compétences, en compréhension et en production. Récemment arrivé en France, le concept de <b>littératie </b>est lié aux apprentissages scolaires et à leur réutilisation par les apprenants, sans toutefois se limiter à cela.</div>"
+      },
+      {
+        "id": "7",
+        "titre": "Morphème",
+        "definition": "<div>Le <b>morphème </b>est le <b><a href=\"home.html#definition_notions_14\" >signe</a> </b>linguistique minimal, que l’on ne peut pas diviser en unités plus petites sans passer au niveau phonologique. </div><div>Le morphème, comme unité de compte de la branche de la linguistique qu’on appelle <b><a href=\"home.html#definition_domaines_100\" >morphologie</a></b>, est de plus en plus remis en cause au profit du <b><a href=\"home.html#definition_notions_5\" >lexème</a></b> et des opérations pouvant s'appliquer sur les lexèmes.</div>"
+      },
+      {
+        "id": "28",
+        "titre": "Mot",
+        "definition": "<div>Paradoxalement, alors que le terme <b>mot </b>est très utilisé dans la langue commune, on évite de recourir à lui dans le champ des sciences du langage. La raison est qu’on peut distinguer trois niveaux d’abstraction dans la notion. Du plus concret au plus abstrait : <ul><li> si on vous demande de résumer un texte en 300 mots, ce qui sera pris en compte, ce sont les <b>mots-occurrences</b>, que ces mots-occurrences soient identiques ou non (par exemple, si votre résumé comprend six fois le mot <i>maison</i> au singulier et deux fois au pluriel, chaque occurrence comptera pour un mot, et vous aurez déjà utilisé huit « mots ») ;</li><li> à un niveau d’abstraction un peu plus élevé, dans ce même texte, on pourrait se demander si, sous sa forme au singulier, <i>maison</i> correspond à six mots différents, ou s’il ne s’agit pas plutôt de six fois le même mot. La question se pose pareillement pour <i>maisons</i> : doit-on le compter pour deux mots différents, ou s’agit-il du même mot, utilisé deux fois ? Pour éviter cette première ambigüité, pour nommer les différentes formes que peut prendre un « mot » en contexte indépendamment du nombre de fois que ce « mot » apparaît, les linguistes préfèrent parler de <b>mot-forme</b> ;</li><li>à un niveau d’abstraction plus élevé encore, il est également possible de considérer que, toujours dans ce même texte, <i>maison</i> et <i>maisons</i> sont les deux formes que peut prendre le nom MAISON en contexte. Ce troisième niveau correspond à ce que les linguistes appellent <b><a href=\"home.html#definition_notions_5\" >lexème</a></b>.</li></ul>",
+        "references": "undefined"
+      },
+      {
+        "id": "8",
+        "titre": "Norme(s)",
+        "definition": "<div>La linguistique n’a pas comme objectif d’édicter le «&nbsp;bon usage&nbsp;», c’est-à-dire l'usage valorisé dans un groupe donné, généralement socialement dominant (en ce sens, elle n’est pas normative), mais de décrire les usages des parleurs de telle ou telle langue (et de ses scripteurs, pour celles qui ont un système d’écriture), et de constituer ces usages en un ou des systèmes cohérents. </div><div>La notion de <b>norme(s)</b> n’est toutefois pas en dehors du champ de la linguistique : considérée du point de vue sociologique, la norme linguistique peut être définie comme l'usage statistiquement dominant dans tel ou tel groupe ou dans telle ou telle situation d’énonciation, rejoignant en cela les notions de <a href=\"home.html#definition_notions_17\" ><b>variations</b> </a>et d’<b><a href=\"home.html#definition_notions_23\" >écart</a></b>.</div> "
+      },
+      {
+        "id": "9",
+        "titre": "Oralité",
+        "definition": "<div>L’<b>oralité </b>est le caractère des <b><a href=\"home.html#definition_notions_32\" > énoncés</a></b> réalisés par articulation vocale (ou signée) et susceptibles d’être entendus (ou vus), ces énoncés ne pouvant pas être séparés de leurs propriétés orales (diction, prosodie, débit, etc.) et des conditions d’échange où émetteur et récepteur sont typiquement en situation de face à face.</div><div>L’oralité fonctionne par conséquent en opposition avec la scripturalité. L’opposition n’est toutefois pas tant celle du médium utilisé (oral <i>vs</i> écrit) que celle des marques linguistiques (phoniques, syntaxiques, lexicales, notamment) permettant d’identifier un énoncé comme fait pour être dit. De ce point de vue, l’opposition oralité / scripturalité n’est pas binaire, mais constitue un continuum qui s’échelonne d’une oralité conceptuelle prototypique à une scripturalité conceptuelle prototypique, tout énoncé, qu’il soit oral ou écrit, pouvant faire appel à des traits relevant soit du code écrit, soit du code oral. Pour éviter toute ambiguïté terminologique entre oralité / scripturalité dans leur acception de médium et celle de conception, on parle parfois, au niveau conceptuel, de «&nbsp;langue de proximité&nbsp;» <i>vs</i> «&nbsp;langue de distance&nbsp;».</div> "
+      },
+      {
+        "id": "29",
+        "titre": "Orthographe",
+        "definition": "<div>L’<b>orthographe</b> est la représentation graphique et conventionnelle d’une langue donnée. </div><div>À l’échelle des langues du monde, il existe différents systèmes orthographiques : <ul><li> le système logographique, dans lequel les unités représentent avant tout des unités de sens. On peut citer ici entre autres les hiéroglyphes de l’Égypte ancienne ou les écritures kanji chinoise et japonaise ;</li><li>le système syllabique, qui code les syllabes, comme, en japonais, les katakanas et les hiraganas ;</li><li>le système alphabétique, dont l’objectif est de coder l’oral : dans ce système, les unités de codage, qu’on appelle <b><a href=\"home.html#definition_notions_3\" >graphèmes</a></b>, codent, avec plus ou moins d’écart, les unités de l’oral qu’on appelle <b><a href=\"home.html#definition_notions_10\" >phonèmes</a></b>. Selon les langues, les écritures alphabétiques peuvent coder aussi bien les voyelles que les consonnes (alphabets grec et latin, par exemple) ou seulement les consonnes (par exemple, alphabet arabe).</li></ul>Une même langue peut exploiter différents systèmes, mais dans des proportions différentes. Ainsi le français, majoritairement alphabétique, comprend quelques signes à fonction logographique.</div><div>L’orthographe fait l’objet d’un apprentissage qui, chronologiquement, arrive après l’acquisition de l’oral. Au fil du temps, l’orthographe d’une langue peut évoluer, comme en témoignent les modifications qu’a connues le français depuis le XIIIe siècle. </div><div>La notion d’orthographe n’est pertinente que pour les langues à système d’écriture, donc pour une petite minorité des <b><a href=\"home.html#definition_notions_26\">langues</a></b> du monde.</div>",
+        "references": "undefined"
+      },
+      {
+        "id": "30",
+        "titre": "Parole",
+        "definition": "<div>Dans la <b>langue commune</b>, la parole peut être définie comme la faculté d'exprimer et de communiquer la pensée au moyen du système des sons du langage articulé émis par les organes phonateurs (langues vocales). </div><div>En <b>linguistique</b>, dans l’opposition saussurienne <b><a href=\"home.html#definition_notions_26\" >langue</a></b>/parole, la <b>parole </b>est considérée comme l’utilisation effective et personnelle de la langue par l’individu. La parole est par conséquent singulière, par opposition à la langue, qui est une convention sociale. Dans cette opposition, la parole peut s’exprimer sous deux formes, orale ou écrite, étant admis que l’oral est la forme première d’actualisation de la langue, quelle que soit sa modalité, vocale ou gestuelle.</div>",
+        "references": "undefined"
+      },
+      {
+        "id": "31",
+        "titre": "Patois",
+        "definition": "<div>Le terme <b>patois </b>ne fait pas partie de l’appareil descriptif des linguistes.</div><div>Dans la <b>langue commune</b>, le terme est parfois utilisé, avec une valeur péjorative, comme équivalent de <b><a href=\"home.html#definition_notions_22\" >dialecte</a></b>. On le réserve alors plutôt à un dialecte qui a cessé d'être littérairement cultivé et qui n'est plus en usage que pour la conversation parmi les gens de la province, et particulièrement parmi les paysans et les ouvriers.</div>"
+      },
+      {
+        "id": "10",
+        "titre": "Phonème",
+        "definition": "<div>Le <b>phonème </b>est une unité phonique abstraite, qui conjoint les trois propriétés suivantes : <ul><li> avoir une fonction distinctive, </li><li>ne pas être décomposable en segments ayant eux-mêmes une telle fonction, </li><li>présenter des caractères dits pertinents, c’est-à-dire que seules des oppositions systémiques permettent de distinguer les phonèmes entre eux, indépendamment de leurs variantes libres ou contextuelles.</li></ul>Ainsi, en français, /ʃ/ et /ʁ/ constituent des phonèmes différents, dans la mesure où la substitution de l’un à l’autre dans un même contexte phonique conduit à un changement de sens (par exemple : <i>chat</i> / <i>rat</i> ; <i>chien</i> / <i>rien</i>). En revanche, qu’on prononce la consonne initiale des seconds membres de ces paires avec un [r] roulé ou non roulé, il n’en résulte aucun changement de sens : il s’agit par conséquent là de variantes d’un même phonème.</div><div>La branche de la linguistique qui étudie les sons du langage du point de vue de leur fonction dans le système de communication linguistique est la <b><a href=\"home.html#definition_domaines_101\">phonologie</a></b>. </div>"
+      },
+      {
+        "id": "32",
+        "titre": "Phrase, énoncé",
+        "definition": "<div>En première approximation, une <b>phrase </b>est un assemblage de <b><a href=\"home.html#definition_notions_28\">mots</a></b> ordonnés, doté d’une autonomie grammaticale qui se particularise par une intonation spécifique à l’oral et qui se termine par un signe de ponctuation forte à l’écrit. </div><div>En <b>linguistique</b>, on distingue la <b>phrase </b>et l’<b>énoncé</b>. La <b>phrase </b>est alors considérée comme une entité linguistique abstraite, théorique, en dehors de toute situation d’<b><a href=\"home.html#definition_notions_36\">énonciation</a></b>, qui peut se réaliser en une infinité d’<b>énoncés</b> différents : ainsi, la même phrase «&nbsp;J’ai faim&nbsp;» donnera lieu à une multitude d’énoncés, correspondant chacun à la situation d’échange langagier particulière dans laquelle la phrase est utilisée, à l’écrit ou à l’oral. </div>"
+      },
+      {
+        "id": "11",
+        "titre": "Bilinguisme, multilinguisme, plurilinguisme",
+        "definition": "<div>Le <b>plurilinguisme </b>correspond à la situation où un locuteur possède des compétences langagières dans plusieurs langues (y compris sa <b><a href=\"home.html#definition_notions_27\" >langue maternelle ou première</a></b>&nbsp;ainsi que des ressources culturelles associées à ces langues lui permettant de faire face à des besoins de communication pluriels. Le <b>bilinguisme </b>est un cas d’espèce de plurilinguisme, réservé au cas où le locuteur est <b><a href=\"home.html#definition_notions_20\" >bilingue</a></b>, c’est-à-dire qu’il a à son actif des compétences langagières dans deux langues.</div><div>Au niveau mondial, les cas de plurilinguisme sont bien plus nombreux que ceux de monolinguisme, qui font figure d'exception.</div><div>D’abord synonyme de <i>plurilinguisme</i>, le terme de <b>multilinguisme </b>est désormais réservé au cas où plusieurs langues sont présentes sur une aire géographique donnée.</div>"
+      },
+      {
+        "id": "12",
+        "titre": "Politiques et aménagements linguistiques",
+        "definition": "Les <b>politiques et aménagements linguistiques </b>consistent en la mise au point d'un processus de décision sur la langue par un état ou un gouvernement. Ainsi la réforme mise en œuvre en 1928 par Mustafa Kemal Atatürk, fondateur et premier président de la République de Turquie consistant dans le remplacement de l’alphabet arabe par un alphabet dérivé de l’alphabet romain pour noter le turc, ou encore l’une des lois Ferry de la fin du XIXe siècle imposant l’enseignement du français dans toutes les écoles de la République, et interdisant, par là-même, l’utilisation des langues locales telles, entre autres, le breton ou l’occitan comme langues d’enseignement.  "
+      },
+      {
+        "id": "33",
+        "titre": "Sens, signification",
+        "definition": "<div>Dans la <b>langue commune</b>, on assimile le <b>sens </b>d’une expression (mot, syntagme, phrase, etc.) à sa <b>signification</b>, c'est-à-dire à l'idée qui y est associée. </div><div>En <b>linguistique</b>, on opère parfois une distinction entre ces deux concepts. Cette distinction varie selon les écoles théoriques. Pour les uns, la <b>signification </b>d’une séquence linguistique relève de la <b><a href=\"home.html#definition_notions_26\" >langue</a></b>, tandis que le <b>sens </b>relève de la <a href=\"home.html#definition_notions_30\" ><b>parole</b></a>, c’est-à-dire de l’utilisation effective de cette séquence, dans une situation donnée : on opposera dans le cas la signification d’une <b><a href=\"home.html#definition_notions_32\" >phrase</a></b> et le sens d’un <a href=\"home.html#definition_notions_32\" ><b>énoncé</b></a>, qui varie, entre autres, selon le lieu, le temps ou les interlocuteurs. </div><div>De même, la <b>signification </b>d’un mot sera tenue pour un type, c’est-à-dire pour une abstraction obtenue à partir de ce qui est commun aux <b>sens </b>des différentes occurrences de ce mot dans différents contextes. Pour les autres, l’opposition joue dans le sens contraire. </div>"
+      },
+      {
+        "id": "14",
+        "titre": "Signe, signifiant, signifié, référent",
+        "definition": "<div>Les notions de <b>signe</b>, <b>signifiant</b> et <b>signifié </b>ont été introduites par Ferdinand de Saussure au début du XX<sup>e </sup>siècle.</div><div>Ce dernier définit le <b>signe linguistique</b> comme une entité biface consistant en l’association d’une image acoustique (plus largement : d’une face matérielle perçue), appelée <b>signifiant</b>, et d’un concept, appelé <b>signifié</b>. </div><div>La notion de <b>référent </b>a été introduite postérieurement, afin de bien distinguer le signifié et l’objet du monde, physique ou conceptuel, réel ou imaginaire, à laquelle renvoie le signe. C’est cet objet du monde que désigne le terme <b>référent</b>.  </div>"
+      },
+      {
+        "id": "16",
+        "titre": "Système linguistique",
+        "definition": "<div>L’idée fondamentale de la linguistique est que la langue forme un <b>système</b>, c’est-à-dire qu’elle constitue un tout organisé dans lequel les éléments sont étroitement liés entre eux. </div><div>Ce <b>système linguistique</b> général peut, à son tour, être abordé comme ses aspects phonologique, syntaxique, lexical et sémantique, constituant autant de sous-systèmes. Les tours de parole, les connecteurs pragmatiques ou conversationnels, les rituels de politesse dans certaines langues du monde peuvent aussi être abordés comme des systèmes organisés.</div><div>La notion du système appliquée à la langue s'oppose à une conception ancienne de la langue considérée comme une nomenclature, c’est-à-dire comme une liste de mots. </div>"
+      },
+      {
+        "id": "17",
+        "titre": "Variations",
+        "definition": "<div>En <b>linguistique</b>, par contraste avec la vision prescriptive de la grammaire traditionnelle qui distingue ce qui se dit de ce qui ne se dit pas, on admet l’idée que les langues connaissent des <b>variations</b>, et que toutes les variétés que recèlent les langues sont des objets d’étude dignes d’intérêt.<br>Les variations peuvent concerner la prononciation (toutes les régions de France ne font pas les mêmes distinctions entre <b><a href=\"home.html#definition_notions_10\" >phonèmes</a></b>), la <b><a href=\"home.html#definition_domaines_103\" >syntaxe</a></b> (par exemple, la relative dite en français avancée : «&nbsp;Le femme que je t’ai parlé d’elle hier&nbsp;»), le lexique (certains mots sont typiques de telle ou telle région). Sont aussi étudiés les registres (ou genres), c’est-à-dire les variétés linguistiques appropriées à une situation sociale particulière.</div><div>La prise en compte des variations doit beaucoup aux travaux précurseurs du sociolinguiste W. Labov, et, à sa suite, à l’école dite «&nbsp;variationniste&nbsp;».  </div> "
+      },
+      {
+        "id": "35",
+        "titre": "Vocabulaire",
+        "definition": "<div>Dans la <b>langue commune</b>, les termes de <b>vocabulaire </b>et de <b>lexique </b>sont équivalents, et désignent l’ensemble des mots (des vocables) d’une langue.</div><div>En <b>linguistique</b>, on a coutume de distinguer ces deux notions : là où le lexique se situe au niveau de la <a href=\"home.html#definition_notions_26\" ><b>langue</b></a>, le vocabulaire se situe au niveau de la <b><a href=\"home.html#definition_notions_30\" >parole</a></b> et du <b><a href=\"home.html#definition_notions_2\" >discours</a></b>, et on nomme <b>vocabulaire </b>l’ensemble des mots dont dispose une personne. On distingue ainsi le <b>vocabulaire actif</b> (ou vocabulaire produit), qu’utilise effectivement un locuteur, qu’il connaît bien et utilise spontanément à l’écrit ou à l’oral, et le <b>vocabulaire passif</b> (ou vocabulaire compris), que connaît plus ou moins un locuteur, qu’il comprend, sans pour autant l’utiliser. Le vocabulaire (actif et passif) d’une personne varie avec le temps (les adultes ont un vocabulaire plus étendu que les enfants), et avec le niveau culturel. </div><div>On appelle également <b>vocabulaire </b>l’ensemble des termes propres à une science, une technique, un art, un groupe social ou un auteur. Ce terme renvoie enfin à l’ensemble des mots figurant dans un corpus donné. </div>"
+      }
+    ]
+  }
+}

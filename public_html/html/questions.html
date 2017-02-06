@@ -1,0 +1,29 @@
+<div id="ctnQuestionsGen">
+	<div id="ctnQuestions"> Pas de video</div>
+</div>
+
+<script>
+$(function(){
+	$("#ctnMenuCarte").removeClass("menuClicableChoisi");
+	$("#ctnMenuQuestion").addClass("menuClicableChoisi");
+	$("#ctnMenuGlossaire").removeClass("menuClicableChoisi");
+	
+	//document.getElementById("ctnRecherche").style.display = "block";
+	parcours ={"id" : "z" , "index" : -1 ,"etape": -1 };//annule un éventuel parcours
+	
+	//********rechargement pour nouveaux fituraide
+	$("#ctnFituraide").load("fituraide/fituraide.html");
+	$("#ctnFituraide").show();//s'a
+	
+	
+	//affichage filtres
+	$("#colGaucheBas").load("html/questionsFiltres.html");
+	
+		
+	//******** affichage des questions (AVEC filtre)
+	//itemsFiltre_ET();
+	itemsFiltre_OU();
+	
+});
+
+</script>

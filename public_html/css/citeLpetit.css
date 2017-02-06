@@ -1,0 +1,41 @@
+/* CSS Document */
+ /*@media all and (max-width: 76rem) { }*/
+
+#top{
+	flex : 1 1 100%;
+}
+
+#marginGauche{
+	display:none;
+}
+
+
+body{
+	background-image:none;
+}
+
+#ctnLogo{
+	display: none;
+}
+
+#ctnCols {
+	display:flex;
+	flex-direction:column;
+}
+
+#colGauche{
+	order:2;
+}
+
+#ctnFituraide{
+	display: none; /* ca marche pas : je joue avec show hide sur  ce conteneur...*/
+}
+
+/**************************
+--------- glossaire ------*/
+
+#listeGlossaire{
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+}

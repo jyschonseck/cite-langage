@@ -1,0 +1,71 @@
+<!--<div id="ctnTitreParcours"  >
+	<div id="iconeTitre"></div>
+	<h1 id="titreParcours" >Les parcours </h1>
+</div>-->
+<div id="ctnParcours" onClick="svgClicHdlr(event);"  > 
+	<!--style="width:99%;"
+onMouseOver="svgOverHdlr(event);"--> 
+	<!--<img id="imgParcours" src="img/icones/parcours_plan.svg" alt="plan de metro">--> 
+</div>
+<script>
+
+$(function(){
+	$("#ctnMenuCarte").addClass("menuClicableChoisi");
+	$("#ctnMenuQuestion").removeClass("menuClicableChoisi");
+	$("#ctnMenuGlossaire").removeClass("menuClicableChoisi");
+	
+	$("#ctnFituraide").load("html/parcoursLogos.html" , function(){
+		$("#ctnFituraide").show("slow");
+	});
+	
+	$("#colGaucheBas").html("");
+		//réinit parcours 
+	parcours = {"id" : "z" , "index" : -1 ,"etape": -1 };
+	
+	
+	$("#ctnParcours").load("img/interface/parcours_plan.svg", function(){
+		/*for (var i = 0 ; i < listeParcours.length ; i++){
+			$("#textes-"+listeParcours[i].id).css("display" , "none");
+		}*/
+	//$( "text" ).fadeOut("slow");
+	//$( "g[id*='textes']" ).fadeOut("slow");
+	
+	});
+});
+
+function svgClicHdlr(e){
+	var objCliquet = e.target.id.split("-");
+	//** on regarde quel parcours est cliqué
+	if ( objCliquet[0] === "parcours"){ //la target a une id commençant par parcours
+		if (objCliquet[1] !== parcours.id){
+			parcoursAffich(objCliquet[1]);
+		}else{
+			//*****on regarde si on a "station
+			if ( objCliquet[2] === "station"){
+				var objectif = objCliquet[3] + "_" + objCliquet[4];
+				window.location.hash = "#item_" +  objectif;
+			}
+		}
+	} else {
+		 $("#ctnParcours g").css("opacity" , "1");
+	}
+}
+
+function svgOverHdlr(e){
+}
+
+function parcoursAffich(parcoursCliquet){
+	for (var i = 0 ; i < listeParcours.length ; i ++){
+		if (listeParcours[i].id == parcoursCliquet){
+			$("#parcours-"+listeParcours[i].id).css("opacity" , "1");
+			$("path[id$='"+listeParcours[i].id+"mask']").css("display" , "block");
+		}else{
+			$("#parcours-"+listeParcours[i].id).css("opacity" , "0.3");
+			$("path[id$='"+listeParcours[i].id+"mask']").css("display" , "none");
+		}
+	}
+		parcours.id= parcoursCliquet;
+		$("#colGaucheBas").load("html/barreParcours.html");
+	//});
+}
+</script>

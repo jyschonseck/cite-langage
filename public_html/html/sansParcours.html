@@ -1,0 +1,45 @@
+
+<div id="ctnSansParcours">
+	<!--<h2>les parcours </h2>-->
+	<div id="ctnListesParcours"></div>
+</div>
+<script>
+
+$(function(){
+	ctnListesParcours = document.getElementById("ctnListesParcours");
+	for (var i = 0 ; i < listeParcours.length ; i++){
+		for  (var j= 0 ; j < listeParcours[i].listeObjets.length ; j++){
+			if ((catInd + "_" + itemInd ) ===  listeParcours[i].listeObjets[j].objId){
+				var  temp = document.createElement("button");
+				temp.id = "parcours_" +  listeParcours[i].id;
+				temp.onclick = parcoursClckHdlr;
+				temp.className = "itemParcours";
+				//temp.style = "color:" + couleurParcours[listeParcours[i].id];
+				
+				var temp2 = document.createElement("img");
+				temp2.id = "icone_"+listeParcours[i].id;
+				temp2.src = "img/icones/" + temp.id+".svg";
+				//temp2.style = "width:6rem"; // passe pas sous edge
+                                temp2.width = 96 ; 
+				temp.appendChild(temp2);
+				
+				var temp3 =  document.createElement("p");
+				temp3.className = "sansParcoursLien";
+				temp3.innerHTML = listeParcours[i].nom;
+				temp.appendChild(temp3);
+				ctnListesParcours.appendChild(temp);
+				
+			
+			}
+		}
+	}
+});
+
+
+	
+function parcoursClckHdlr(e){	
+  //affich parcours
+	parcours.id = e.currentTarget.id.split("_")[1];
+	$("#colGaucheBas").load("html/barreParcours.html");
+}
+</script>

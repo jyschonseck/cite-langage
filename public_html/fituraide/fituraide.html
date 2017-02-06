@@ -1,0 +1,193 @@
+    
+<link rel="stylesheet" href="css/fituraide.css" type="text/css" media="screen">
+<div id="ctnFts">
+	<div id="ctnFt_0" class="ctnFt">
+		<div><img id="ctnFtImg_0" src="img/icones/parcours_A.svg" width="124" height="95" alt=""/></div>
+		<div style="display:flex;flex-direction:column;">
+			<p  id="ctnFtPar_0" class="ftParcours"></p>
+			<p id="ctnFtTxt_0" class="ftTitreItem"></p>
+			<p id="ctnFtAuteur_0" class="ftAuteur"></p>
+		</div>
+	</div>
+	<div id="ctnFt_1" class="ctnFt">
+		<div><img id="ctnFtImg_1" src="img/icones/parcours_A.svg" width="124" height="95" alt=""/></div>
+		<div style="display:flex;flex-direction:column;">
+			<p  id="ctnFtPar_1" class="ftParcours"></p>
+			<p id="ctnFtTxt_1" class="ftTitreItem"></p>
+			<p id="ctnFtAuteur_1" class="ftAuteur"></p>
+		</div>
+	</div>
+	<div id="ctnFt_2" class="ctnFt">
+		<div ><img id="ctnFtImg_2" src="img/icones/parcours_A.svg" width="124" height="95" alt=""/></div>
+		<div style="display:flex;flex-direction:column;">
+			<p  id="ctnFtPar_2" class="ftParcours"></p>
+			<p id="ctnFtTxt_2" class="ftTitreItem"></p>
+			<p id="ctnFtAuteur_2" class="ftAuteur"></p>
+		</div>
+	</div>
+	<div id="ctnFt_3" class="ctnFt">
+		<div ><img id="ctnFtImg_3" src="img/icones/parcours_A.svg" width="124" height="95" alt=""/></div>
+		<div style="display:flex;flex-direction:column;">
+			<p  id="ctnFtPar_3" class="ftParcours"></p>
+			<p id="ctnFtTxt_3" class="ftTitreItem"></p>
+			<p id="ctnFtAuteur_3" class="ftAuteur"></p>
+		</div>
+	</div>
+	
+	<div id="ctnFTNav">
+            <button id="ftNavEvit" onclick="document.getElementById('ctnResumeItem_0_0').focus();">Aller au contenu</button>
+            <button id="ftNavG" onclick="ftBtnGHdlr();"></button>
+            <button id="ftNavD" onclick="ftBtnDHdlr();"></button>
+            <button id="ftNavPP" class="fa fa-pause" onClick="btnPPHdlr(event);"></button>
+            <div id="ctnFtNavPos" onClick="ftNavPosClicHdlr(event);" >
+                <button id="btnPos_0" class="btnPos choisi"></button>
+                <button id="btnPos_1" class="btnPos"></button>
+                <button id="btnPos_2" class="btnPos"></button>
+                <button id="btnPos_3" class="btnPos"></button>
+            </div>
+	</div>
+
+</div>	
+
+<script>
+
+//****init page
+$(function(){
+	affichFituraide();
+});
+	
+function affichFituraide(){
+	//****affichage
+	largeurFt = parseInt($("#ctnFts").css("width"));
+	//tirage dans liste : 
+	itemsFituraide = [];
+	for (var i = 0 ; i < ftNb ; i++){
+		var num = 99;
+		do{ // TODO attention si  listePairesItemsParcours.length = 0 : on boucle !
+			num = Math.floor(Math.random() * listePairesItemsParcours.length);
+		} while (itemsFituraide.indexOf(num) > -1 )
+		itemsFituraide.push(num ); // num d'ordre dans la listePairesItemsParcours 
+	}
+	for (var ftId = 0 ; ftId < ftNb ; ftId++){// creation des 4 affichages 
+		var ftC = listePairesItemsParcours[itemsFituraide[ftId]].itemId.split("_")[0];
+		var ftQ = listePairesItemsParcours[itemsFituraide[ftId]].itemId.split("_")[1];
+		$("#ctnFtTxt_" +ftId ).html(listeItems[ftC].questions[ftQ].titre);
+		$("#ctnFtImg_" +ftId ).attr("src" , "img/icones/parcours_" + listePairesItemsParcours[itemsFituraide[ftId]].parcoursId + ".svg");
+		$("#ctnFtPar_" +ftId ).html(listePairesItemsParcours[itemsFituraide[ftId]].parcoursNom);
+		$("#ctnFt_" +ftId ).addClass("parcours_" + listePairesItemsParcours[itemsFituraide[ftId]].parcoursId);
+		$("#ctnFtAuteur_" +ftId ).html(listeItems[ftC].questions[ftQ].auteurs);
+		$("#ctnFt_"+ftId).css("width" , largeurFt - 120);
+		if (i == ftAffich){
+			$("#ctnFt_"+ftId).css("left" , 0);
+		}else{
+			$("#ctnFt_"+ftId).css("left" , largeurFt);
+		}
+	}
+	
+	
+	ftTempoHdlr();//pour afficher au départ	
+		
+	/********tempo pour enchainement auto  entre deux fituraide***/
+	//tester si tempo existe déja ...
+	if (!ftTempo){ 
+		ftTempo = setInterval(ftTempoHdlr , 7000);
+	}
+	
+	/****** action pour charge la page item****/
+	$(".ctnFt").on("click" , function(e){
+		window.location.hash = '#item_' + listePairesItemsParcours[itemsFituraide[this.id.split("_")[1]]].itemId;
+	});	
+}
+
+
+function ftTempoHdlr(){ // handler de la ftTempo tourne les pages du fituraide
+	if ($("#ftNavPP").hasClass ("fa-pause") && !redimEnCours){
+		var ftAffichObs = ftAffich;
+		ftAffich += 1;
+		if (ftAffich == ftNb) {ftAffich = 0;}
+		ftSuiv(ftAffichObs , ftAffich);
+	}
+}
+
+function ftTempoReset(){
+	clearInterval(ftTempo);
+	ftTempo = setInterval(ftTempoHdlr , 7000);
+}
+	
+/*****fonction transitions.****/
+function ftSuiv(ft1 , ft2){
+		$("#ctnFt_"+ft2).css("transition-duration" , "1s");
+		//$("#ctnFt_"+ft2).css("transition-time-function" , "ease-out");
+		$("#ctnFt_"+ft1).css("transition-duration" , "1s ");
+		$("#ctnFt_"+ft1).css("left" , largeurFt*-1);
+		$("#ctnFt_"+ft2).css("left" , "0");
+		//reour à droite
+		//$("#ctnFt_"+ft1).css("transition-delay" , "2s ");
+		var tempRetour = setTimeout(function(){
+			$("#ctnFt_"+ft1).css("transition-duration" , "0s ")
+			$("#ctnFt_"+ft1).css("left" , largeurFt);	
+		}, 1000);
+		$("#ctnFtNavPos button").removeClass("choisi");
+		$("#btnPos_"+ft2).addClass("choisi");
+}
+
+function ftPrec(ft1 , ft2){
+	$("#ctnFt_"+ft2).css("transition-duration" , "0s ");
+	$("#ctnFt_"+ft2).css("left" , largeurFt*-1);
+	var tempEffet = setTimeout(function(){
+		$("#ctnFt_"+ft2).css("transition-duration" , "1s");
+		$("#ctnFt_"+ft1).css("transition-duration" , "1s ");
+		$("#ctnFt_"+ft1).css("left" , largeurFt);
+		$("#ctnFt_"+ft2).css("left" , "0");
+	}, 100);
+	$("#ctnFtNavPos button").removeClass("choisi");
+	$("#btnPos_"+ft2).addClass("choisi");
+}
+/***********************/
+/*****tourner les pages ***/
+function ftBtnGHdlr(){
+	var ftAffichObs = ftAffich;
+	if (ftAffich == 0) {
+		ftAffich = ftNb - 1 ;
+	}else{ ftAffich -= 1 ; }
+	ftPrec(ftAffichObs , ftAffich);
+	//reinitialiser la ftTempo
+	ftTempoReset();
+}
+function ftBtnDHdlr(){
+	var ftAffichObs = ftAffich;
+	if (ftAffich == ftNb-1) {
+		ftAffich = 0 ;
+	}else{ ftAffich += 1 ; }
+	ftSuiv(ftAffichObs , ftAffich);
+	//reinitialiser la ftTempo
+	ftTempoReset();
+}
+/*******boutons positions***/
+function ftNavPosClicHdlr(e){
+	var temp = e.target.id.split("_")
+	if (temp.length >1 ){
+		var ftAffichObs = ftAffich;
+		ftAffich = parseInt(temp[1]);
+		if (ftAffich > ftAffichObs){
+			ftSuiv(ftAffichObs , ftAffich);
+		}else if (ftAffich < ftAffichObs) {
+			ftPrec(ftAffichObs , ftAffich);
+		}
+		//reinitialiser la ftTempo
+		ftTempoReset();
+	}
+}
+
+function btnPPHdlr(e){
+	if ($(e.currentTarget).hasClass("fa-pause")){
+		$(e.currentTarget).removeClass("fa-pause");
+		$(e.currentTarget).addClass("fa-play");
+	}else{
+		$(e.currentTarget).removeClass("fa-play");
+		$(e.currentTarget).addClass("fa-pause");
+	}
+		
+}
+
+</script>

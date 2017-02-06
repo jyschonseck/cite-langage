@@ -1,0 +1,8 @@
+{
+    "name": "cit__langage_NB",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "jyschonseck",
+    "contributors": [],
+    "dependencies": {}
+}

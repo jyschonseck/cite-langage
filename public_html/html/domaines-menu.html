@@ -1,0 +1,146 @@
+<button  class="menuClicable titreFiltre" onClick="listeDomainesAff();">Domaines	</button>
+<div id="ctnListDomaines" style="display:none;"  class="ctnMotsCle">
+	<button onClick="domaineReset();" class="filtreReset"> Tout décocher</button>
+</div>
+
+<script>
+$(function(){
+	// affichage de la liste des mots-clé "domaines"
+	
+	for ( var i  =0  ; i < listeMotsCles.domaines.tags.length ; i++ ){
+		
+		var elt = document.createElement("button");
+		elt.id ="domaine_" +  listeMotsCles.domaines.tags[i].id ;
+		elt.innerHTML = listeMotsCles.domaines.tags[i].titre;
+		elt.className = "motCleMenu";
+		
+		if (filtres.domaines.tags.indexOf( listeMotsCles.domaines.tags[i].id ) > -1 ){
+			 elt.className = "motCleMenu menuChoisi";}
+		elt.onclick = domaineClick;
+		ctnListDomaines.appendChild(elt); 
+		//  sous-domaine
+		if ( listeMotsCles.domaines.tags[i].sous){
+			var elt2 = document.createElement("div");
+			elt2.id = "ctnDomaineSous_10";
+			elt2.className ="ctnDomaineSous";
+			for (var j = 0 ; j < listeMotsCles.domaines.tags[i].sous.length ; j++){
+				var elt3 = document.createElement("button");
+				elt3.id ="domaineSous_" +  listeMotsCles.domaines.tags[i].sous[j].id ;
+				elt3.innerHTML = listeMotsCles.domaines.tags[i].sous[j].titre;
+				elt3.className = "motCleMenu";
+				
+				if (filtres.domaines.tags.indexOf( listeMotsCles.domaines.tags[i].sous[j].id ) > -1 ){
+					 elt3.className = "motCleMenu menuChoisi";}
+				elt3.onclick = domaineSousClick;
+				elt2.appendChild(elt3); 
+			}
+			ctnListDomaines.appendChild(elt2); 
+		}
+			
+	}
+	if ( filtres.domaines.actif == 1){ $('#ctnListDomaines').show('fast');}
+});
+
+function domaineClick(e){
+	var domaineId = e.currentTarget.id.split("_")[1];
+	filtres.domaines.actif = 1;
+	
+	if ($(e.currentTarget).hasClass("menuChoisi")){
+		$(e.currentTarget).removeClass("menuChoisi");
+		var i = filtres.domaines.tags.indexOf(domaineId);
+		filtres.domaines.tags.splice( i , 1 );
+	}else{
+		$(e.currentTarget).addClass("menuChoisi");
+		//filtres.domaines.tags[domaineId] = 1;
+		filtres.domaines.tags.push(domaineId);
+	}
+	/// pour "sousDomaine
+	var domaineInd;
+	for (var i = 0 ; i < listeMotsCles.domaines.tags.length ; i ++){ //trouver l'index du domaine courant
+		if  (listeMotsCles.domaines.tags[i].id === domaineId){
+			domaineInd = i;
+		}
+	}
+	if ( listeMotsCles.domaines.tags[domaineInd].sous){ // ya du sous
+		//var elts = document.getElementById("ctnDomaineSous_" + domaineId).getElementsByTagName("button");
+		for (var j = 0 ; j < listeMotsCles.domaines.tags[domaineInd].sous.length ; j++){ //on boucle sur 
+			if ($(e.currentTarget).hasClass("menuChoisi")){
+				$("#domaineSous_" + listeMotsCles.domaines.tags[domaineInd].sous[j].id).addClass("menuChoisi");
+				if (filtres.domaines.tags.indexOf(listeMotsCles.domaines.tags[domaineInd].sous[j].id) === -1){
+					filtres.domaines.tags.push(listeMotsCles.domaines.tags[domaineInd].sous[j].id);
+				}
+			}else{
+				$("#domaineSous_" + listeMotsCles.domaines.tags[domaineInd].sous[j].id).removeClass("menuChoisi");
+				var k = filtres.domaines.tags.indexOf(listeMotsCles.domaines.tags[domaineInd].sous[j].id);
+				filtres.domaines.tags.splice( k , 1 );
+			}
+		}
+	}
+	
+	if (window.location.hash ==="#questions"){
+		//itemsFiltre_ET();
+		itemsFiltre_OU();
+	}else{
+		window.location.hash = "#questions";
+	}
+}
+
+function domaineSousClick(e){
+	var domaineId = e.currentTarget.id.split("_")[1];
+	filtres.domaines.actif = 1;
+	
+	if ($(e.currentTarget).hasClass("menuChoisi")){
+		$(e.currentTarget).removeClass("menuChoisi");
+		var i = filtres.domaines.tags.indexOf(domaineId);
+		filtres.domaines.tags.splice( i , 1 );
+		//filtres.domaines.tags[domaineId] = 0;
+	}else{
+		$(e.currentTarget).addClass("menuChoisi");
+		//filtres.domaines.tags[domaineId] = 1;
+		filtres.domaines.tags.push(domaineId);
+	}
+	//
+	if (window.location.hash ==="#questions"){
+		//itemsFiltre_ET();
+		itemsFiltre_OU();
+	}else{
+		window.location.hash = "#questions";
+	}
+}
+
+function listeDomainesAff(){
+	if ( $('#ctnListDomaines').css("display") === "none"){
+		$('#ctnListDomaines').show('slow');
+		filtres.domaines.actif = 1;
+		$('#ctnListNotions').hide('slow');
+		filtres.notions.actif = 0;
+	}else{
+		$('#ctnListDomaines').hide('slow');
+		filtres.domaines.actif = 0;
+	}
+		
+	if (window.location.hash ==="#questions"){
+		//itemsFiltre_ET();
+		itemsFiltre_OU();
+	}else{
+		//window.location.hash = '#questions';
+	}
+}
+
+function domaineReset(){
+	for ( var i =0 ; i <  listeMotsCles.domaines.tags.length ; i++){
+		var tagId = listeMotsCles.domaines.tags[i].id;
+		document.getElementById("domaine_" + tagId).className = "motCleMenu";
+		if ( listeMotsCles.domaines.tags[i].sous){
+			for (var j = 0 ; j < listeMotsCles.domaines.tags[i].sous.length ; j++){
+				var tagId = listeMotsCles.domaines.tags[i].sous[j].id;
+				document.getElementById("domaineSous_" + tagId).className = "motCleMenu";
+			}
+		}
+	}
+	filtres.domaines.tags = [];
+	//filtres.domaines.actif = 0;
+	//itemsFiltre_ET();
+	itemsFiltre_OU();
+}
+</script>

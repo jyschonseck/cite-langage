@@ -1,0 +1,651 @@
+[
+  {
+    "categorie": "Langage et langues",
+    "questions": [
+      {
+        "qId": "0_0",
+        "titre": "Pourquoi les humains parlent-ils&nbsp;?",
+        "domaines": [
+          4,
+          5,
+          7,
+          9
+        ],
+        "prenotions": [
+          7,
+          8,
+          12,
+          10,
+          15
+        ],
+        "notions": [
+          2,
+          10
+        ],
+        "texte": "<div><ul><li>Laurent Sparrow : Maître de conférence en Psychologie Cognitive</li><li>Philippe Sabot : Professeur en Philosophie contemporaine</li><li>Léa Cadet : étudiante</li></ul></div>",
+        "illustration": "illus-A1.jpg",
+        "auteurs": "Laurent Sparrow & Philippe Sabot",
+		"video": "https://player.vimeo.com/external/148891763.sd.mp4?s=9921d59f7cd303702abd28d3fbc44645138b3e22&profile_id=165",
+		"idVimeo":"148891763",
+		"poster":"https://i.vimeocdn.com/video/547952678_640.jpg",
+        "questionNum": "A1"
+      },
+      {
+        "qId": "0_1",
+        "titre": "Quand est apparu le langage&nbsp;?",
+        "domaines": [
+          3,
+          4
+        ],
+        "prenotions": [
+          7,
+          8,
+          2
+        ],
+        "notions": [
+          2
+        ],
+        "texte": "texte de description",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "https://player.vimeo.com/external/128365093.sd.mp4?s=fafe71fc9a74d66cd2464849c6f1bc26&profile_id=112",
+        "questionNum": "A2"
+      },
+      {
+        "qId": "0_2",
+        "titre": "Est-ce que les animaux ont des langues&nbsp;?",
+        "domaines": [
+          4,
+          10,
+          11
+        ],
+        "prenotions": [
+          7,
+          4,
+          10,
+          15,
+          8
+        ],
+        "notions": [
+          15,
+          17,
+          7,
+          10
+        ],
+        "texte": "patati patata 03. Mot ",
+        "illustration": "illus-A3.jpg",
+        "auteurs": "auteur...",
+        "video": "https://player.vimeo.com/external/133749136.sd.mp4?s=48a40df9860b03fe9520937010d77594&profile_id=112",
+        "questionNum": "A3"
+      },
+      {
+        "qId": "0_3",
+        "titre": "Pourquoi  y a-t-il des langues différentes&nbsp;?",
+        "domaines": [
+          4
+        ],
+        "prenotions": [
+          8
+        ],
+        "notions": [
+          0,
+          1,
+          11,
+          12,
+          15,
+          16
+        ],
+        "texte": "patati patata 04",
+        "illustration": "illus-A4.jpg",
+        "auteurs": "auteur...",
+        "video": "https://player.vimeo.com/external/123068061.sd.mp4?s=a8b17b6d4ba243140a001181cec89b60&profile_id=112",
+        "questionNum": "A4"
+      },
+      {
+        "qId": "0_4",
+        "titre": "Peut-on localiser une zone du langage dans le cerveau&nbsp;?",
+        "domaines": [
+          5
+        ],
+        "prenotions": [
+          9,
+          16,
+          10,
+          15,
+          3,
+          2,
+          4,
+          8,
+          5,
+          12
+        ],
+        "notions": [
+          3,
+          13,
+          7,
+          10
+        ],
+        "texte": "Angèle Brunellière, Maître de Conférence en Psychologie cognitive<div>Simon Decobert, étudiant</div>",
+        "illustration": "illus-A5.jpg",
+        "auteurs": "auteur...",
+        "video": "https://player.vimeo.com/external/159517415.sd.mp4?s=10e0b8a20ed8a1a661e1f92f247a94177b0e1520&profile_id=165",
+		"idVimeo":"159517415",
+        "questionNum": "A5"
+      },
+      {
+        "qId": "0_5",
+        "titre": "Est-ce qu'il y a des points communs entre toutes les langues du monde&nbsp;?",
+        "domaines": [
+          10
+        ],
+        "prenotions": [
+          6,
+          8
+        ],
+        "notions": [],
+        "texte": "patati patata 06 <br> université <br> enseignement",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "https://player.vimeo.com/external/134195305.sd.mp4?s=9c8d8f38f40d99ab6e9d25eb8020c916&profile_id=112",
+        "questionNum": "A6"
+      },
+      {
+        "qId": "0_6",
+        "titre": "Pourquoi une nouvelle langue apparaît-elle&nbsp;?",
+        "domaines": [
+          3
+        ],
+        "prenotions": [
+          8
+        ],
+        "notions": [
+          0,
+          1,
+          12
+        ],
+        "texte": "patati patata 07",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "A7"
+      },
+      {
+        "qId": "0_7",
+        "titre": "Est-ce que les langues naissent et meurent&nbsp;?",
+        "domaines": [
+          3
+        ],
+        "prenotions": [
+          8
+        ],
+        "notions": [
+          0
+        ],
+        "texte": "patati patata 08",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "A8"
+      }
+    ]
+  },
+  {
+    "categorie": "Une langue comment c'est fait&nbsp;?",
+    "questions": [
+      {
+        "qId": "1_0",
+        "titre": "Une langue comment ça marche&nbsp;?",
+        "domaines": [
+          10
+        ],
+        "prenotions": [
+          6,
+          8
+        ],
+        "notions": [
+          3,
+          5,
+          7,
+          10,
+          14,
+          15,
+          16
+        ],
+        "texte": "patati patata 09",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "B1"
+      },
+      {
+        "qId": "1_1",
+        "titre": "Qu'est-ce qu'une grammaire&nbsp;?",
+        "domaines": [
+          10
+        ],
+        "prenotions": [
+          6,
+          15,
+          8,
+          11,
+          5
+        ],
+        "notions": [
+          15,
+          8,
+          16,
+          17
+        ],
+        "texte": "Christophe Benzitoun, Maître de conférences en linguistique<div>Victor Dame, étudiant</div>",
+        "illustration": "illus-B2.jpg",
+        "auteurs": "auteur...",
+        "video": "https://player.vimeo.com/external/159517412.sd.mp4?s=53d354881ef7839bed6d3770c61fb91293cec905&profile_id=165",
+        "questionNum": "B2"
+      },
+      {
+        "qId": "1_2",
+        "titre": "Donne-t-on tous le même sens à la même phrase&nbsp;?",
+        "domaines": [],
+        "prenotions": [],
+        "notions": [
+          13
+        ],
+        "texte": "patati patata 11",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "B3"
+      },
+      {
+        "qId": "1_3",
+        "titre": "Combien y a-t-il de mots dans une langue&nbsp;?",
+        "domaines": [
+          10
+        ],
+        "prenotions": [
+          8,
+          10,
+          14,
+          3,
+          4,
+          13,
+          1,
+          14
+        ],
+        "notions": [
+          5,
+          7,
+          17,
+          16
+        ],
+        "texte": "Georgette Dal, Professeur de linguistique<div>Victor Dame, étudiant</div>",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "https://player.vimeo.com/external/159517414.sd.mp4?s=74e9f6917d0e9489b9c54e2c03481726b0f0c1c3&profile_id=165",
+        "questionNum": "B4"
+      },
+      {
+        "qId": "1_4",
+        "titre": "Comment fonctionnent les différentes écritures&nbsp;?",
+        "domaines": [
+          1
+        ],
+        "prenotions": [
+          8,
+          10,
+          11,
+          12,
+          16
+        ],
+        "notions": [
+          3,
+          5,
+          6,
+          10
+        ],
+        "texte": "patati patata 13",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "B5"
+      }
+    ]
+  },
+  {
+    "categorie": "Langues et sociétés",
+    "questions": [
+      {
+        "qId": "2_0",
+        "titre": "Comment les langues sont-elles réparties sur la Terre&nbsp;?",
+        "domaines": [
+          3
+        ],
+        "prenotions": [
+          4,
+          8,
+          13
+        ],
+        "notions": [
+          0,
+          12
+        ],
+        "texte": "patati patata 14",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "C1"
+      },
+      {
+        "qId": "2_1",
+        "titre": "À quoi servent les langues pour les individus et leurs sociétés&nbsp;?",
+        "domaines": [
+          9
+        ],
+        "prenotions": [
+          7,
+          12
+        ],
+        "notions": [
+          12
+        ],
+        "texte": "patati patata 15",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "C2"
+      },
+      {
+        "qId": "2_2",
+        "titre": "Comment les sociétés gèrent-elles leur diversité linguistique&nbsp;?",
+        "domaines": [
+          9
+        ],
+        "prenotions": [
+          8
+        ],
+        "notions": [
+          0,
+          11,
+          12
+        ],
+        "texte": "patati patata 16",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "C3"
+      },
+      {
+        "qId": "2_3",
+        "titre": "Pense-t-on différemment si l’on parle des langues différentes&nbsp;?",
+        "domaines": [
+          6,
+          7
+        ],
+        "prenotions": [
+          2,
+          4,
+          8,
+          15
+        ],
+        "notions": [
+          13,
+          14
+        ],
+        "texte": "patati patata 17,<h3>Les langues que nous parlons modifient notre façon de percevoir le monde et nos capacités cognitives</h3> <p>J’ai rencontré une petite fille âgée de cinq ans à Pormpuraaw, une petite communauté aborigène à l’Ouest de la péninsule du Cap York, au Nord de l’Australie. Quand je lui ai demandé de m’indiquer le Nord, elle a pointé le doigt vers le Nord, sans hésiter. Et elle ne s’était pas trompée. Plus tard, dans une salle de conférences de l’Université Stanford en Californie, j’ai réitéré ma demande auprès de chercheurs distingués, lauréats de médailles et de prix scientifiques. Je leur ai demandé de fermer les yeux (pour qu’ils ne puissent pas tricher) et de pointer le doigt vers le Nord. Beaucoup ont refusé, car ils ignoraient la réponse. Ceux qui ont accepté ont pris le temps de réfléchir et ont indiqué diverses directions… J’ai répété cette expérience à Harvard et à Princeton, ainsi qu’à Moscou, Londres et Pékin. J’ai obtenu les mêmes résultats. <h3>Parle-t-on une même langue&nbsp;?</h3><p>Cette expérience met en évidence des différences cognitives quand il s’agit de se repérer dans l’espace",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "C4"
+      },
+      {
+        "qId": "2_4",
+        "titre": "Comment est apparue l’écriture&nbsp;?",
+        "domaines": [
+          3
+        ],
+        "prenotions": [
+          8
+        ],
+        "notions": [
+          3,
+          9
+        ],
+        "texte": "patati patata 18",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "C5"
+      },
+      {
+        "qId": "2_5",
+        "titre": "Qu’est-ce que l’orthographe&nbsp;?",
+        "domaines": [
+          10
+        ],
+        "prenotions": [
+          10,
+          11,
+          16,
+          17
+        ],
+        "notions": [
+          8
+        ],
+        "texte": "patati patata 19",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "C6"
+      },
+      {
+        "qId": "2_6",
+        "titre": "Qu’est-ce que c’est « parler bien, parler correctement »&nbsp;?",
+        "domaines": [
+          0,
+          2
+        ],
+        "prenotions": [
+          0,
+          1,
+          5,
+          10,
+          13,
+          14,
+          15,
+          17
+        ],
+        "notions": [
+          2,
+          8,
+          9,
+          17
+        ],
+        "texte": "patati patata 20",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "Isabelle Léglise (...)",
+        "video": "https://player.vimeo.com/external/159517440.sd.mp4?s=e0d6ec17c72b07f68a659e729368c8d78483ff0e&profile_id=165",
+		"idVimeo":"159517440",
+        "questionNum": "C7"
+      },
+      {
+        "qId": "2_7",
+        "titre": "Quelles différences entre langues, dialectes, patois, jargons, accents…&nbsp;?",
+        "domaines": [
+          1,
+          2,
+          11
+        ],
+        "prenotions": [
+          0,
+          1,
+          2,
+          4,
+          9,
+          13,
+          17
+        ],
+        "notions": [
+          1,
+          8,
+          9,
+          17
+        ],
+        "texte": "patati patata 21",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "https://player.vimeo.com/external/159517441.sd.mp4?s=d3f391f0d454001482078b12f185b689d6f85a22&profile_id=165",
+		"idVimeo":"159517441",
+        "questionNum": "C8"
+      },
+      {
+        "qId": "2_8",
+        "titre": "Pourquoi et comment est-ce que les langues changent&nbsp;?",
+        "domaines": [
+          3
+        ],
+        "prenotions": [
+          8,
+          17
+        ],
+        "notions": [
+          6,
+          8,
+          12
+        ],
+        "texte": "patati patata 22",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "Isabelle Léglise \n & \n Gerhart Schedden (???)",
+        "video": "https://player.vimeo.com/external/159517443.sd.mp4?s=88d452e3530195f845342c383e0f9a20dddd0103&profile_id=165",
+		"idVimeo":"159517443",
+        "questionNum": "C9"
+      }
+    ]
+  },
+  {
+    "categorie": "Apprentissage et plurilinguisme",
+    "questions": [
+      {
+        "qId": "3_0",
+        "titre": "Comment est-ce qu’on apprend les langues&nbsp;?",
+        "domaines": [
+          1,
+          5
+        ],
+        "prenotions": [
+          6,
+          8,
+          9
+        ],
+        "notions": [
+          2
+        ],
+        "texte": "patati patata 23, <br> en allant au CRL ",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "D1"
+      },
+      {
+        "qId": "3_1",
+        "titre": "C’est quoi maîtriser une langue&nbsp;?",
+        "domaines": [
+          1,
+          5
+        ],
+        "prenotions": [
+          2,
+          8,
+          14,
+          15,
+          17
+        ],
+        "notions": [
+          2,
+          8,
+          11,
+          15,
+          16
+        ],
+        "texte": "patati patata 24",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "D2"
+      },
+      {
+        "qId": "3_2",
+        "titre": "C’est quoi être bilingue&nbsp;?",
+        "domaines": [
+          1
+        ],
+        "prenotions": [
+          2,
+          8,
+          9,
+          17
+        ],
+        "notions": [
+          0,
+          11
+        ],
+        "texte": "patati patata 25",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "D3"
+      },
+      {
+        "qId": "3_3",
+        "titre": "Est-ce qu'on peut tout traduire d'une langue dans une autre&nbsp;?",
+        "domaines": [
+          6,
+          8,
+          12
+        ],
+        "prenotions": [
+          8,
+          10,
+          15,
+          16,
+          17,
+          14,
+          7
+        ],
+        "notions": [
+          13,
+          16
+        ],
+        "texte": "Rudy Loock, Professeur en Linguistique anglaise et Traductologie<div>Kloé Waegemans, étudiante</div>",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "Rudy Loock",
+        "video": "https://player.vimeo.com/external/148990192.sd.mp4?s=74916fc1625aff394dbf82bd7fd51f59e979cc76&profile_id=112",
+		"poster" : "https://i.vimeocdn.com/video/548078644_640.jpg",
+        "questionNum": "D4"
+      },
+      {
+        "qId": "3_4",
+        "titre": "Comment apprend-on à parler&nbsp;?",
+        "domaines": [
+          1,
+          5
+        ],
+        "prenotions": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          17
+        ],
+        "notions": [
+          2
+        ],
+        "texte": "patati patata 27",
+        "illustration": "illus-A2.jpg",
+        "auteurs": "auteur...",
+        "video": "",
+        "questionNum": "D5"
+      }
+    ]
+  }
+]

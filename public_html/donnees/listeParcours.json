@@ -1,0 +1,218 @@
+[
+  {
+    "id": "A",
+    "nom": "Le fonctionnement des langues",
+    "listeObjets": [
+      {
+        "type": "item",
+        "objId": "1_0",
+        "etiq": ""
+      },
+      {
+        "type": "item",
+        "objId": "0_4",
+        "etiq": ""
+      },
+      {
+        "type": "item",
+        "objId": "2_8",
+        "etiq": ""
+      },
+      {
+        "type": "item",
+        "objId": "0_7",
+        "etiq": ""
+      },
+      {
+        "type": "item",
+        "objId": "1_1",
+        "etiq": ""
+      },
+      {
+        "type": "item",
+        "objId": "1_3",
+        "etiq": ""
+      },
+      {
+        "type": "item",
+        "objId": "1_2",
+        "etiq": ""
+      },
+      {
+        "type": "acti_eval",
+        "objId": "A-FIN",
+        "etiq": "Testez-vous"
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "nom": "Les origines du langage",
+    "listeObjets": [
+      {
+        "type": "item",
+        "objId": "0_1"
+      },
+      {
+        "type": "item",
+        "objId": "0_0"
+      },
+      {
+        "type": "item",
+        "objId": "0_2"
+      },
+      {
+        "type": "item",
+        "objId": "3_4"
+      },
+      {
+        "type": "item",
+        "objId": "0_6"
+      },
+      {
+        "type": "acti_eval",
+        "objId": "B-FIN",
+        "etiq": "Testez-vous"
+      }
+    ]
+  },
+  {
+    "id": "C",
+    "nom": "Acquisition et apprentissage",
+    "listeObjets": [
+      {
+        "type": "item",
+        "objId": "3_4"
+      },
+      {
+        "type": "item",
+        "objId": "3_0"
+      },
+      {
+        "type": "item",
+        "objId": "0_4"
+      },
+      {
+        "type": "item",
+        "objId": "3_1"
+      },
+      {
+        "type": "item",
+        "objId": "3_2"
+      },
+      {
+        "type": "acti_eval",
+        "objId": "C-FIN",
+        "etiq": "Testez-vous"
+      }
+    ]
+  },
+  {
+    "id": "D",
+    "nom": "L'écriture",
+    "listeObjets": [
+      {
+        "type": "item",
+        "objId": "2_4"
+      },
+      {
+        "type": "item",
+        "objId": "1_4"
+      },
+      {
+        "type": "item",
+        "objId": "2_5"
+      },
+      {
+        "type": "acti_eval",
+        "objId": "D-FIN",
+        "etiq": "Testez-vous"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "nom": "Les langues et la norme",
+    "listeObjets": [
+      {
+        "type": "item",
+        "objId": "2_6"
+      },
+      {
+        "type": "item",
+        "objId": "2_7"
+      },
+      {
+        "type": "item",
+        "objId": "2_5"
+      },
+      {
+        "type": "item",
+        "objId": "1_1"
+      },
+      {
+        "type": "acti_eval",
+        "objId": "E-FIN",
+        "etiq": "Testez-vous"
+      }
+    ]
+  },
+  {
+    "id": "F",
+    "nom": "Langues et sociétés",
+    "listeObjets": [
+      {
+        "type": "item",
+        "objId": "0_0"
+      },
+      {
+        "type": "item",
+        "objId": "2_1"
+      },
+      {
+        "type": "item",
+        "objId": "0_3"
+      },
+      {
+        "type": "item",
+        "objId": "2_2"
+      },
+      {
+        "type": "item",
+        "objId": "2_3"
+      },
+      {
+        "type": "acti_eval",
+        "objId": "F-FIN",
+        "etiq": "Testez-vous"
+      }
+    ]
+  },
+  {
+    "id": "G",
+    "nom": "Les langues dans le monde",
+    "listeObjets": [
+      {
+        "type": "item",
+        "objId": "2_0"
+      },
+      {
+        "type": "item",
+        "objId": "0_3"
+      },
+      {
+        "type": "item",
+        "objId": "0_5"
+      },
+      {
+        "type": "item",
+        "objId": "3_3"
+      },
+      {
+        "type": "acti_eval",
+        "objId": "G-FIN",
+        "etiq": "Testez-vous"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1090 @@
+{
+  "A-B1": [
+    {
+      "type": "qcu",
+      "question": "Le travail du linguiste consiste à&nbsp;:",
+      "props": [
+        "maîtriser le plus de langues possible",
+        "comprendre et décrire le fonctionnement des langues"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "Le travail du linguiste consiste à comprendre et décrire le fonctionnement des langues. Il analyse et décrit différents aspects des langues en adoptant une démarche scientifique. Chaque aspect du fonctionnement de la langue constitue une branche de la linguistique. Pour mener à bien cette tâche, il peut bien sûr maîtriser plusieurs langues, mais, contrairement aux idées reçues, ce n’est pas une obligation."
+    }
+  ],
+  "A-A5": [
+    {
+      "type": "qcu",
+      "question": "Le traitement du langage fait appel à plusieurs aires cérébrales.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fidebaque": [
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "Le langage est la faculté inhérente et universelle que possèdent les humains de construire des langues ou des codes pour communiquer. Le traitement du langage requiert deux types d’activités&nbsp;: la production et la compréhension. Classiquement, on considère que chacune est prise en charge par une aire cérébrale spécifique&nbsp;: l’«&nbsp;aire de Broca&nbsp;» et l’«&nbsp;aire de Wernicke&nbsp;».<br>La première, identifiée en 1861 par le médecin français Paul Broca et située dans le lobe frontal gauche, prendrait en charge de la production de la parole. La seconde, identifiée en 1874 par le neurologue et psychiatre allemand Wernicke et située dans le lobe temporal gauche, prendrait en charge la compréhension. Depuis, d’autres zones impliquées dans le traitement du langage ont été identifiées, et les chercheurs considèrent aujourd’hui que les fonctions du traitement du langage sont davantage distribuées à travers toutes ces zones.<br>Ainsi, le traitement du langage nécessite différent mécanismes faisant appel à plusieurs zones cérébrales."
+    }
+  ],
+  "A-C9": [
+    {
+      "type": "qcu",
+      "question": "Une langue peut être amenée à changer à la suite d’une décision de politique linguistique.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fidebaque": [
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "Des actions de politique linguistique peuvent amener une langue à changer, à se transformer avec plus ou moins d’ampleur.<br>Ainsi, le remplacement de l’alphabet arabe par un alphabet dérivé de l’alphabet romain pour noter le turc résulte d’une réforme mise en œuvre en 1928 par Mustafa Kemal Atatürk, fondateur et premier président de la République de Turquie, avec des conséquences très efficaces dans la lutte contre l’analphabétisme.<br>Dans d’autres cas, sans qu’il n’y ait nécessairement de changement pour les langues, les actions de politiques linguistiques peuvent réaménager la situation linguistique d’un État, par exemple lors du choix d’une langue officielle, ou lors de revendications identitaires. On peut citer ici l’État français, qui, lors du choix du français comme langue officielle en 1539 à la suite à l’Ordonnance de Villers-Cotterêts, voit peu à peu reculer l’utilisation de ses parlers régionaux, permettant ainsi au français de se développer."
+    }
+  ],
+  "A-A8": [
+    {
+      "type": "qcu",
+      "question": "On peut dater la mort d’une langue.",
+      "props": [
+        "jamais",
+        "quelquefois",
+        "toujours"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Non",
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "S’il est banal de parler de «&nbsp;langues mortes&nbsp;», comme le latin par exemple, dater la mort d’une langue est en revanche plus délicat. Souvent, le passage d’une langue à une autre résulte d’une lente évolution, qui se fait par étapes progressives, sans qu’on puisse dater précisément la disparition de la langue initiale. Pourtant, il existe dans l’histoire des cas de disparitions de langues plus brutaux, et qui peuvent être datés. On peut mentionner les tristes cas de génocides, qui, lors de la disparition d’une communauté, mènent à la disparition de leur(s) langue(s), comme ce qui s’est produit pour de nombreuses langues amérindiennes ou encore le cas des langues parlées par de petites communautés linguistiques, qui disparaissent en même temps que leurs derniers locuteurs. Selon une étude de l’UNESCO diffusée en 2002, on estime que près de 90% des quelque 6000 langues actuelles disparaîtront d'ici un siècle et seront devenues des langues mortes au même titre que le latin et le grec ancien."
+    }
+  ],
+  "A-B2": [
+    {
+      "type": "qcu",
+      "question": "Dans un ouvrage de grammaire du français, on trouvera tous les usages de la langue française.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "Un ouvrage de grammaire ne recense pas tous les usages de la langue : la langue est un objet vivant, qui évolue sans cesse, et un ouvrage, quel qu’il soit, ne peut pas enregistrer en temps réel tous les changements que connaît une langue donnée. "
+    }
+  ],
+  "A-B4": [
+    {
+      "type": "qcu",
+      "question": "Le dictionnaire est un moyen fiable pour connaître le nombre de mots d’une langue.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "Le dictionnaire est un objet commercial, qui répond à une politique éditoriale et vise un public identifié, et, plutôt que «&nbsp;du&nbsp;» dictionnaire, il est plus approprié de parler «&nbsp;des&nbsp;» dictionnaires : ainsi, il existe des dictionnaires de langue générale, qui peuvent être mono- ou plurivolumes, des dictionnaires de langues dites de spécialité (par exemple, dictionnaire de médecine, dictionnaire de viticulture, dictionnaire de biologie, etc.), et tous n’enregistrent pas les mêmes mots. Par ailleurs, le système de la langue permet de créer à tout instant de nouveaux mots qui, en tant que tels, ne figurent pas dans les dictionnaires."
+    }
+  ],
+  "A-B3": [
+    {
+      "type": "qcu",
+      "question": "Combien de sens trouvez-vous à l’énoncé&nbsp;: «&nbsp;Max m’a ramené des fruits d’Asie&nbsp;»&nbsp;?",
+      "props": [
+        "un",
+        "deux"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "Cette phrase peut avoir deux sens : <ul><li>Max est allé en Asie, d’où il m’a ramené des fruits.</li><li>Max m’a ramené des fruits, qui poussent en Asie.</li></ul>Dans la langue, les ambiguïtés sont nombreuses et c’est généralement l’intonation ou le contexte qui permettent de trouver la bonne interprétation. Mais ce n’est pas toujours une question de sens et de structure syntaxique, et il faut parfois prendre en compte l’intention du locuteur pour interpréter un énoncé. Ainsi, un énoncé comme «&nbsp;Il fait froid&nbsp;» n’a pas pour simple but de fournir à l’interlocuteur une information sur l’état d’une entité, mais peut s’interpréter comme une invitation à fermer une fenêtre ouverte, ou un refus de sortir, par exemple. Entre en jeu ici ce qu’on appelle la pragmatique."
+    }
+  ],
+  "A-FIN": [
+    {
+      "type": "qcu",
+      "question": "1- Les Sciences du Langage constituent un domaine qui étudie différents aspects des langues du monde.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fidebaque": [
+        "Non",
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "L'appellation <em>sciences du langage</em> est relativement récente et, depuis quelques décennies, remplace celle du champ qui s'appelait auparavant <em>linguistique</em>.<br>Cet élargissement met l’accent sur le fait qu’il est difficile d’étudier le langage et les langues sans croiser, de manière ponctuelle ou fondamentale, d'autres objets et d'autres champs disciplinaires.<br>La linguistique porte sur l’étude du langage en tant que tel, et se distingue de la grammaire, dans la mesure où elle n'est pas prescriptive mais descriptive. Elle comprend de nombreux domaines, parmi lesquels :<ul><li>la phonétique, qui étudie des sons du point de vue articulatoire ou acoustique,</li><li>la phonologie, qui étudie les sons au sein du système de la langue,</li><li>la syntaxe, qui porte sur l’étude de la structure des phrases et des relations entre ses unités,</li><li>la sémantique, dédiée à l’étude du sens des unités et de leurs relations,</li><li>la morphologie, qui porte sur l’étude de la structure des mots,</li><li>la pragmatique, qui s'intéresse aux éléments de la langue dont la signification ne peut être comprise qu'en connaissant le contexte de leur emploi,</li><li>la typologie, qui constitue une méthode de classification des langues.</li></ul>La linguistique peut se concevoir comme un domaine d’étude autonome ou en articulation avec d’autres domaines, comme la psycholinguistique, la sociolinguistique, l’ethnolinguistique, la philosophie du langage, etc."
+    },
+    {
+      "type": "qcu",
+      "question": "2- Quelle discipline des Sciences du Langage étudie le fonctionnement de la langue du point de vue des sons qui la composent&nbsp;?",
+      "props": [
+        "La syntaxe",
+        "La sémantique",
+        "La phonologie"
+      ],
+      "correction": "2",
+      "fidebaque": [
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "À ne pas confondre avec la «&nbsp;phonétique&nbsp;», qui étudie les propriétés articulatoires et acoustiques des sons, la «&nbsp;phonologie&nbsp;» est la branche des sciences du langage qui étudie les sons d’un point de vue fonctionnel dans un système linguistique."
+    },
+    {
+      "type": "qcu",
+      "question": "3- Grâce à l’imagerie cérébrale, on peut localiser différentes aires cérébrales mobilisées par le langage.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fidebaque": [
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "Les techniques de l’imagerie cérébrale permettent de visualiser l’activité des structures cérébrales dans une fonction donnée, par exemple le langage. Ces techniques ont notamment permis de localiser une troisième zone du cerveau impliquée dans la fonction du langage, en plus des aires de Broca et de Wernicke découvertes au XIX<sup>e</sup> siècle : cette zone, située dans le lobe pariétal, nommée le «&nbsp;territoire de Geschwind&nbsp;», permet une transmission d’informations entre les aires de Broca et de Wernicke."
+    },
+    {
+      "type": "qcm",
+      "question": "4- Plutôt que de parler de la mort d’une langue, on préférera parler de&nbsp;:",
+      "props": [
+        "son évolution ",
+        "son extinction ",
+        "sa dégénérescence "
+      ],
+      "correction": [
+        "1",
+        "1",
+        "0"
+      ],
+      "fidebaque": [
+        "Oui",
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "La disparition des langues s’apparente plus à celle des espèces biologiques qu’à celle des individus. Ainsi, il est plus juste de comparer la disparition d’une langue à un phénomène d’évolution ou un phénomène d’extinction :<ul><li>dans le premier cas, une langue X prend forme au contact d’individus qui ont le désir de communiquer entre eux, ainsi elle nait, puis elle vit. Au cours de cette vie, elle évolue et peut se transformer en une langue Y, si bien que la langue X peut disparaitre. C’est notamment ce qui s’est produit lors de la lente évolution du latin vers le français, l’italien ou encore l’espagnol ;</li><li<dans le second cas, lorsque les membres de la communauté qui parlent la langue X disparaissent ou que, pour une raison ou une autre, ils cessent de parler cette langue, celle-ci finit par s’éteindre. C’est le cas de nombreuses langues délaissées au profit de langues plus importantes sur le territoire, ou encore celui de langues qui disparaissent avec la mort de leurs derniers locuteurs.</li></ul>Ainsi, les langues ne «&nbsp;meurent&nbsp;» pas à proprement parler, mais elles se transforment ou s’éteignent, tout comme les espèces biologiques."
+    },
+    {
+      "type": "qcu",
+      "question": "5- Quel linguiste a posé les notions de signifiant et de signifié&nbsp;?",
+      "props": [
+        "Martinet",
+        "Chomsky",
+        "Saussure"
+      ],
+      "correction": "2",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "On doit les notions de signifiant et de signifié à Ferdinand de Saussure (1857-1913), linguiste suisse généralement considéré comme le fondateur de la linguistique moderne. Celui-ci définit le signe comme une entité biface associant une image acoustique (le signifiant) et un concept (le signifié)."
+    },
+    {
+      "type": "qcu",
+      "question": "6- Laquelle de ces langues est un exemple type de langue «&nbsp;ressuscitée&nbsp;»&nbsp;? ",
+      "props": [
+        "le phénicien",
+        "l’hébreu",
+        "le latin",
+        "le lituanien"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "L’évolution la plus usuelle des langues est la suivante : elles naissent, vivent, puis s’éteignent ou évoluent vers un autre état linguistique. Aujourd’hui langue officielle de l’État d’Israël, l’hébreu déroge à cette règle et son histoire est particulière.<br>Les premières traces de l’hébreu ancien datent du X<sup>e</sup> siècle avant notre ère. Avec le temps, cette langue évolue, et deux variétés apparaissent&nbsp;: une langue solennelle, l’hébreu biblique, et une langue parlée, l’hébreu michnique.<br>L’histoire de l’hébreu voit émerger un changement au XIX<sup>e</sup> siècle. Alors que l’hébreu n’était plus parlé depuis près de deux millénaires, servant exclusivement de langue savante ou liturgique, Eliézer Ben Yehouda propose à la fin du XIX<sup>e</sup> siècle qu’elle retrouve un statut de langue orale. L’idée fait son chemin, et, grâce à lui et à ses continuateurs, l’hébreu devient en 1948 la langue officielle de l’État d’Israël. "
+    },
+    {
+      "type": "qcu",
+      "question": "7- L’un des facteurs d’évolution des langues est l’environnement des locuteurs. ",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "La langue est une réalité prise dans l’environnement de ses locuteurs. La zone d’évolution la plus nette, en prise avec cet environnement, est celle du lexique, où entrent de nouveaux termes en même temps qu’apparaissent de nouvelles réalités."
+    }
+  ],
+  "B-A2": [
+    {
+      "type": "qcm",
+      "question": "On peut estimer la période d’apparition du langage chez les hominidés grâce&nbsp;:",
+      "props": [
+        "à la forme du crâne",
+        "à la taille des mains",
+        "aux comportements religieux"
+      ],
+      "correction": [
+        "1",
+        "0",
+        "1"
+      ],
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "Déterminer à quelle période est apparu le langage est une préoccupation très ancienne. Aujourd’hui, des chercheurs de différentes disciplines peuvent nous fournir quelques indices&nbsp;:<ul><li>nous disposons d’indices physiologiques sur le squelette de nos ancêtres, notamment au niveau du crâne. La taille du cerveau n’a cessé d’augmenter à mesure de l’évolution de la lignée des hominidés. De plus, la vascularisation de certaines zones s’est amplifiée, ce qui est un bon indice de la complexification du cerveau et donc de ses capacités. Plus particulièrement, on observe déjà chez <i>homo habilis</i> (2,5 à 1,6 million d’années) le développement de l’aire de Broca, responsable de la production de la parole. Ces indices, combinés à ceux dont nous disposons sur le contrôle de certains organes comme la langue ou le larynx ou encore sur le contrôle respiratoire, permettent aux chercheurs d’estimer l’apparition du langage;</li><li>nous pouvons également observer certains indices comportementaux tels que les rites funéraires. Enterrer ses morts nécessite une réflexion sur la vie et la mort. Or, cette pratique, déjà présente chez l’Homme de Néandertal (300 à 30 mille ans avant notre ère), requiert l’utilisation du langage.</li></ul>"
+    }
+  ],
+  "B-A1": [
+    {
+      "type": "qcu",
+      "question": "L’Homme est le seul être vivant à communiquer.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "S’il est indéniable que l’Homme est le seul à disposer d’un système de communication aussi complexe, il n’est pourtant pas le seul à communiquer. En effet, à leur échelle, d’autres espèces animales communiquent. En voici deux exemples&nbsp;:<ul><li>les cétacés&nbsp;: de nombreuses études s’intéressent de nos jours aux chants des cétacés et à leurs fonctions communicatives. On peut mentionner notamment le cas des Grands Dauphins, qui communiquent entre eux grâce à des sifflements très complexes. Nous savons par exemple aujourd’hui que chaque dauphin a ce que l’on appelle une signature&nbsp;: un sifflement qui s’apparenterait à leur prénom;</li><li>les chiens de Prairies&nbsp;: dans les années 1980, grâce à l’étude de sonogrammes de certaines espèces de chiens de prairies, Con Slobodchikoff (Northern Arizona University) découvre que ceux-ci disposent d’un système de communication leur permettant d’alerter leur congénères d’un danger d’une manière étonnamment précise. Ils sont en effet capables de décrire les prédateurs en vue  (espèce, vitesse d’approche) et de les identifier précisément par rapport à leurs habitudes de trajets, mais également, s’il s’agit d’êtres humains, de décrire la couleur de leur tenue ou d’indiquer s’ils sont armés ou non. Par ailleurs, il observe qu’il y aurait des dialectes propres à chaque population de chiens de prairie.</li></ul>"
+    }
+  ],
+  "B-A3": [
+    {
+      "type": "qcu",
+      "question": "Pour communiquer, les abeilles exécutent des mouvements complexes dans l’espace que l’on qualifie de&nbsp;:",
+      "props": [
+        "chorégraphie",
+        "danse",
+        "aérobic"
+      ],
+      "correction": "1",
+      "fbGen": "Ce que l’on appelle le «&nbsp;langage des abeilles&nbsp;» ou encore la «&nbsp;danse des abeilles&nbsp;» fut découvert par le zoologiste autrichien Karl Von Frisch en 1944. Ce phénomène correspond à un système de communication complexe, permettant aux abeilles de transmettre à leurs congénères des informations sur la localisation d’un butin. Ces messages portent sur la direction et la distance à parcourir pour rejoindre le lieu, mais également sur la qualité du butin en question."
+    }
+  ],
+  "B-D5": [
+    {
+      "type": "qcu",
+      "question": "Comment désigne-t-on la période pendant laquelle l’acquisition du lexique de l’enfant s’accélère&nbsp;?",
+      "props": [
+        "l’explosion lexicale",
+        "la période critique",
+        "le stade des 50 mots"
+      ],
+      "correction": "0",
+      "fbGen": "Au cours de leur deuxième année, les enfants apprennent progressivement de nouveaux mots&nbsp;: des noms, des prénoms ou encore des onomatopées. Ce développement de leur lexique se fait de manière assez lente, jusqu’à ce qu’ils aient appris environ 50 mots. À partir de ce stade, leur lexique s’accroit à un rythme beaucoup plus important, et ils vont être capables d’apprendre jusqu’à plusieurs mots par jour. On appelle cette période l’ «&nbsp;explosion lexicale&nbsp;»."
+    }
+  ],
+  "B-A7": [
+    {
+      "type": "qcu",
+      "question": "Qu’est-ce qu’une langue créole&nbsp;?",
+      "props": [
+        "une langue née du contact de populations d'origines différentes",
+        "une langue parlée sur une île",
+        "une langue parlée par une petite communauté"
+      ],
+      "correction": "0",
+      "fbGen": "Les langues créoles sont apparues entre le XVI<sup>e</sup> et le XIX<sup>e</sup> siècle. Durant cette période, l’Europe conquiert le monde, et les diverses colonisations qui en découlent amènent de nombreuses populations à coexister. C’est dans cet environnement multilingue que naissent les langues créoles. Un déficit de communication entre les maîtres et des esclaves d’origines différentes mène, suivant un phénomène complexe, à la création d’une langue mixte, dérivée des langues des maîtres et des esclaves. Après une langue période de stabilisation, cette langue est transmise à la nouvelle génération, et devient une langue première."
+    }
+  ],
+  "B-FIN": [
+    {
+      "type": "qcm",
+      "question": "1- Qu’est-ce qu’une langue mère&nbsp;?",
+      "props": [
+        "la première langue qu’un individu apprend",
+        "une langue à partir de laquelle sont issues des langues plus récentes",
+        "la langue originelle à toutes les langues du monde"
+      ],
+      "correction": [
+        "0",
+        "1",
+        "1"
+      ],
+      "fidebaque": [
+        "Non",
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "À ne pas confondre avec la langue maternelle, qui correspond à la première langue qu’acquiert un individu, la notion de langue mère renvoie à plusieurs entités&nbsp;:<ul><li>de manière générale, une langue mère est une langue ancestrale, d’où sont issues d’autres langues, les «&nbsp;langues filles&nbsp;». Ainsi, le latin est la langue mère du français, de l’italien ou encore de l’espagnol;</li><li>une langue mère peut aussi être une entité abstraite reconstituée par des spécialistes. Par exemple, l’indo-européen est une langue reconstruite, qui serait la langue mère des familles des langues romanes, germaniques, celtiques, slaves, baltes, etc.</li></ul> Le terme désigne aussi parfois une entité bien plus controversée&nbsp;: la langue originelle, mère de toutes les langues."
+    },
+    {
+      "type": "qcu",
+      "question": "2- Les animaux peuvent-ils apprendre à parler&nbsp;?",
+      "props": [
+        "Oui",
+        "Non"
+      ],
+      "correction": "0",
+      "fbGen": "Bien entendu, les animaux peuvent apprendre à parler, et de nombreux cas l’ont montré&nbsp;: Alex le perroquet (1976-2007), Koko le gorille (1971-…), pour ne citer que les plus célèbres. Toutefois, cela ne se produit qu’en captivité, et requiert de longues périodes d’apprentissage. Mais l’une des différences majeures entre l’apprentissage d’une langue par un animal et son acquisition par un enfant est que l’animal ne sera jamais en mesure de transmettre ses apprentissages à d’autres individus de son espèce&nbsp;: si les animaux peuvent comprendre ou même aller jusqu’à (re)produire des séquences langagières, ceux-ci ne transmettent pas leur savoir comme peuvent le faire les êtres humains."
+    },
+    {
+      "type": "qcu",
+      "question": "3- Qu’est-ce que le babillage&nbsp;? ",
+      "props": [
+        "le langage produit par les adultes quand ils s’adressent de manière enfantine aux petits enfants",
+        "les productions vocales syllabiques produites par les bébés durant leurs premiers mois "
+      ],
+      "correction": "1",
+      "fbGen": "Le babillage est un stade du développement de la communication orale des tout petits, qui arrive vers six mois, après le gazouillis. À cette période, les enfants contrôlent leur respiration et produisent des sons généralement mono-syllabiques (ma, ba, pa), qu’ils répètent plusieurs fois de suite. Par la suite, l’enfant augmente considérablement sa production&nbsp;: vers 10-11 mois, son articulation devient plus assurée et son répertoire syllabique se complexifie ; vers 11-14 mois, il produit ses premiers mots.<br>Le nom que l’on donne au langage enfantin qu’utilisent les adultes lorsqu’ils parlent à leurs enfants est le <em>mamanais</em> ou <em>motherese</em>."
+    },
+    {
+      "type": "qcu",
+      "question": "4- Un pharaon fit élever des enfants à l’écart du monde, sans qu’on leur adresse la parole, afin de voir dans quelle langue ils prononceraient leur premier mot, et ainsi déterminer quelle était la première langue du monde. Laquel&nbsp;?",
+      "props": [
+        "Psammétique I<sup>er</sup> ",
+        "Ramsès II ",
+        "Thoutmôsis III"
+      ],
+      "correction": "0",
+      "fidebaque": [
+        "Oui",
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "Quelle est la première des langues&nbsp;? Cette question est vieille de plusieurs millénaires, comme nous le montre l’histoire du pharaon Psammétique 1er.<br>Hérodote raconte que Psammétique I<sup>er</sup> voulut mettre fin à un conflit entre deux peuples&nbsp;: les Égyptiens et les Phrygiens. L’objet de leur querelle était de déterminer lequel était le peuple le plus ancien. Pour clore ce débat, le pharaon décida de faire une expérience. Il confie à un berger deux nouveau-nés, avec pour mission de les élever à l’écart du monde et dans le plus grand silence&nbsp;: aucun mot ne devait leur être adressé. Ainsi, le premier mot que les enfants prononceraient serait celui de la plus vieille des langues. Deux ans après, les enfants réclament <i>bèkos</i>, qui signifie «&nbsp;pain&nbsp;» en phrygien. Le pharaon en conclut que le phrygien est la plus vieille des langues."
+    },
+    {
+      "type": "qcm",
+      "question": "5- L’acquisition du langage par l’enfant est liée à des facteurs&nbsp;:",
+      "props": [
+        "biologiques",
+        "sociaux"
+      ],
+      "correction": [
+        "1",
+        "1"
+      ],
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "Le langage humain est un système de communication extrêmement complexe, et son acquisition par l’enfant est liée à deux types de facteurs&nbsp;: biologiques et sociaux. Du point de vue biologique, l’enfant doit avoir les capacités cérébrales et anatomiques nécessaires à la réception et à la production d’un message. Mais le langage s’acquiert aussi grâce aux interactions de l’enfant avec son entourage. Pour cela, un facteur social doit être satisfait&nbsp;: l’enfant doit disposer des stimuli nécessaires à l’acquisition de la langue."
+    },
+    {
+      "type": "qcu",
+      "question": "6- Une parole est dite performative quand&nbsp;:",
+      "props": [
+        "on dit à quelqu’un qu’il a tort",
+        "on exprime ce que l’on prévoit de faire ",
+        "on réalise une action en la formulant verbalement "
+      ],
+      "correction": "2",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "Le concept de performativité, développé par le philosophe John Austin dans les années 1960, correspond au cas où décrire une action revient à la réaliser. Par exemple&nbsp;: «&nbsp;Je vous déclare mari et femme&nbsp;», «&nbsp;Je jure de dire la vérité&nbsp;», «&nbsp;Je vous adoube chevalier&nbsp;» sont des énoncés performatifs."
+    },
+    {
+      "type": "qcu",
+      "question": "7- Qu’est-ce que l’esperanto&nbsp;?",
+      "props": [
+        "un dialecte de l’espagnol ",
+        "une langue artificielle",
+        "un projet pour la survie de langues menacées"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "L’esperanto est une langue artificielle, créée en 1887 par un médecin ophtalmologiste polonais, Ludwik Zamenhof (1859-1917). Son objectif était d’en faire une langue internationale facilitant l’intercompréhension entre des individus de langues premières différentes.<br>Depuis, l’esperanto s’est progressivement répandu, sous ses formes orale et écrite. Il serait utilisé aujourd’hui par deux millions de locuteurs dans 150 pays du monde."
+    }
+  ],
+  "C-D5": [
+    {
+      "type": "qcu",
+      "question": "Que désigne le terme <em>littératie</em> ? ",
+      "props": [
+        "la littérature enfantine",
+        "l’aptitude à comprendre et produire de l’écrit",
+        "la lutte contre l’échec scolaire",
+        "une méthode pédagogique"
+      ],
+      "correction": "1",
+      "fbGen": "Traduit de l’anglais <em>literacy</em>, le terme <em>littératie</em> (ou <em>littéracie</em>) désigne «&nbsp;l’aptitude à comprendre et à utiliser l’information écrite dans la vie courante, à la maison, au travail et dans la collectivité en vue d’atteindre des buts personnels et d'étendre ses connaissances et ses capacités » (Organisation de Coopération et de Développement Économiques).<br>Cette aptitude peut être mesurée grâce à l’évaluation de certaines compétences, en compréhension et en production. Récemment arrivé en France, le concept de littératie est lié aux apprentissages scolaires et à leur réutilisation par les apprenants, sans toutefois se limiter à cela."
+    }
+  ],
+  "C-D1": [
+    {
+      "type": "qcu",
+      "question": "À la naissance, les bébés ont la capacité de percevoir l’ensemble des phonèmes des langues du monde.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fbGen": "Des expériences ont montré qu’à la naissance, les bébés ont la capacité de percevoir les quelque 800 phonèmes des langues du monde, et que, peu à peu, ils opèrent une sélection parmi ces phonèmes, pour ne retenir que ceux de la langue (ou des langues) de leur environnement. Ceci explique que, lorsqu'on apprend une seconde langue, même relativement jeune, il est parfois difficile de percevoir certaines catégories sonores de la seconde langue (on parle alors de «&nbsp;surdité phonologique&nbsp;»), et, donc, de les reproduire. "
+    }
+  ],
+  "C-A5": [
+    {
+      "type": "qcu",
+      "question": "Parler et écouter mobilisent la même zone cérébrale. ",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "Au XIX<sup>e</sup> siècle, l’étude des troubles du langage a démontré que les différentes activités langagières n’étaient pas traitées par les mêmes aires cérébrales. Deux aires ont principalement été identifiées : l’aire de Broca, responsable de la production orale et écrite, l’aire de Wernicke, responsable de la reconnaissance et de la compréhension langagières.<br>Ainsi, les actions de parler et d’écouter ne sont pas gérées par les mêmes aires cérébrales."
+    }
+  ],
+  "C-D2": [
+    {
+      "type": "qcu",
+      "question": "Le Cadre Européen Commun de Référence pour les Langues est un système qui permet d’évaluer la maîtrise d’une langue seconde en : ",
+      "props": [
+        "cinq niveaux",
+        "six niveaux",
+        "sept niveaux"
+      ],
+      "correction": "1",
+      "fbGen": "Le Cadre Européen Commun de Référence pour les Langues (CECRL), mis en place par le Conseil de l’Europe en 2001, permet de décrire et d’évaluer les compétences linguistiques des apprenants dans une langue étrangère. Cette échelle de compétence langagière prend en compte les divers savoir-faire linguistiques, en production et en réception, et est divisée en six niveaux : trois niveaux généraux (A, B et C), eux-mêmes divisés en deux niveaux (A1, A2 ; B1, B2 ; C1, C2)."
+    }
+  ],
+  "C-D3": [
+    {
+      "type": "qcu",
+      "question": "Pour qu’un individu soit considéré comme bilingue, il doit maîtriser deux langues parfaitement. ",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "La définition du bilinguisme a donné lieu au fil du temps à de nombreux débats. Contrairement aux idées reçues, le bilinguisme ne renvoie pas au fait de connaitre deux langues de manière parfaite et identique. Pour être dit «&nbsp;bilingue&nbsp;», un individu doit être en capacité d’utiliser deux langues dans la vie courante, avec des degrés de compétences qui peuvent être variables dans l’une ou l’autre langue. "
+    }
+  ],
+  "C-FIN": [
+    {
+      "type": "qcu",
+      "question": "1- Un adulte apprenant une nouvelle langue en mémorise mieux le vocabulaire qu’un enfant. ",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fbGen": "L’apprentissage précoce des langues est largement encouragé. En effet, avant ce qu’on appelle parfois la «&nbsp;période critique&nbsp;», la plasticité neuronale permet une habilité favorable à l’apprentissage d’une langue seconde. Toutefois, les apprenants tardifs ont des capacités mémorielles et analytiques plus importantes que les apprenants précoces, dont ils tirent avantage pour mémoriser le vocabulaire. "
+    },
+    {
+      "type": "qcu",
+      "question": "2- Les chercheurs distinguent plusieurs types de bilinguisme.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fbGen": "Une première distinction concerne la période d’acquisition des deux langues en présence : avant dix ans (six, pour certains chercheurs), le bilinguisme est dit «&nbsp;précoce&nbsp;», que l’enfant ait acquis ses deux langues de manière simultanée ou successive ; entre dix et seize/dix-sept ans, il est dit «&nbsp;d’adolescence&nbsp;» ; ensuite, il est dit «&nbsp;d’adulte&nbsp;».<br>Une deuxième distinction porte sur une comparaison des compétences dans chacune des deux langues : les langues peuvent être équilibrées, ou l’une (en général, la langue première) peut dominer l’autre.<br>Une troisième distinction prend en considération le statut social des deux langues en présence : le bilinguisme est additif lorsque les deux langues sont pareillement valorisées ; il est soustractif lorsque l’acquisition de la deuxième langue se fait au détriment de la première.<br>   Une dernière distinction porte sur le caractère individuel ou social du bilinguisme : dans le premier cas, il s’agit de la capacité, pour un individu, d’alterner entre deux langues selon des besoins de contexte ; dans le second, deux langues officielles coexistent dans un même état (on parle plus volontiers alors de <em>diglossie</em>)."
+    },
+    {
+      "type": "qcu",
+      "question": "3- Quelle aire cérébrale est concernée par la compréhension du langage ? ",
+      "props": [
+        "l'aire de Wernicke",
+        "l'aire de Broca"
+      ],
+      "correction": "0",
+      "fbGen": "La fonction du langage est gérée par plusieurs aires cérébrales, chacune concernée par différentes activités langagières. La zone responsable de la compréhension du langage est l’aire de Wernicke. Celle-ci fut identifiée en 1874, par le neurologue allemand Wernicke, de qui elle tire son nom."
+    },
+    {
+      "type": "qcu",
+      "question": "4- Qu’est-ce qu’un échange exolingue ?",
+      "props": [
+        "le terme technique qui désigne un «&nbsp;dialogue de sourds&nbsp;»",
+        "un échange entre des individus ne partageant pas la même langue maternelle ",
+        "un discours traduit simultanément par un interprète"
+      ],
+      "correction": "1",
+      "fbGen": "On oppose en linguistique les échanges ou communications en situation endolingue et exolingue : <ul><li>Une communication en situation endolingue s’effectue entre locuteurs partageant la même langue première;</li><li>une communication en situation exolingue met en présence plusieurs locuteurs dont l’un au moins s’exprime dans la langue servant de véhicule à la communication en cours, tandis qu’un autre au moins est non natif de cette langue. Dans une situation de communication exolingue, la divergence entre les codes de chacun des participants est constitutive de l’interaction en cours.</li></ul>La notion d’exolinguisme est parfois étendue aux cas d’absence de symétrie entre les systèmes langagiers des interlocuteurs, même au sein d’une même langue : par exemple, un entretien entre médecin et patient, une discussion entre parents et enfants."
+    },
+    {
+      "type": "qcu",
+      "question": "5- Pour maîtriser une langue, il suffit d’en connaître le vocabulaire.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "Dans l’enseignement des langues, une place prépondérante était autrefois accordée à la maîtrise du vocabulaire. Si la connaissance d’un vocabulaire minimal est bien sûr requise, outre le fait que la maîtrise d’une langue requiert bien d’autres aspects (syntaxe, prosodie, organisation discursive, etc.), une compétence communicative, qui aille au-delà des compétences linguistiques, est indispensable : pour communiquer, il convient également de comprendre les systèmes de valeurs, les comportements, les points de vue et le contexte culturel de son interlocuteur. Sans ces compétences interculturelles, la communication la plus simple peut ne pas aboutir."
+    },
+    {
+      "type": "qcu",
+      "question": "6- Avant l’âge d’un an, les enfants sont incapables d’identifier des langues différentes.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "Depuis la fin des années 1980, les études explorent la capacité des enfants à discriminer les sons de langues différentes. Les résultats de ces études montrent que, dès leurs premiers jours, les nouveau-nés distinguent leur langue maternelle d’autres langues, et manifestent une préférence pour l’écoute de la première.<br>Il a pareillement été montré qu’à partir de cinq mois, les enfants sont capables de distinguer des langues de classes rythmiques différentes, même si aucune n’est leur langue maternelle.<br>Avant un an, les enfants sont donc déjà capables de distinguer des langues entre elles."
+    },
+    {
+      "type": "qcu",
+      "question": "7- Qu’est-ce qu’une aphasie ? ",
+      "props": [
+        "une zone d'une cerveau",
+        "un examen neurologique",
+        "un trouble du langage"
+      ],
+      "correction": "2",
+      "fbGen": "L’aphasie est un trouble du langage consistant en la perte partielle ou totale de la faculté de s'exprimer et de comprendre le langage, parlé ou écrit, malgré l'intégrité anatomique et fonctionnelle des organes de la phonation (langue, larynx) et en l’absence de dysfonctionnement d’origine sensorielle.  Il existe différents types d’aphasie. Pour l’essentiel : <ul><li>l’aphasie motrice (ou aphasie de Broca), qui se manifeste par une perte de la parole et une difficulté à transmettre des idées, sans que les capacités de compréhension ne soient affectées ; </li><li>l’aphasie de conduction, qui se manifeste par une difficulté de la personne à trouver ses mots ;</li> <li>l’aphasie sensorielle (ou aphasie de Wernicke), qui affecte les capacités de compréhension ;</li> <li>l’aphasie mixte, qui affecte les capacités d’expression et de compréhension.</li></ul>"
+    }
+  ],
+  "D-C5": [
+    {
+      "type": "qcu",
+      "question": "À quelle période apparaissent les premières traces d’écriture ? ",
+      "props": [
+        "4300- 4000 av. J.-C.",
+        "3500- 3300 av. J.-C.",
+        "2500- 2000 av. J.-C. "
+      ],
+      "correction": "1",
+      "fbGen": "L’écriture est apparue parallèlement au développement des sociétés hiérarchisées. Elle émerge indépendamment à différents endroits du globe : en Égypte, en Mésopotamie, en Chine, en Amérique centrale. Mais les premières traces dont nous disposons aujourd’hui viennent de Mésopotamie et sont datées de 3500-3300 ans avant Jésus Christ. Cette écriture composée de pictogrammes était imprimée sur les tablettes d’argile grâce à des pointes de roseaux taillés, nommés <i>calames</i>."
+    }
+  ],
+  "D-B5": [
+    {
+      "type": "qcu",
+      "question": "Le premier système d’écriture alphabétique connu est :",
+      "props": [
+        "l’alphabet grec",
+        "l’alphabet phénicien",
+        "l’alphabet araméen",
+        "l’alphabet ougaritique"
+      ],
+      "correction": "3",
+      "fbGen": "Le premier système d’écriture alphabétique connu avec certitude est l’alphabet ougaritique. C’est en 1929 que les archéologues ont commencé à exhumer des tablettes recouvertes de cette écriture datée du milieu du deuxième millénaire avant notre ère, lors des fouilles du site de Ras Shamra, l’antique cité d’Ugarit, en Syrie. Le caractère alphabétique de cette écriture composée de 30 signes et isolant chaque mot d’un séparateur vertical a été confirmé en 1955, à la suite de la découverte, aux archives du Palais royal d’Ugarit, d’une tablette mutilée présentant les dix premières et dix dernières lettres de cet alphabet en face de leur équivalent syllabique akkadien.<br>Issu de ces premiers essais, l’alphabet phénicien apparaît au début du deuxième millénaire avant notre ère. Découvert sur le sarcophage d’Ahiram à Byblos (Liban), il comporte 22 signes ne notant que les consonnes et les semi-voyelles. Son principe est basé sur l’acrophonie, c’est-à-dire que, pour noter les sons consonantiques, on se sert de la représentation simplifiée d'un objet dont le nom commençait par ce son. Ainsi, pour noter /b/, on utilise le signe symbolisant la maison, qui se dit <i>beit</i>, et l’on décide par convention que, à chaque fois que l’on rencontrera ce signe, il ne s’agira pas de «&nbsp;maison&nbsp;», mais seulement du premier son de ce mot. Quant à l’ordre des lettres, il est resté le même que celui déterminé à Ougarit (et qui est encore celui que l’on utilise aujourd’hui).<br> À son tour, l’alphabet phénicien a donné naissance à l’alphabet grec et à l’alphabet araméen. "
+    }
+  ],
+  "D-C6": [
+    {
+      "type": "qcu",
+      "question": "Les premières réformes de l’orthographe datent du : ",
+      "props": [
+        "XV<sup>e</sup> siècle",
+        "XVI<sup>e</sup> siècle",
+        "XVII<sup>e</sup> siècle"
+      ],
+      "correction": "2",
+      "fbGen": "La fixation de l’orthographe française remonte au XI<sup>e</sup> siècle. Réservée d’abord aux lettrés, l’orthographe se complexifie au fil des siècles, avec, notamment, une abondance de lettres sans correspondant phonique, ce qui constitue un frein à la lecture, si bien qu’une série de réformes s’engage à partir du XVII<sup>e</sup> siècle.<br>Trois séries d’acteurs sont à l’origine de ces réformes : les maîtres de langue, dont l’objectif est de faciliter l’acquisition et la maîtrise de la lecture ; les ateliers d’imprimerie, qui abandonnent les caractères gothiques au profit des caractères romains, séparent les mots et recourent désormais à des caractères accentués; et les écrivains, tels Ronsard ou Voltaire. C’est du XVII<sup>e</sup> siècle que, notamment, date la suppression de consonnes muettes (telles <i>poictrine</i> qui s’orthographie désormais <i>poitrine</i> ou <i>obmettre</i> qui devient <i>omettre</i>), et que s’installe définitivement la distinction entre les lettres u et v d’une part, i et j d’autre part.<br>À cette même période, l’Académie française, créée par le cardinal de Richelieu en 1635 dans le but de normaliser et de perfectionner la langue française, devient le lieu où s’édictent les règles de la langue écrite officielle et savante. Le choix effectué dans la première édition de son dictionnaire, en 1694, est celui d’une orthographe archaïsante, proche de celle préconisée au siècle dernier par le lexicographe Robert Estienne.<br>Depuis, d’autres réformes ont eu lieu. Les «&nbsp;rectifications de l’orthographe&nbsp;» préconisées par Michel Rocard en 1990 et élaborées sous le patronage du Conseil supérieur de la langue française, s’inscrivent donc dans un long processus de réformes engagées il y a plusieurs siècles."
+    }
+  ],
+  "D-FIN": [
+    {
+      "type": "qcu",
+      "question": "1- Certaines langues ont un système d’écriture qui ne transcrit pas les voyelles.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fbGen": "Les premiers systèmes d’écriture alphabétique, tels l’alphabet ougaritique puis l’alphabet phénicien, ne transcrivaient que les consonnes, considérant que les voyelles ne servaient qu’à les prononcer. Si les Grecs ont adopté et transformé l’alphabet phénicien en y ajoutant des voyelles (800 av. J.-C.), d’autres peuples ont gardé un système consonantique. C’est notamment le cas de l’écriture arabe, une écriture sémitique dérivée de l’alphabet araméen, lui-même né de l’alphabet phénicien. "
+    },
+    {
+      "type": "qcu",
+      "question": "2- Le mot <em>orthographe</em> est :",
+      "props": [
+        "féminin",
+        "masculin"
+      ],
+      "correction": "0",
+      "fbGen": "Emprunté au latin <em>orthographia</em>, qui était à la fois un terme de grammaire signifiant «&nbsp;Orthographe&nbsp;», et un terme d'architecture signifiant «&nbsp;Orthographie&nbsp;», c’est-à-dire «&nbsp;Représentation de la façade d'un bâtiment, avec ses dimensions réduites à l'échelle, mais non déformées par l'effet de perspective&nbsp;», le nom français <em>orthographe</em> est féminin. Au XIII<sup>e</sup> siècle, la manière d’écrire correcte se disait <em>ortografie</em>. "
+    },
+    {
+      "type": "qcu",
+      "question": "3– Parmi les termes suivants, lequel est synonyme du nom <em>idéogramme</em> :",
+      "props": [
+        "phonogramme",
+        "cryptogramme",
+        "logogramme"
+      ],
+      "correction": "2",
+      "fbGen": "Un idéogramme (ou logogramme) est un symbole graphique représentant avant tout une unité de sens. De nos jours, il est utilisé dans certains systèmes d’écriture comme l’écriture kanji chinoise."
+    },
+    {
+      "type": "qcu",
+      "question": "4- Qu’est-ce qu’un graphème&nbsp;?",
+      "props": [
+        "la plus petite unité sonore de la chaîne parlée",
+        "la plus petite unité graphique d’un système d’écriture",
+        "une lettre d’un alphabet "
+      ],
+      "correction": "1",
+      "fbGen": "Dans les langues à système alphabétique, le graphème est la plus petite unité distinctive de la chaîne écrite ayant une référence phonique et/ou sémique dans la chaîne parlée. Le graphème ne doit pas être confondu avec la lettre, qui est une unité de l’alphabet, Ainsi, en français, la même suite de lettres «&nbsp;c.h&nbsp;» correspond à deux graphèmes distincts, selon qu’elle se réalise /k/ comme dans <em>chaos</em>, ou /ʃ/ comme dans <em>cheval</em>, tandis que le phonème /o/ correspond à trois graphèmes : «&nbsp;o&nbsp;» (comme dans <em>rose</em>), «&nbsp;au&nbsp;» (<em>taupe</em>) et «&nbsp;eau&nbsp;» (<em>bateau</em>)."
+    },
+    {
+      "type": "qcu",
+      "question": "5- En français, certains mots peuvent avoir plusieurs orthographes :",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fbGen": "La langue évolue, et l’écriture est souvent le reflet de ces changements, acceptant, pour certains mots, une graphie vieillie et une graphie moderne. Il y a des cas bien connus comme <em>clef</em> ou <em>clé</em>, mais également d’autres exemples, très souvent d’origine étrangère, comme <em>ziggurat</em> ou <em>ziggourat</em> («&nbsp;Édifice caractéristique de l'architecture religieuse mésopotamienne en forme de pyramide à étages&nbsp;») ou <em>cananéen</em> ou <em>chananéen</em> («&nbsp;Personne née dans le pays de Canaan (Palestine et Phénicie) ou y habitant&nbsp;»)."
+    },
+    {
+      "type": "qcu",
+      "question": "6- L’écriture de l’Égypte ancienne était majoritairement : ",
+      "props": [
+        "logographique ",
+        "cunéiforme ",
+        "syllabique"
+      ],
+      "correction": "0",
+      "fidebaque": [
+        "Non",
+        "Oui"
+      ],
+      "fbGen": "Les hiéroglyphes égyptiens recourent majoritairement à des logogrammes, c’est-à-dire à des symboles graphiques représentant avant tout des unités de sens. Mais on y trouve aussi des phonogrammes, codant des consonnes isolées ou des séries de consonnes."
+    },
+    {
+      "type": "qcu",
+      "question": " 7- Combien de langues possèdent un système d’écriture ?  ",
+      "props": [
+        "200",
+        "500",
+        "1000",
+        "2000",
+        "4000"
+      ],
+      "correction": "0",
+      "fbGen": "Dénombrer les langues parlées dans le monde est une tâche difficile, notamment à cause de l’absence de critère universellement accepté permettant de distinguer un dialecte d’une langue. Parallèlement à ce problème, dénombrer combien de langues possèdent un système d’écriture est complexe. On estime aujourd’hui que, sur les quelque 6 000 langues du monde, seules 200 ont un système d’écriture. Contrairement à la vision que peuvent avoir les parleurs d’une langue comme le français ou l’anglais, par exemple, les langues à système d’écriture ne représentent par conséquent qu’une infime minorité parmi les langues du monde."
+    }
+  ],
+  "E-C7": [
+    {
+      "type": "qcm",
+      "question": "Parmi ces énoncés, le(s)quel(s) est (sont) «&nbsp;français&nbsp;» ?",
+      "props": [
+        "C’est pas clair.",
+        "Je ne suis pas d’accord.",
+        "J’ai pas école aujourd’hui."
+      ],
+      "correction": [
+        "1",
+        "1",
+        "1"
+      ],
+      "fbGen": "La réponse à cette question dépend de la façon dont on conçoit ce qu’est une langue.<br>Dans une visée normative, seul le deuxième énoncé correspond à ce qu’il est convenu d’appeler le «&nbsp;bon usage&nbsp;» : la négation y est employée sous sa forme complète, avec présence du marqueur discontinu <em>ne … pas</em> de part et d’autre du verbe.<br>Toutefois, dans la visée des sciences du langage, on considère qu’une langue n’est pas un tout homogène, et qu’elle connaît un ensemble de variables : code écrit <i>vs</i> oral, variantes régionales, sociales, individuelles, etc. Ainsi, en français contemporain et, en particulier, à l’oral, la négation tend à se réduire à la seule forme <em>pas</em> postposée au verbe.<br>Si seule la deuxième réponse correspond à un énoncé normatif, les trois propositions sont bien «&nbsp;françaises&nbsp;»."
+    }
+  ],
+  "E-C8": [
+    {
+      "type": "qcu",
+      "question": "Comment appelle-t-on la façon de parler spécifique à un individu ? ",
+      "props": [
+        "un dialecte",
+        "un sociolecte",
+        "un idiolecte"
+      ],
+      "correction": "2",
+      "fbGen": "La façon de parler spécifique à un individu donné se nomme <em>idiolecte</em>. En ce sens, ce nom s’oppose au terme <em>sociolecte</em>, qui correspond à l'utilisation particulière d'une langue par un groupe social donné. Quant au dialecte, il s’agit d’une variation géographique ou régionale d’une langue."
+    }
+  ],
+  "E-C6": [
+    {
+      "type": "qcu",
+      "question": "L’une des fonctions de l’orthographe est de distinguer les homophones. ",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fbGen": "Le français présente de nombreux homophones, c’est-à-dire des unités qui se prononcent de la même façon mais s’écrivent différemment, comme <em>ça/sa</em>, <em>ont/on</em>, <em>cygne/signe</em>, <em>champ/chant</em>, etc. L’une des fonctions de l’orthographe peut être de les distinguer. L’orthographe seule n’est en revanche d’aucun secours pour distinguer les homonymes, c’est-à-dire les séquences à la fois homophones et homographes, comme <em>livre</em> (un livre / une livre / formes du verbe <em>livrer</em>), ou <em>suis</em> (forme de présent de l’indicatif des verbes <em>suivre</em> et <em>être</em>)."
+    }
+  ],
+  "E-B2": [
+    {
+      "type": "qcm",
+      "question": "Comment qualifie-t-on une grammaire qui vise à faire connaître le bon usage ?",
+      "props": [
+        "normative",
+        "descriptive",
+        "prescriptive"
+      ],
+      "correction": [
+        "1",
+        "0",
+        "1"
+      ],
+      "fbGen": "La grammaire normative, ou prescriptive, n’a pas pour objectif de décrire les usages effectifs d’une langue par ses locuteurs, mais de prescrire les usages jugés corrects de la langue pour imposer une norme linguistique. C’est notamment la grammaire que l’on enseigne à l’école.  "
+    }
+  ],
+  "E-FIN": [
+    {
+      "type": "qcu",
+      "question": "1- Qu’est-ce que «&nbsp;bien parler&nbsp;» ? ",
+      "props": [
+        "parler comme on écrit",
+        "être capable d’adapter sa façon de parler à la situation de communication"
+      ],
+      "correction": "1",
+      "fbGen": "Parlez-vous de la même façon avec un inconnu, avec votre professeur ou votre médecin, avec un ami ou un membre de votre famille ? Certainement pas. De manière très naturelle, nous adaptons notre façon de parler à la situation de communication dans laquelle nous nous trouvons. C’est aussi à cela que renvoie le fait de «&nbsp;bien parler&nbsp;» : savoir quel registre de langue est adapté à chaque situation."
+    },
+    {
+      "type": "qcu",
+      "question": "2- Le mot <em>louchébèm</em> désigne : ",
+      "props": [
+        "un dialecte du sud de la France",
+        "un argot parlé au XIX<sup>e<sup> siècle",
+        "une langue à clics parlée par les Bushmen en Afrique Australe"
+      ],
+      "correction": "1",
+      "fbGen": "Au cours de la seconde moitié du XIX<sup>e</sup> siècle, un argot bien particulier se développe : le largonji des louchébèms (le «&nbsp;jargon des bouchers&nbsp;»), parfois raccourci en <em>louchébèm</em>. En simplifiant un peu, le principe de ce langage crypté, qu’on attribue, à tort ou à raison, à la communauté des bouchers de Paris, est celui d’une anagramme basée sur la forme orale d’un mot (l’orthographe est par conséquent le plus souvent phonétisée) : <ul><li>la consonne initiale du mot (ou de la syllabe suivante si la première consonne commence par une voyelle ou un «&nbsp;l&nbsp;») est rejetée en finale ; </li><li>un «&nbsp;l&nbsp;» est placé à l’initiale ;</li><li>un suffixe libre (<em>em/ème</em>, <em>ji</em>, <em>oc</em>, <em>ic</em>, <em>uche</em>, …) est ajouté en fin de mot.</li></ul>Ainsi, <em>boucher</em> devient <em>ouchéb</em> > <em>louchéb</em> > <em>louchébèm</em>, et <em>jargon</em> > <em>argonj</em> > <em>largonj</em> > <em>largonji</em>. <br>Certains mots du louchébèm sont entrés dans l’usage et encore utilisés de nos jours : <em>loufoque</em> (= fou), à <em>loilpé</em> (= à poil), <em>en loucedé</em> (= en douce). "
+    },
+    {
+      "type": "qcu",
+      "question": "3– Quel roi de France a amorcé l’unification linguistique avec l’Ordonnance de Villers-Cotterêts ? ",
+      "props": [
+        "Charles VIII",
+        "François I<sup>er</sup>",
+        "Charles IX",
+        "Louis XIV"
+      ],
+      "correction": "1",
+      "fbGen": "En 1539, François I<sup>e</sup> signe l’ordonnance de Villers-Cotterêts. Celle-ci traite de l’organisation de procédures législatives et impose notamment que la rédaction de tous les actes de justice se fasse en français, condamnant ainsi l’usage du latin. C’est à la suite de cela que se produit une lente unification linguistique."
+    },
+    {
+      "type": "qcu",
+      "question": "4- En latin, la fonction d’un mot peut être repérée grâce à : ",
+      "props": [
+        "la désinence des mots",
+        "l’ordre des mots"
+      ],
+      "correction": "0",
+      "fbGen": "Le latin est une langue casuelle, c’est-à-dire une langue qui connaît le marquage des cas par la morphologie. Cela signifie que, contrairement au français qui marque la fonction syntaxique des constituants grâce à leur place dans la phrase, le latin utilise un système de terminaisons, appelées <em>désinences</em>. Le latin connaît six cas : le nominatif (fonctions sujet et attribut du sujet), le vocatif (utilisé pour marquer l’apostrophe de la personne), l’accusatif (principalement fonction complément d’objet direct), le génitif (fonction complément du nom), le datif (principalement fonction complément d’objet indirect) et l’ablatif (principalement complément circonstanciel).<br>Si le français ne connaît plus le marquage des cas que de façon vestigiale, notamment dans la catégorie des pronoms, d’autres langues contemporaines, comme l’allemand, le russe ou le hongrois, demeurent des langues où les cas sont marqués par des désinences."
+    },
+    {
+      "type": "qcu",
+      "question": "5- Dans les grammaires du XVI<sup>e</sup> siècle, les adjectifs étaient inclus dans la catégorie des adverbes.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "L’adjectif n’émerge en France comme catégorie de mots à part entière qu’au milieu XVIII<sup>e</sup> siècle, sous l’impulsion de l’abbé Girard. Auparavant, dans la lignée des théoriciens de l’Antiquité, l’adjectif était classé dans la catégorie du nom. Au XIV<sup>e</sup> siècle, une première distinction est opérée, dans la catégorie du nom, entre noms adjectifs et noms substantifs. Ainsi, dans les grammaires du XVI<sup>e</sup> siècle, l’adjectif n’était pas inclus dans la catégorie de l'adverbes mais dans celle du nom."
+    },
+    {
+      "type": "qcu",
+      "question": "6- Le basque est un dialecte du français. ",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "La langue basque est l’une des plus anciennes langues d’Europe. Elle est parlée sur les deux versants des Pyrénées Occidentales et ce, probablement depuis la Préhistoire, donc avant l’implantation des langues indo-européennes. Elle n’est par conséquent pas un dialecte du français, apparu plus tardivement, mais une langue à part entière. "
+    },
+    {
+      "type": "qcm",
+      "question": "7- Un accent est :  ",
+      "props": [
+        "un trait de prononciation",
+        "un signe diacritique"
+      ],
+      "correction": [
+        "1",
+        "1"
+      ],
+      "fbGen": "On appelle <em>accent</em> :<ul><li>un ensemble de traits de prononciation jugés s’écarter de la prononciation standard et révélateurs de l’appartenance d’une personne à un pays, une province ou un milieu déterminés ;</li><li>un signe graphique, ajouté à la transcription d’un son vocalique pour en indiquer la prononciation (en français, on parle par exemple d’accent aigu, grave ou circonflexe) ou pour distinguer des homophones (comme <em>ou</em> et <em>où</em>, <em>sur</em> et <em>sûr</em>).</li></ul>L’accent est également une manifestation d’intensité, de hauteur et/ou de durée portant sur une syllabe ou un fragment de syllabe afin de les mettre en relief. "
+    }
+  ],
+  "F-A1": [
+    {
+      "type": "qcm",
+      "question": "Quel(s) hémisphère(s) de notre cerveau gère(nt) la fonction du langage ? ",
+      "props": [
+        "l’hémisphère droit",
+        "l’hémisphère gauche"
+      ],
+      "correction": [
+        "1",
+        "1"
+      ],
+      "fbGen": "Pendant longtemps, à la suite des travaux de Broca et de Wernicke au XIX<sup>e</sup> siècle, on a considéré que le traitement du langage était exclusivement géré par l’hémisphère gauche de notre cerveau. De nos jours, grâce aux apports de l’imagerie cérébrale, il apparaît que la situation est plus complexe que cela. Une étude récente, menée sur une population de 300 sujets (150 gauchers, 150 droitiers) a en effet dégagé trois types de latéralisation pour le langage :<ul><li>une latéralisation typique, avec un hémisphère gauche dominant pour le traitement du langage présent chez 88% des droitiers et 78% des gauchers,</li><li>une ambilatéralité, sans hémisphère dominant, présente chez 12% des droitiers et 15% des gauchers,</li><li>une latéralisation atypique, avec un hémisphère droit dominant pour 7% des gauchers.</li></ul>Par ailleurs, le «&nbsp;test de Wada&nbsp;», qui consiste à désactiver un des deux hémisphères du cerveau au moyen d’un anesthésique pour déterminer quelle partie du cerveau est impliquée dans une tâche donnée, a montré que la désactivation de l’hémisphère droit chez des sujets à latéralisation typique entraîne chez ces derniers une perte d’intonation : ce résultat indique que la prosodie, c’est-à-dire la composante rythmique et intonative de la parole, est gérée par l’hémisphère droit, même quand les autres fonctions langagières sont gérées par l’hémisphère gauche.<br>Ainsi préfère-t-on désormais considérer qu’il y a une différence de degré dans l’implication de chaque hémisphère dans le traitement du langage, avec une implication préférentielle (mais non exclusive) de l’hémisphère gauche, au moins pour les personnes droitières."
+    }
+  ],
+  "F-C2": [
+    {
+      "type": "qcu",
+      "question": "Une «&nbsp;langue minoritaire&nbsp;» est une langue qui :",
+      "props": [
+        "est parlée par une petite communauté dans un État",
+        "est sur le point de disparaitre",
+        "n’est pas la langue officielle de l’État"
+      ],
+      "correction": "0",
+      "fbGen": "Le concept de «&nbsp;langue minoritaire&nbsp;» fait référence à une information quantitative sur la communauté linguistique locutrice de cette langue sur une étendue territoriale (généralement un état) donnée, cette minorité s’évaluant par rapport à la langue majoritairement parlée sur le territoire considéré. L’expression «&nbsp;langue minoritaire&nbsp;» n’inclut pas les langues des migrants.<br>Une «&nbsp;charte européenne des langues régionales et minoritaires&nbsp;» a été lancée en 1992 sous les auspices du Conseil de l’Europe afin de protéger et promouvoir les langues régionales et minoritaires historiques au sein des États membres de l’Europe. La France a signé cette charte en 1999 pour le basque, le breton, le catalan, le corse, le néerlandais, l’allemand et l’occitan. L’Assemblée Nationale a adopté en 2014 un amendement constitutionnel permettant la ratification du traité, mais le Sénat a rejeté le texte en 2015. À ce jour, la France n’a toujours pas ratifié ce traité, contrairement à, entre autres, l’Allemagne, la Hongrie ou la Pologne. "
+    }
+  ],
+  "F-A4": [
+    {
+      "type": "qcu",
+      "question": "Combien dénombre-t-on de langues dans le monde ?",
+      "props": [
+        "moins de 3000",
+        "entre 3000 et 5000",
+        "entre 5000 et 7000",
+        "plus de 7000"
+      ],
+      "correction": "2",
+      "fbGen": "Selon les études et les recensements, il y en aurait entre 5000 et 7000 langues parlées dans le monde.<br>Cette imprécision est liée au fait que dénombrer les langues du monde pose des problèmes d’ordre terminologique, politique et méthodologique : <ul><li>la première difficulté réside dans la ligne de démarcation entre les notions de langue et de dialecte. En fonction de ce choix, un système linguistique sera considéré comme la variété d’une langue ou comme une langue à part entière ;</li><li>sur le plan politique, la difficulté tient à la perte de prestige que craignent certains États à reconnaître tel ou tel système langagier comme une langue relativement à d’autres langues reconnues parlées sur leur territoire : la reconnaissance d’une langue est en effet un acte politique qui implique la reconnaissance de ses locuteurs ;</li><li>du point de vue méthodologique, les méthodes de recensement sont parfois discutables. Il arrive notamment que les questionnaires soient inadaptés, et ne prennent en compte que les langues écrites, par exemple. Certains États n’ont d’ailleurs jamais mis en place de recensement, se basant sur des approximations.</li></ul>Sur l’ensemble des langues parlées dans le monde, on estime que seules huit le sont par plus de 100 millions de locuteurs : le chinois mandarin (885 millions), l’espagnol (332 millions), l’anglais (322 millions), le bengali (189 millions), l’hindi (182 millions), le portugais (170 millions), le russe (170 millions) et le japonais (125 millions) ‑ dans ce décompte, les variétés dialectales de l’arabe sont considérées comme des langues à part entière. Par ailleurs, seules 74 langues (donc environ 1% des langues du monde) sont parlées par 94 % (4,7 milliards) des habitants de la planète."
+    }
+  ],
+  "F-C3": [
+    {
+      "type": "qcu",
+      "question": "L’Afrique du Sud est un pays multilingue qui compte … langues officielles.",
+      "props": [
+        "9",
+        "11",
+        "13",
+        "15"
+      ],
+      "correction": "1",
+      "fbGen": "L’Afrique du Sud est un pays multilingue où l’on recense 35 langues, dont onze ont le statut de langue officielle selon la Constitution de l’Afrique du Sud de 1996 : l’afrikaans, l’anglais, le ndébélé du Sud, le sotho du Nord, le sotho du Sud, le swati, le tsonga, le tswana, le venda, le xhosa et le zoulou. Parmi elles, les plus utilisées comme premières langues sont le zoulou (parlé par environ 11,5 millions de Sud-Africains sur les quelque 52 millions d’habitants que compte le pays), puis le xhosa, parlé par huit millions de sud-africains.<br>À l’époque de l’Apartheid, seules l’anglais et l’afrikaans étaient les langues officielles de ce pays. L’ajout de neuf autres langues lors du changement de régime politique a permis à des langues parlées par les groupes de population noire d’être représentées."
+    }
+  ],
+  "F-C4": [
+    {
+      "type": "qcu",
+      "question": "Les locuteurs de certaines langues conceptualisent le passé comme situé devant eux.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fbGen": "Dans les langues, la conceptualisation du temps est liée à celle de l’espace. Toutefois, cette conceptualisation varie selon les cultures. Si, en Europe, on conceptualise le passé comme étant derrière soi et le futur comme étant devant soi, dans d’autres cultures, la conceptualisation est inverse : ainsi, les Aymara, en Amérique du Sud, placent le passé, connu, devant eux, et le futur, inconnu, derrière eux."
+    }
+  ],
+  "F-FIN": [
+    {
+      "type": "qcu",
+      "question": "1- Que désigne le terme <em>isoglosse</em> ? ",
+      "props": [
+        "un dictionnaire dont la langue d'entrée est un dialecte de la langue de sortie (qui est alors la langue commune)",
+        "une ligne imaginaire entre deux caractéristiques linguistiques d’un territoire",
+        "un mot traduit d’une langue vers une autre"
+      ],
+      "correction": "1",
+      "fbGen": "Une ligne isoglosse (parfois raccourci en <em>une isoglosse</em>) est une ligne imaginaire séparant deux zones géographiques qui se distinguent par un trait dialectal particulier, qui peut être de nature sémantique, syntaxique, morphologique ou phonétique. Dans un territoire donné, on peut tracer autant d’isoglosses que l’on étudie de phénomènes. Plusieurs lignes ou faisceaux d’isoglosses délimitent ainsi des aires dialectales.    Un exemple en français est celui de l’isoglosse lexicale qui délimite les zones géographiques sur lesquelles on parle de <em>chocolatine</em> (grand sud-ouest) et de <em>pain au chocolat</em> (reste de la France). Un autre exemple est celle qui sépare les langues d'oïl des langues d’oc."
+    },
+    {
+      "type": "qcu",
+      "question": "Combien de «&nbsp;langues de France&nbsp;» dénombre-t-on (à 10% près) ?",
+      "props": [
+        "10",
+        "50",
+        "100",
+        "400"
+      ],
+      "correction": "2",
+      "fbGen": "Une «&nbsp;langue de France&nbsp;» est une langue régionale ou minoritaire parlée par des citoyens français sur le territoire de la République depuis assez longtemps pour faire partie du patrimoine culturel national et qui n’est langue officielle d’aucun État. Selon cette définition, l’arménien occidental, parlé par la diaspora et distinct de l’arménien oriental, langue officielle de la République d’Arménie, est une langue de France. N’ont en revanche pas le statut de «&nbsp;langues de France&nbsp;» par exemple le portugais ou le chinois, pourtant parlés par de nombreux citoyens français, puisque ces langues ont le statut de langues officielles dans d’autres États.<br>Les «&nbsp;langues de France&nbsp;» sont une centaine. On peut distinguer les langues régionales (auvergnat, basque, breton, catalan, corse, dialectes allemands d’Alsace et de Moselle, etc.), les langues dites non territoriales (arabe maghrébin, arménien occidental, berbère, judéo-espagnol, romani, yiddish), les langues d’outre-mer parlées en zone caraïbe, en Guyane, à la Réunion, à Mayotte, en Nouvelle-Calédonie, en Polynésie française, à Wallis et Futuna, ainsi que la Langue des signes française.<br>Bien que reconnu comme langue nationale depuis 1992 dans la Constitution, le français est par conséquent loin d’être la seule langue parlée en France"
+    },
+    {
+      "type": "qcu",
+      "question": "3- Le mot <em>pidgin</em> désigne : ",
+      "props": [
+        "un dialecte du chinois en voie d’extinction",
+        "une langue créole à base française",
+        "un système linguistique simplifié"
+      ],
+      "correction": "2",
+      "fbGen": "Emprunté à l’anglais <em>pidgin English</em>¸ abrégé en <em>pidgin</em>, ce mot désigne initialement des langues de relation nées du contact de l’anglais avec diverses langues d'Extrême-Orient. Par extension, un pidgin est un système linguistique doté de structures rudimentaires (lexique réduit, structures grammaticales élémentaires) servant uniquement aux besoins d’une communication limitée. Lorsque l’on parle de pidgin, on distingue toujours une langue de base (le plus souvent une langue européenne d’un groupe dominant économiquement : pidgin à base anglais, français, etc.) et une ou des langues de substrat (langues du groupe en situation d’infériorité économique, mais souvent dominant démographiquement).<br>Le pidgin n’est la langue première d’aucun des locuteurs qui l’utilisent. À partir du moment où un pidgin évolue et devient langue première d’une portion ou de l’ensemble de la communauté qui l’a adopté, on parle de créole."
+    },
+    {
+      "type": "qcu",
+      "question": "4- En quelle année l’enseignement de certaines langues régionales a-t-il été autorisé en France ?",
+      "props": [
+        "1941",
+        "1951",
+        "1961"
+      ],
+      "correction": "1",
+      "fidebaque": [
+        "Oui",
+        "Oui",
+        "Non"
+      ],
+      "fbGen": "Le basque, le breton, le catalan et l’occitan sont les premières langues régionales à avoir été réintroduites dans l’enseignement en France, après en avoir été bannies à la suite des lois Ferry de la fin du XIX<sup>e</sup> siècle. On doit cette réintroduction à la loi Deixonne du 11 janvier 1951 relative à l’enseignement des langues et dialectes locaux. Aujourd’hui, l’enseignement des langues régionales est inscrit dans le code de d’éducation : en 2014, 272 000 élèves de la maternelle à la terminale de métropole et d’outre-mer pouvaient apprendre l'une des treize langues ou groupes de langues régionales différentes, et la possibilité de dispenser un enseignement conjointement en langue régionale et en français dans le cadre de filières bilingues est inscrite dans la loi."
+    },
+    {
+      "type": "qcu",
+      "question": "5- D’après quel mythe Dieu aurait créé des langues différentes pour apporter de la confusion entre les hommes et les diviser ? ",
+      "props": [
+        "le mythe de la Tour de Babel",
+        "le mythe de la caverne",
+        "le mythe de Tantale",
+        "le mythe de la Pentecôte"
+      ],
+      "correction": "0",
+      "fbGen": "Le mythe de la Tour de Babel, ou «&nbsp;mythe des langues&nbsp;», est un récit biblique justifiant la diversité des langues. Selon ce récit qui se trouve dans l’Ancien Testament (Genèse 11), après le Déluge, alors que les Hommes ne formaient qu’un seul peuple et ne parlaient qu’une seule langue, la langue adamique, Nemrod, le roi chasseur régnant sur les descendants de Noé, voulut ériger une tour assez haute pour que son sommet atteigne le ciel, autrement dit le trône de Dieu. Ce dernier fit échec à l’entreprise et punit les Hommes de leur ambition en introduisant la diversité des langues afin qu’ils ne se comprennent plus les uns les autres, et soient forcés à se disperser sur la Terre.<br>Le mythe de Babel a donné lieu à de nombreuses interprétations au fil des siècles, et est à la source de nombreuses œuvres littéraires et picturales."
+    },
+    {
+      "type": "qcu",
+      "question": "6- Une langue vernaculaire est une langue qui permet le contact entre des populations de langues différentes.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "Une langue vernaculaire est une langue parlée sur un territoire restreint, au sein d’une communauté particulière. Elle n’est pas forcément la langue maternelle de tous les membres de cette communauté. À titre d’exemple, les langues régionales, parlées sur un territoire particulier, mais dont les locuteurs ont majoritairement pour langue maternelle le français, sont des langues vernaculaires.<br>Une langue qui permet un contact entre des populations de langues différentes est dite «&nbsp;véhiculaire&nbsp;»."
+    },
+    {
+      "type": "qcu",
+      "question": "7- Parmi les langues du monde, laquelle a le plus de locuteurs ?",
+      "props": [
+        "l’hindi",
+        "l’anglais",
+        "le chinois mandarin",
+        "l’arabe"
+      ],
+      "correction": "2",
+      "fbGen": "Contrairement aux idées reçues, l’anglais n’est pas la langue la plus parlée dans le monde. En effet, cette langue, parlée majoritairement aux États-Unis, recense environ 330 millions de locuteurs, mais cela n’est rien face au nombre de locuteurs du chinois mandarin, proche de 885 millions. Le chinois mandarin est la langue officielle de la République Populaire de Chine, qui compte aujourd’hui plus d’1,3 milliard d’habitants, dont près de 70% sont sinophones (locuteurs du chinois). "
+    }
+  ],
+  "G-C1": [
+    {
+      "type": "qcu",
+      "question": "Le nombre de langues parlées sur un territoire donné est proportionnel au nombre d’habitants.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "La répartition des langues du monde n’est pas homogène. Tout d’abord, on observe que près de 94% de la population mondiale ne parlent que 1% des langues du monde. Cette inégalité numérique est bien entendu visible sur le plan de la diffusion géographique de ces langues. Ainsi, l’anglais est parlé dans plus de 100 pays. Toutefois, le nombre de langues parlées sur un territoire donné n’est pas proportionnel au nombre d’habitants.<br>À titre d’exemple, alors que la Russie recense 103 langues, pour une superficie d’environ 17 millions de km² et 150 millions d’habitants, la République du Cameroun en compte entre 250 et 300, pour une superficie de 475 442 km² et 16,5 millions d’habitants."
+    }
+  ],
+  "G-A4": [
+    {
+      "type": "qcm",
+      "question": "Parmi la diversité des langues du monde, on recense :",
+      "props": [
+        "des langues à clics",
+        "des langues chantées",
+        "des langues sifflées"
+      ],
+      "correction": [
+        "1",
+        "0",
+        "1"
+      ],
+      "fbGen": "Les langues du monde sont très variées sur plusieurs aspects (phonologique, syntaxique, morphologique, lexical, etc.). Ces divergences concernent également leur modalité. La grande majorité d’entre elles sont des langues vocales, dont les canaux de communication sont la voix et l’audition. Mais il existe également des langues signées, qui s’expriment au travers de la modalité visio-gestuelle. Au sein de cette diversité, moins connues sont les langues à clics et les langues sifflées :<ul><li>les langues à clics sont désignées ainsi à cause de leurs sons consonantiques particuliers, produits par des claquements de langue ou des succions. On recense deux grandes familles de langues à clics : les langues khoisanes, parlées en Afrique du sud et au Botswana, et les langues bantoues;</li><li>les langues sifflées copient la mélodie et la structure d’une langue parlée au moyen de sifflements. Principalement développées dans des zones montagneuses et de forêts denses, elles apportent une réponse adaptée à de telles situations en présentant l’avantage de pouvoir communiquer à grande distance ou dans le bruit. On recense environ 70 langues sifflées dans le monde : parmi elles, on peut citer le béarnais sifflé des bergers du village d’Aas dans les Pyrénées, le silbo (l’espagnol sifflé dans les Canaries) ou le turc sifflé de Kustöy. Les langues sifflées sont devenues un objet d’étude linguistique dans la seconde moitié du XX<sup>e</sup> siècle.</li></ul>"
+    }
+  ],
+  "G-A6": [
+    {
+      "type": "qcu",
+      "question": "Qu’est-ce qu’une famille de langues ?",
+      "props": [
+        "des langues parlées dans un même pays",
+        "des langues qui utilisent le même alphabet",
+        "des langues issues d’une langue ancestrale commune"
+      ],
+      "correction": "2",
+      "fbGen": "Classer les langues à partir de leurs liens génétiques permet d’identifier des familles linguistiques. Cette méthode de classement a été introduite par Franz Bopp au XIX<sup>e</sup> siècle. Les langues étaient alors conçues comme des êtres vivants, avec des liens de parenté linguistique, ce qui explique l’apparition de la notion de «&nbsp;familles de langues&nbsp;», elles-mêmes organisées en groupes, avec, le cas échéant, des langues mères et des langues filles ou sœurs.<br>On recense à ce jour douze familles de langues (les familles indo-européenne, sino-tibétaine, austronésienne, afro-asiatique (ou chamito-sémitique), dravidienne, japonaise, bantoue, nigéro-congolaise, altaïque, coréenne, austro-asiatique, ouralienne), représentant quelque 96% des langues parlées dans le monde. Les 4% restants sont organisés en environ 200 familles.<br>Certaines familles comptent jusqu’à 900 langues (c’est le cas de la famille nigéro-congolaise), d’autres ne comptent qu’une, comme la famille coréenne réduite au coréen. On parle alors d’isolat.<br>Chaque famille est rapportée à une langue ancestrale commune. Ainsi, la langue mère des langues indo-européennes est le proto-indo-européen, langue et peuple dont nous n’avons aucun vestige, en dehors des considérations linguistiques et des recoupements que permet l’observation des propriétés des langues qui en sont issues. "
+    }
+  ],
+  "G-D4": [
+    {
+      "type": "qcu",
+      "question": "Une traduction fidèle est une traduction mot à mot.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "L’objectif de tout traducteur est de réaliser une traduction fidèle, ce qui ne se confond pas avec une traduction littérale, mot à mot. En effet, outre une parfaite maîtrise des deux langues en présence et une bonne maîtrise du sujet afin de choisir la terminologie adaptée, une bonne traduction requiert de prendre en considération les cultures auxquelles appartiennent ces langues, et une restitution, dans la langue cible, de l’intention du locuteur. C’est la raison pour laquelle il est difficile, voire impossible d’entièrement automatiser la fonction traduisante, en particulier pour ce qu’on appelle parfois la «&nbsp;traduction re-création&nbsp;» (traduction d’un roman, par exemple)"
+    }
+  ],
+  "G-FIN": [
+    {
+      "type": "qcu",
+      "question": "1- Les langues du monde peuvent être classées selon leurs particularités.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "0",
+      "fbGen": "Les langues du monde sont classées selon plusieurs grands types de principes. On citera ici :<ul><li>un principe génétique, permettant de classer les langues en familles et en groupes, en lien avec leur histoire et leur évolution à travers le temps. Par exemple, le français, issu du latin, en est une «&nbsp;langue fille&nbsp;»;</li><li>un principe typologique, prenant appui sur les ressemblances entre les langues sans prendre en considération leur origine. Selon ce principe, depuis les travaux du typologue Joseph Greenberg en 1963, les langues sont classées en fonction de l’ordre des constituants sujet (S) et objet (O) relativement au verbe (V). À partir d’un échantillon de 31 langues appartenant à des familles génétiques variées, ce dernier a montré que, dans le cadre d’une phrase assertive avec constituants pleins et sans mise en relief spécifique, 95% des langues du monde s’organisent selon l’un des trois ordres syntaxiques VSO (type I : berbère, gallois, hébreu, maori, …), SVO (type II : finlandais, français, guarini, russe…) et SOV (type III : afrikaans, basque, hindi, quechua, …), autrement dit qu’elles placent le sujet avant l’objet. Depuis, ce résultat a été conforté sur des échantillons de langues beaucoup plus vastes. </li></ul>"
+    },
+    {
+      "type": "qcu",
+      "question": "2- Qu’est-ce qu’une «&nbsp;langue cible&nbsp;» ?",
+      "props": [
+        "la langue utilisée par des populations de langues différentes",
+        "la langue vers laquelle s’effectue une traduction",
+        "le niveau de langue que doit apprendre un enfant de trois ans"
+      ],
+      "correction": "1",
+      "fbGen": "Dans le domaine de la traduction, la langue à partir de laquelle on traduit est appelée «&nbsp;langue source&nbsp;» ou langue de départ, la langue vers laquelle on traduit est appelée «&nbsp;langue cible&nbsp;» ou la langue d’arrivée. "
+    },
+    {
+      "type": "qcu",
+      "question": "3- Combien y a-t-il de phonèmes en français ?",
+      "props": [
+        "36",
+        "44",
+        "68"
+      ],
+      "correction": "0",
+      "fbGen": "Le phonème est la plus petite unité phonique abstraite, qui conjoint les trois propriétés suivantes :<ul><li>il a une fonction distinctive,</li><li>il n’est pas décomposable en segments ayant eux-mêmes une telle fonction,</li><li>il présente des caractères dits pertinents, c’est-à-dire que seules des oppositions systémiques permettent de distinguer les phonèmes entre eux, indépendamment de leurs variantes libres ou contextuelles.</li></ul>En français, on dénombre 36 phonèmes (dont certains tendent à ne plus être distinctifs). L’anglais en compte 44, l’allemand 68."
+    },
+    {
+      "type": "qcu",
+      "question": "4- Aujourd’hui, plus de 50% des langues du monde ont été décrites.",
+      "props": [
+        "Vrai",
+        "Faux"
+      ],
+      "correction": "1",
+      "fbGen": "La grande majorité des langues du monde n’a encore fait l’objet d’aucune description linguistique. On estime que seulement 10 à 15% d’entre elles auraient été décrites. "
+    },
+    {
+      "type": "qcu",
+      "question": "5- On appelle «&nbsp;langue isolante&nbsp;» :",
+      "props": [
+        "une langue parlée dans une région insulaire",
+        "une langue de moins de 10 000 locuteurs",
+        "une langue dont les unités sont invariables"
+      ],
+      "correction": "2",
+      "fbGen": "Une langue isolante est une langue dont les mots ne connaissent pas de variation en contexte phrastique. Les relations syntaxiques y sont indiquées par des mots séparés. Le chinois mandarin en est un exemple.<br>Les langues isolantes s’opposent aux langues agglutinantes, dans lesquelles chaque information (morpho-)syntaxique est marquée au moyen d’une marque morphologique identifiable, ajoutée à un radical (par exemple, en turc, <em>evlerimde</em>, formée à partir du radical <em>ev-</em> «&nbsp;maison&nbsp;», correspond à la séquence française «&nbsp;dans mes maisons&nbsp;» : la séquence <em>-ler-</em> marque le pluriel, la séquence <em>-im-</em> marque la possession, la séquence <em>-de</em> marque la localisation), et les langues flexionnelles, dans lesquelles une même marque peut cumuler plusieurs valeurs (par exemple en latin, dans <em>rosarum</em>, la séquence <em>-arum</em> indique à la fois que le nom <em>rosa</em> («&nbsp;rose&nbsp;») est de genre féminin et utilisé au génitif pluriel). On ajoute parfois à ces trois catégories les langues analytiques, qui partagent des propriétés des langues agglutinantes et des langues flexionnelles. Le français en fait partie.<br>La typologie qui précède est héritée du XIX<sup>e</sup> siècle. Désormais, on préfère considérer que la plupart des langues ont un caractère dominant (et non plus exclusif), dans la mesure où une même langue peut principalement relever d’un type et présenter des traits relevant des autres types. "
+    },
+    {
+      "type": "qcu",
+      "question": "6- Quel pays recense le plus de langues sur son territoire ?",
+      "props": [
+        "les États-Unis d’Amérique",
+        "le Mexique",
+        "la Papouasie-Nouvelle-Guinée",
+        "le Cameroun"
+      ],
+      "correction": "2",
+      "fbGen": "Le territoire le plus multilingue au monde est la Papouasie-Nouvelle-Guinée. Ce pays insulaire a une population de 7,3 millions d’habitants, pour une superficie de 462,840 km<sup>²</sup>, soit un territoire un peu plus vaste que celui de la Suède (450,295 km<sup>²</sup>). On y recense environ 820 langues."
+    },
+    {
+      "type": "qcu",
+      "question": "7- Qu’est-ce qu’une aphasie ? ",
+      "props": [
+        "une zone d'une cerveau",
+        "un examen neurologique",
+        "un trouble du langage"
+      ],
+      "correction": "2",
+      "fbGen": "L’aphasie est un trouble du langage consistant en la perte partielle ou totale de la faculté de s'exprimer et de comprendre le langage, parlé ou écrit, malgré l'intégrité anatomique et fonctionnelle des organes de la phonation (langue, larynx) et en l’absence de dysfonctionnement d’origine sensorielle.  Il existe différents types d’aphasie. Pour l’essentiel : <ul><li>l’aphasie motrice (ou aphasie de Broca), qui se manifeste par une perte de la parole et une difficulté à transmettre des idées, sans que les capacités de compréhension ne soient affectées ; </li><li>l’aphasie de conduction, qui se manifeste par une difficulté de la personne à trouver ses mots ;</li> <li>l’aphasie sensorielle (ou aphasie de Wernicke), qui affecte les capacités de compréhension ;</li> <li>l’aphasie mixte, qui affecte les capacités d’expression et de compréhension.</li></ul>"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+
+    <input id="txtRecherche" type="text"  onkeydown = "if (event.keyCode === 13){btnRechercheHdlr();}"><!--onChange="btnRechercheHdlr()" -->
+    <button onClick="btnRechercheHdlr()" class="fa fa-search"></button>
+
+<script>
+$(function(){
+	$("#txtRecherche").val("Recherche");
+	$("#txtRecherche").css("color" , "#aaa");
+
+	$("#txtRecherche").on("click" , function(){
+		if ($("#txtRecherche").val() === "Recherche"){
+			$("#txtRecherche").val("");
+			$("#txtRecherche").css("color" , "#000");
+		}
+
+	});
+});
+
+function btnRechercheHdlr(){
+	window.location.hash = '#resultats-recherche?'+ $("#txtRecherche").val();// je rajoute la recherche pour générer le changement de hash pour le cas de deux rechercehs consécutive
+}
+</script>

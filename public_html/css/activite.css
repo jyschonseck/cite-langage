@@ -1,0 +1,218 @@
+/* CSS Document */
+
+
+.ctnVoileModal{
+	position:fixed;
+	top:0rem;
+	left:0rem;
+	right:0rem;
+	bottom:0rem;
+	background-color:#444444;
+	opacity:0.6;
+}
+
+#ctnActivite{
+	position:fixed;
+ 	/*top: 13rem; */
+	top:20%;
+/*
+	right:4rem;
+	left:4rem;
+*/
+	right:20%;
+	left:20%;
+	max-height:80%;
+	padding:0rem;
+	background-color:#deefef;
+	opacity:1;
+	border:solid 2px #303030;
+	border-radius:5px;
+	overflow:auto;
+}
+
+#ctnQuestionsActi {
+	display:flex;
+	flex-direction:column;
+}
+
+.qActivite{
+	display:none;
+}
+
+/****************/
+/*#ctnVoileEval{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:#444444;
+	opacity:0.4;
+}*/
+
+#ctnPopinEval{
+ 	position:fixed;top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	width:620px;
+	height:140px;
+	margin:auto;
+	border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 2rem;
+    text-align: center;
+	
+	opacity:1;
+}
+.ctnEvalPopin{
+	cursor:pointer;
+	/*position:fixed;
+	display:flex;
+	align-items:flex-start;
+	justify-content:flex-start;*/
+	
+}
+
+
+
+/* ---------------------------------------------------------*/
+/* COCHES ACTIVITES */
+/* ---------------------------------------------------------*/
+
+
+.ctnQuestion {
+    background-color: #deefef;
+    border: 0 solid #007f76;
+    border-radius: 5px;
+    margin: 0.5rem 1rem;
+    padding: 1rem 0.5rem 0.5rem 3rem;
+}
+
+.ctnFidebaque{
+	display:none;
+	/*background-color: #fff;*/
+  border-radius: 5px;
+  padding: 2em;
+  /*Test dégradé*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#deefef+0,ffffff+100 */
+background: #deefef; /* Old browsers */
+background: -moz-linear-gradient(top,  #deefef 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #deefef 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #deefef 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deefef', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */	
+}
+
+#ctnBilan button{
+	display:none;
+}
+
+.ctnProps {
+	display: flex;
+	flex-direction: column;
+}
+
+/*******QCM********/
+.qcm {
+	padding:10px 10px 5px 27px;
+	background-repeat:no-repeat;
+	background-image:url(../img/activite_btns/checkbox_bleu_dis.gif) ;
+}
+
+.qcmCochet {
+	background-image:url(../img/activite_btns/checkbox_bleu_sel_dis.gif);
+}
+
+.qcmActif {
+	cursor:pointer;
+	background-image:url(../img/activite_btns/checkbox_bleu.gif) ;
+}
+
+.qcmCochet.qcmActif {
+	background-image:url(../img/activite_btns/checkbox_bleu_sel.gif);
+}
+/*******QCU********/
+.qcu {
+	padding:10px 10px 5px 27px;
+	background-repeat:no-repeat;
+	background-image:url(../img/activite_btns/checkbox_bleu_dis.gif) ;
+}
+
+.qcuActif {
+	cursor:pointer;
+	background-image:url(../img/activite_btns/checkbox_bleu.gif) ;
+}
+.qcuCochet {
+	background-image:url(../img/activite_btns/checkbox_bleu_sel_dis.gif);
+}
+
+
+.qcuCochet.qcuActif {
+	background-image:url(../img/activite_btns/checkbox_bleu_sel.gif);
+}
+
+/***************** bouton valid**************/
+.btnValid {
+    background-color: #F39200;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 0.5em;
+    text-align: center;
+}
+.btnValid:hover {
+    background-color: #c84b24;
+    color: #fff;
+}
+
+
+
+/* ---------------------------------------------------------*/
+/* -------Correction------------------------------------ */
+/* ---------------------------------------------------------*/
+
+.reponseBonne{
+	background-image:url(../img/activite_btns/corr_bon.png);
+	background-repeat:no-repeat;
+	background-position: 0.5em 0.5em;
+}
+.reponseFausse{
+	background-image:url(../img/activite_btns/corr_faux.png);	
+	background-repeat:no-repeat;
+	background-position: 0.5em 0.5em;
+}
+
+/* ---------------------------------------------------------*/
+/* -------Evaluation------------------------------------ */
+/* ---------------------------------------------------------*/
+
+#ctnEval {
+    /*border: 2px solid #95c11f;*/
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+    overflow: hidden;
+    padding: 2rem;
+    text-align: center;
+}
+
+.ctnEvalBon{
+    background-color: #95c11f;
+}
+.ctnEvalMoy{
+    background-color: #ffb000;
+}
+.ctnEvalNul{
+    background-color: #ab2d2d;
+}
