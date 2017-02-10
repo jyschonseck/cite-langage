@@ -100,7 +100,7 @@
   "A-B3": [
     {
       "type": "qcu",
-      "question": "Combien de sens trouvez-vous à l’énoncé&nbsp;: «&nbsp;Max m’a ramené des fruits d’Asie&nbsp;»&nbsp;?",
+      "question": "Combien de sens trouvez-vous à l’énoncé&nbsp;: «&nbsp;Max m’a ramené des fruits d’Asie&nbsp;» ?",
       "props": [
         "un",
         "deux"
@@ -131,7 +131,7 @@
     },
     {
       "type": "qcu",
-      "question": "2- Quelle discipline des Sciences du Langage étudie le fonctionnement de la langue du point de vue des sons qui la composent&nbsp;?",
+      "question": "2- Quelle discipline des Sciences du Langage étudie le fonctionnement de la langue du point de vue des sons qui la composent ?",
       "props": [
         "La syntaxe",
         "La sémantique",
@@ -180,7 +180,7 @@
     },
     {
       "type": "qcu",
-      "question": "5- Quel linguiste a posé les notions de signifiant et de signifié&nbsp;?",
+      "question": "5- Quel linguiste a posé les notions de signifiant et de signifié ?",
       "props": [
         "Martinet",
         "Chomsky",
@@ -195,7 +195,7 @@
     },
     {
       "type": "qcu",
-      "question": "6- Laquelle de ces langues est un exemple type de langue «&nbsp;ressuscitée&nbsp;»&nbsp;? ",
+      "question": "6- Laquelle de ces langues est un exemple type de langue «&nbsp;ressuscitée&nbsp;» ? ",
       "props": [
         "le phénicien",
         "l’hébreu",
@@ -273,7 +273,7 @@
   "B-D5": [
     {
       "type": "qcu",
-      "question": "Comment désigne-t-on la période pendant laquelle l’acquisition du lexique de l’enfant s’accélère&nbsp;?",
+      "question": "Comment désigne-t-on la période pendant laquelle l’acquisition du lexique de l’enfant s’accélère ?",
       "props": [
         "l’explosion lexicale",
         "la période critique",
@@ -286,7 +286,7 @@
   "B-A7": [
     {
       "type": "qcu",
-      "question": "Qu’est-ce qu’une langue créole&nbsp;?",
+      "question": "Qu’est-ce qu’une langue créole ?",
       "props": [
         "une langue née du contact de populations d'origines différentes",
         "une langue parlée sur une île",
@@ -299,7 +299,7 @@
   "B-FIN": [
     {
       "type": "qcm",
-      "question": "1- Qu’est-ce qu’une langue mère&nbsp;?",
+      "question": "1- Qu’est-ce qu’une langue mère ?",
       "props": [
         "la première langue qu’un individu apprend",
         "une langue à partir de laquelle sont issues des langues plus récentes",
@@ -319,7 +319,7 @@
     },
     {
       "type": "qcu",
-      "question": "2- Les animaux peuvent-ils apprendre à parler&nbsp;?",
+      "question": "2- Les animaux peuvent-ils apprendre à parler ?",
       "props": [
         "Oui",
         "Non"
@@ -329,7 +329,7 @@
     },
     {
       "type": "qcu",
-      "question": "3- Qu’est-ce que le babillage&nbsp;? ",
+      "question": "3- Qu’est-ce que le babillage ? ",
       "props": [
         "le langage produit par les adultes quand ils s’adressent de manière enfantine aux petits enfants",
         "les productions vocales syllabiques produites par les bébés durant leurs premiers mois "
@@ -339,7 +339,7 @@
     },
     {
       "type": "qcu",
-      "question": "4- Un pharaon fit élever des enfants à l’écart du monde, sans qu’on leur adresse la parole, afin de voir dans quelle langue ils prononceraient leur premier mot, et ainsi déterminer quelle était la première langue du monde. Laquel&nbsp;?",
+      "question": "4- Un pharaon fit élever des enfants à l’écart du monde, sans qu’on leur adresse la parole, afin de voir dans quelle langue ils prononceraient leur premier mot, et ainsi déterminer quelle était la première langue du monde. Laquel ?",
       "props": [
         "Psammétique I<sup>er</sup> ",
         "Ramsès II ",
@@ -351,7 +351,7 @@
         "Oui",
         "Non"
       ],
-      "fbGen": "Quelle est la première des langues&nbsp;? Cette question est vieille de plusieurs millénaires, comme nous le montre l’histoire du pharaon Psammétique 1er.<br>Hérodote raconte que Psammétique I<sup>er</sup> voulut mettre fin à un conflit entre deux peuples&nbsp;: les Égyptiens et les Phrygiens. L’objet de leur querelle était de déterminer lequel était le peuple le plus ancien. Pour clore ce débat, le pharaon décida de faire une expérience. Il confie à un berger deux nouveau-nés, avec pour mission de les élever à l’écart du monde et dans le plus grand silence&nbsp;: aucun mot ne devait leur être adressé. Ainsi, le premier mot que les enfants prononceraient serait celui de la plus vieille des langues. Deux ans après, les enfants réclament <i>bèkos</i>, qui signifie «&nbsp;pain&nbsp;» en phrygien. Le pharaon en conclut que le phrygien est la plus vieille des langues."
+      "fbGen": "Quelle est la première des langues ? Cette question est vieille de plusieurs millénaires, comme nous le montre l’histoire du pharaon Psammétique 1er.<br>Hérodote raconte que Psammétique I<sup>er</sup> voulut mettre fin à un conflit entre deux peuples&nbsp;: les Égyptiens et les Phrygiens. L’objet de leur querelle était de déterminer lequel était le peuple le plus ancien. Pour clore ce débat, le pharaon décida de faire une expérience. Il confie à un berger deux nouveau-nés, avec pour mission de les élever à l’écart du monde et dans le plus grand silence&nbsp;: aucun mot ne devait leur être adressé. Ainsi, le premier mot que les enfants prononceraient serait celui de la plus vieille des langues. Deux ans après, les enfants réclament <i>bèkos</i>, qui signifie «&nbsp;pain&nbsp;» en phrygien. Le pharaon en conclut que le phrygien est la plus vieille des langues."
     },
     {
       "type": "qcm",
@@ -387,7 +387,7 @@
     },
     {
       "type": "qcu",
-      "question": "7- Qu’est-ce que l’esperanto&nbsp;?",
+      "question": "7- Qu’est-ce que l’esperanto ?",
       "props": [
         "un dialecte de l’espagnol ",
         "une langue artificielle",
@@ -404,7 +404,7 @@
   "C-D5": [
     {
       "type": "qcu",
-      "question": "Que désigne le terme <em>littératie</em> ? ",
+      "question": "Que désigne le terme <em>littératie</em> ? ",
       "props": [
         "la littérature enfantine",
         "l’aptitude à comprendre et produire de l’écrit",
@@ -487,7 +487,7 @@
     },
     {
       "type": "qcu",
-      "question": "3- Quelle aire cérébrale est concernée par la compréhension du langage ? ",
+      "question": "3- Quelle aire cérébrale est concernée par la compréhension du langage ? ",
       "props": [
         "l'aire de Wernicke",
         "l'aire de Broca"
@@ -497,7 +497,7 @@
     },
     {
       "type": "qcu",
-      "question": "4- Qu’est-ce qu’un échange exolingue ?",
+      "question": "4- Qu’est-ce qu’un échange exolingue ?",
       "props": [
         "le terme technique qui désigne un «&nbsp;dialogue de sourds&nbsp;»",
         "un échange entre des individus ne partageant pas la même langue maternelle ",
@@ -532,7 +532,7 @@
     },
     {
       "type": "qcu",
-      "question": "7- Qu’est-ce qu’une aphasie ? ",
+      "question": "7- Qu’est-ce qu’une aphasie ? ",
       "props": [
         "une zone d'une cerveau",
         "un examen neurologique",
@@ -545,7 +545,7 @@
   "D-C5": [
     {
       "type": "qcu",
-      "question": "À quelle période apparaissent les premières traces d’écriture ? ",
+      "question": "À quelle période apparaissent les premières traces d’écriture ? ",
       "props": [
         "4300- 4000 av. J.-C.",
         "3500- 3300 av. J.-C.",
@@ -616,7 +616,7 @@
     },
     {
       "type": "qcu",
-      "question": "4- Qu’est-ce qu’un graphème&nbsp;?",
+      "question": "4- Qu’est-ce qu’un graphème ?",
       "props": [
         "la plus petite unité sonore de la chaîne parlée",
         "la plus petite unité graphique d’un système d’écriture",
@@ -652,7 +652,7 @@
     },
     {
       "type": "qcu",
-      "question": " 7- Combien de langues possèdent un système d’écriture ?  ",
+      "question": " 7- Combien de langues possèdent un système d’écriture ?  ",
       "props": [
         "200",
         "500",
@@ -667,7 +667,7 @@
   "E-C7": [
     {
       "type": "qcm",
-      "question": "Parmi ces énoncés, le(s)quel(s) est (sont) «&nbsp;français&nbsp;» ?",
+      "question": "Parmi ces énoncés, le(s)quel(s) est (sont) «&nbsp;français&nbsp;» ?",
       "props": [
         "C’est pas clair.",
         "Je ne suis pas d’accord.",
@@ -684,7 +684,7 @@
   "E-C8": [
     {
       "type": "qcu",
-      "question": "Comment appelle-t-on la façon de parler spécifique à un individu ? ",
+      "question": "Comment appelle-t-on la façon de parler spécifique à un individu ? ",
       "props": [
         "un dialecte",
         "un sociolecte",
@@ -709,7 +709,7 @@
   "E-B2": [
     {
       "type": "qcm",
-      "question": "Comment qualifie-t-on une grammaire qui vise à faire connaître le bon usage ?",
+      "question": "Comment qualifie-t-on une grammaire qui vise à faire connaître le bon usage ?",
       "props": [
         "normative",
         "descriptive",
@@ -726,13 +726,13 @@
   "E-FIN": [
     {
       "type": "qcu",
-      "question": "1- Qu’est-ce que «&nbsp;bien parler&nbsp;» ? ",
+      "question": "1- Qu’est-ce que «&nbsp;bien parler&nbsp;» ? ",
       "props": [
         "parler comme on écrit",
         "être capable d’adapter sa façon de parler à la situation de communication"
       ],
       "correction": "1",
-      "fbGen": "Parlez-vous de la même façon avec un inconnu, avec votre professeur ou votre médecin, avec un ami ou un membre de votre famille ? Certainement pas. De manière très naturelle, nous adaptons notre façon de parler à la situation de communication dans laquelle nous nous trouvons. C’est aussi à cela que renvoie le fait de «&nbsp;bien parler&nbsp;» : savoir quel registre de langue est adapté à chaque situation."
+      "fbGen": "Parlez-vous de la même façon avec un inconnu, avec votre professeur ou votre médecin, avec un ami ou un membre de votre famille ? Certainement pas. De manière très naturelle, nous adaptons notre façon de parler à la situation de communication dans laquelle nous nous trouvons. C’est aussi à cela que renvoie le fait de «&nbsp;bien parler&nbsp;» : savoir quel registre de langue est adapté à chaque situation."
     },
     {
       "type": "qcu",
@@ -747,7 +747,7 @@
     },
     {
       "type": "qcu",
-      "question": "3– Quel roi de France a amorcé l’unification linguistique avec l’Ordonnance de Villers-Cotterêts ? ",
+      "question": "3– Quel roi de France a amorcé l’unification linguistique avec l’Ordonnance de Villers-Cotterêts ? ",
       "props": [
         "Charles VIII",
         "François I<sup>er</sup>",
@@ -804,7 +804,7 @@
   "F-A1": [
     {
       "type": "qcm",
-      "question": "Quel(s) hémisphère(s) de notre cerveau gère(nt) la fonction du langage ? ",
+      "question": "Quel(s) hémisphère(s) de notre cerveau gère(nt) la fonction du langage ? ",
       "props": [
         "l’hémisphère droit",
         "l’hémisphère gauche"
@@ -832,7 +832,7 @@
   "F-A4": [
     {
       "type": "qcu",
-      "question": "Combien dénombre-t-on de langues dans le monde ?",
+      "question": "Combien dénombre-t-on de langues dans le monde ?",
       "props": [
         "moins de 3000",
         "entre 3000 et 5000",
@@ -872,7 +872,7 @@
   "F-FIN": [
     {
       "type": "qcu",
-      "question": "1- Que désigne le terme <em>isoglosse</em> ? ",
+      "question": "1- Que désigne le terme <em>isoglosse</em> ? ",
       "props": [
         "un dictionnaire dont la langue d'entrée est un dialecte de la langue de sortie (qui est alors la langue commune)",
         "une ligne imaginaire entre deux caractéristiques linguistiques d’un territoire",
@@ -883,7 +883,7 @@
     },
     {
       "type": "qcu",
-      "question": "Combien de «&nbsp;langues de France&nbsp;» dénombre-t-on (à 10% près) ?",
+      "question": "Combien de «&nbsp;langues de France&nbsp;» dénombre-t-on (à 10% près) ?",
       "props": [
         "10",
         "50",
@@ -906,7 +906,7 @@
     },
     {
       "type": "qcu",
-      "question": "4- En quelle année l’enseignement de certaines langues régionales a-t-il été autorisé en France ?",
+      "question": "4- En quelle année l’enseignement de certaines langues régionales a-t-il été autorisé en France ?",
       "props": [
         "1941",
         "1951",
@@ -922,7 +922,7 @@
     },
     {
       "type": "qcu",
-      "question": "5- D’après quel mythe Dieu aurait créé des langues différentes pour apporter de la confusion entre les hommes et les diviser ? ",
+      "question": "5- D’après quel mythe Dieu aurait créé des langues différentes pour apporter de la confusion entre les hommes et les diviser ? ",
       "props": [
         "le mythe de la Tour de Babel",
         "le mythe de la caverne",
@@ -944,7 +944,7 @@
     },
     {
       "type": "qcu",
-      "question": "7- Parmi les langues du monde, laquelle a le plus de locuteurs ?",
+      "question": "7- Parmi les langues du monde, laquelle a le plus de locuteurs ?",
       "props": [
         "l’hindi",
         "l’anglais",
@@ -987,7 +987,7 @@
   "G-A6": [
     {
       "type": "qcu",
-      "question": "Qu’est-ce qu’une famille de langues ?",
+      "question": "Qu’est-ce qu’une famille de langues ?",
       "props": [
         "des langues parlées dans un même pays",
         "des langues qui utilisent le même alphabet",
@@ -1022,7 +1022,7 @@
     },
     {
       "type": "qcu",
-      "question": "2- Qu’est-ce qu’une «&nbsp;langue cible&nbsp;» ?",
+      "question": "2- Qu’est-ce qu’une «&nbsp;langue cible&nbsp;» ?",
       "props": [
         "la langue utilisée par des populations de langues différentes",
         "la langue vers laquelle s’effectue une traduction",
@@ -1033,7 +1033,7 @@
     },
     {
       "type": "qcu",
-      "question": "3- Combien y a-t-il de phonèmes en français ?",
+      "question": "3- Combien y a-t-il de phonèmes en français ?",
       "props": [
         "36",
         "44",
@@ -1065,7 +1065,7 @@
     },
     {
       "type": "qcu",
-      "question": "6- Quel pays recense le plus de langues sur son territoire ?",
+      "question": "6- Quel pays recense le plus de langues sur son territoire ?",
       "props": [
         "les États-Unis d’Amérique",
         "le Mexique",
@@ -1077,7 +1077,7 @@
     },
     {
       "type": "qcu",
-      "question": "7- Qu’est-ce qu’une aphasie ? ",
+      "question": "7- Qu’est-ce qu’une aphasie ? ",
       "props": [
         "une zone d'une cerveau",
         "un examen neurologique",
