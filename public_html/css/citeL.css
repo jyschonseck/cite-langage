@@ -1061,6 +1061,8 @@ display: flex; /* contexte sur le parent */
 	background-color:#aaa;
 }
 
+/**************************
+--------- Pied de page ------*/
 .ctnFooter {
 	display: flex;
 	flex-direction: column;
@@ -1069,10 +1071,38 @@ display: flex; /* contexte sur le parent */
 }
 
 .ctnFooter ul{
-	column-count:3;
+	column-count:1;
 	column-gap: 3rem;
+        list-style: none;
+        font-size: small;
 }
 
 .ctnFooter button:hover {
     background-color: #aaa;
+}
+
+#ctnCredits{
+    margin: 2rem;
+}
+
+#ctnCredits ul{
+    margin:0 ;
+}
+
+.ppTitre{
+    margin: 1rem 1rem 0 1rem;
+    font-size:larger;
+    font-weight: bold;
+}
+
+#ctnLieux{
+    max-width: 50rem;
+    margin:auto;
+    text-align: center;
+}
+
+#ctnLieux img{
+    width:5rem;
+    height: 5rem;
+    margin: 2rem;
 }

@@ -271,13 +271,13 @@ function affichEval(){
 	var pluriel = "";
 	if (repB >1) { pluriel = "s";}
 	if (repB > 5 ){
-		$("#ctnEval").html("Vous avez : " + repB + " réponses correctes sur 7.<br>Bravo, vous avez bien suivi.");
+		$("#ctnEval").html("Vous avez : " + repB + " réponses correctes sur 7.<br>Bravo ! Vous savez (presque) tout sur les sciences du langage.");
 		boiteHaut.className = "ctnEvalBon";
 	} else if (repB >2){
-		$("#ctnEval" ).html("Vous avez : " + repB + " réponses correctes sur 7.<br>Ré-écoutez les vidéos !");
+		$("#ctnEval" ).html("Vous avez : " + repB + " réponses correctes sur 7.<br>Pas mal, n'hésitez pas à revisionner certaines vidéos.");
 		boiteHaut.className = "ctnEvalMoy";
 	} else {
-		$("#ctnEval").html("Vous avez : " + repB + " réponse" + pluriel + " correcte" + pluriel + " sur 7.<br>Ré-écoutez les vidéos !");
+		$("#ctnEval").html("Vous avez : " + repB + " réponse" + pluriel + " correcte" + pluriel + " sur 7.<br>Oups ! Je vous conseille de revisionner les vidéos.");
 		boiteHaut.className = "ctnEvalNul";
 	}
 	var ctnPopinEval = document.getElementById("ctnPopinEval");

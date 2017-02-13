@@ -52,7 +52,6 @@ $(function() {
     // Listen for messages from the player
      window.addEventListener('message', onMessageReceived, false);
   
-	console.log ('on a un message');
     // Handle messages received from the player
     function onMessageReceived(event) {
         // Handle messages from the vimeo player only
@@ -61,11 +60,9 @@ $(function() {
             return false;
         }
         
-		console.log ('Ki Vi1 2'+ event.origin );
         if (playerOrigin === '*') {
             playerOrigin = event.origin;
         }
-		console.log ('é ki di'+ event.data );
         var data = JSON.parse(event.data);
         
         switch (data.event) {
@@ -90,14 +87,11 @@ $(function() {
 
     // Call the API when a button is pressed
     $('button').on('click', function() {
-		console.log(this.id);
         post(this.id.split("-")[1] , $("#tiHeure").val());
     });
 
     // Helper function for sending a message to the player
     function post(action, value) {
-		console.log("action= " + action +", value = "+ value);
-		console.log("playerOrigin" + playerOrigin);
         var data = {
           method: action
         };
