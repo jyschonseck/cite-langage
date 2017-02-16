@@ -334,7 +334,6 @@ function affichParcours(){
 	if (parcours.id !== "z" ){
 		$("#colGaucheBas").load("html/barreParcours.html");
 		//**** afficher vignette prec
-		
 		if (parcours.etape < listeParcours[parcours.index].listeObjets.length - 1){ // on est pas sur la derniere
 			if (parcours.etape >0){ // on est pas sur la premiere
 				var objId =  listeParcours[parcours.index].listeObjets[parcours.etape-1].objId;
@@ -342,8 +341,9 @@ function affichParcours(){
 				$("#ctnParcoursPrec").show("fast");
 			} else {$("#ctnParcoursPrec").hide("fast");}
 			//**** afficher vignette suiv
-			var objIdS =  listeParcours[parcours.index].listeObjets[parcours.etape+1].objId;
-			if ( listeParcours[parcours.index].listeObjets[parcours.etape+1].type.indexOf("acti") === 0){
+                        var temp = parseInt(parcours.etape)+1;
+			var objIdS =  listeParcours[parcours.index].listeObjets[temp].objId;
+			if ( listeParcours[parcours.index].listeObjets[temp].type.indexOf("acti") === 0){
 				var vignetteS = document.createElement("img");
 				vignetteS.src = "img/interface/acti.png";
 				document.getElementById("ctnParcoursSuiv").appendChild(vignetteS);

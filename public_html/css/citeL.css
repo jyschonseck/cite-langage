@@ -1096,7 +1096,7 @@ display: flex; /* contexte sur le parent */
 }
 
 #ctnLieux{
-    max-width: 50rem;
+    max-width: 44rem;
     margin:auto;
     text-align: center;
 }
@@ -1104,5 +1104,5 @@ display: flex; /* contexte sur le parent */
 #ctnLieux img{
     width:5rem;
     height: 5rem;
-    margin: 2rem;
+    margin:1rem 2rem;
 }
