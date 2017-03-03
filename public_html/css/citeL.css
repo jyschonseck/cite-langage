@@ -434,11 +434,15 @@ div[role=menubar] {
 	background-color:#999;
 }
 
-.motCleMenu.menuChoisi {
+/*.motCleMenu.menuChoisi {
+	font-weight:bolder;
+	background-image:url(../img/interface/menu-checkbox-on.png);
+}*/
+
+.motCleMenu[aria-checked="true"] {
 	font-weight:bolder;
 	background-image:url(../img/interface/menu-checkbox-on.png);
 }
-
 
 .ctnDomaineSous{
 	display:flex;

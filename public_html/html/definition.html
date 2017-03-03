@@ -65,10 +65,12 @@ $(function(){
 			for (var k = 0 ; k < listeItems[i].questions[j][catTag].length ; k++){
 				if (listeItems[i].questions[j][catTag][k] == tagId) {
 					var element = document.createElement("li");
-					element.innerHTML = listeItems[i].questions[j].titre;
-					element.id = "autresItems_" + i + "_" + j; 
-					element.className = "tagClicable";
-					element.onclick = tagVidClcHdlr;
+                                        var elt2 = document.createElement("button");
+					elt2.innerHTML = listeItems[i].questions[j].titre;
+					elt2.id = "autresItems_" + i + "_" + j; 
+					elt2.className = "tagClicable";
+					elt2.onclick = tagVidClcHdlr;
+                                        element.appendChild(elt2);
 					listeVideos.appendChild(element);
 				}	
 			}

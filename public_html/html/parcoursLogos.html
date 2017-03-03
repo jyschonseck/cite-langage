@@ -1,39 +1,38 @@
 
 <div id="ctnParcoursLogos">
-	<button id="blocParcours_G"  class="parcours_G" aria-label="Les langues et la norme">
-		<img id="logoParcours_G" src="img/icones/parcours_G.svg" alt="">
-	</button>
-	<button id="blocParcours_B"  class="parcours_B" aria-label="Les langues dans le monde">
-	<img id="logoParcours_B" src="img/icones/parcours_B.svg" alt="">
-	</button>
-	<button id="blocParcours_A" class="parcours_A" aria-label="Les origines du langage">
-	<img id="logoParcours_A" src="img/icones/parcours_A.svg" alt="">
-	</button>
-	<button id="blocParcours_D"  class="parcours_D" aria-label="L'évolution des langues">
-		<img id="logoParcours_D" src="img/icones/parcours_D.svg"  alt="">
-	</button>
-	
-	<button id="blocParcours_C"  class="parcours_C" aria-label="Les langues dans la société">
-	<img id="logoParcours_C" src="img/icones/parcours_C.svg" alt="">
-	</button>
-	
-	<button id="blocParcours_E"  class="parcours_E" aria-label="Le fonctionnement des langues"> 
-		<img id="logoParcours_E" src="img/icones/parcours_E.svg"  alt="">
-	</button>
-	<button id="blocParcours_F"  class="parcours_F" aria-label="L’écriture">
-		<img id="logoParcours_F" src="img/icones/parcours_F.svg" alt="">
-	</button>
+    <button id="blocParcours_G"  class="parcours_G" aria-label="Les langues dans le monde">
+        <img id="logoParcours_G" src="img/icones/parcours_G.svg" alt="">
+    </button>
+    <button id="blocParcours_B"  class="parcours_B" aria-label="Les origines du langage" >
+        <img id="logoParcours_B" src="img/icones/parcours_B.svg" alt="">
+    </button>
+    <button id="blocParcours_A" class="parcours_A" aria-label="Le fonctionnement des langues">
+        <img id="logoParcours_A" src="img/icones/parcours_A.svg" alt="">
+    </button>
+    <button id="blocParcours_D"  class="parcours_D" aria-label="L’écriture">
+        <img id="logoParcours_D" src="img/icones/parcours_D.svg"  alt="">
+    </button>
+    <button id="blocParcours_C"  class="parcours_C" aria-label="Acquisition et apprentissage">
+        <img id="logoParcours_C" src="img/icones/parcours_C.svg" alt="">
+    </button>
+
+    <button id="blocParcours_E"  class="parcours_E" aria-label="Les langues et la norme"> 
+        <img id="logoParcours_E" src="img/icones/parcours_E.svg"  alt="">
+    </button>
+    <button id="blocParcours_F"  class="parcours_F" aria-label="Les langues dans la société">
+        <img id="logoParcours_F" src="img/icones/parcours_F.svg" alt="">
+    </button>
 </div>
 <script>
 
-$(function(){
-	
-	$("#ctnParcoursLogos>button").on("click" , function(evt){
-		//on efface titre et texte
-		//$( "g[id*='textes']" ).fadeOut("fast");// efface les textes dans plans svg
-		var parcoursCliquet = evt.currentTarget.id.split("_")[1];
-		parcoursAffich(parcoursCliquet);
-	});
-	
-});
+    $(function () {
+
+        $("#ctnParcoursLogos>button").on("click", function (evt) {
+            //on efface titre et texte
+            //$( "g[id*='textes']" ).fadeOut("fast");// efface les textes dans plans svg
+            var parcoursCliquet = evt.currentTarget.id.split("_")[1];
+            parcoursAffich(parcoursCliquet);
+        });
+
+    });
 </script>

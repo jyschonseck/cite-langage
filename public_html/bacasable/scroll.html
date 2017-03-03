@@ -21,63 +21,58 @@ and open the template in the editor.
                 background-color: #555;
                 overflow: auto;
             }
-            
+
             nav li{
                 list-style: none;
             }
         </style>
     </head>
     <body>
-       
+
 
         <main>
             <div style="display: flex;flex-direction: row;">
-            <div id="ctnTranscription" >		
-                <p id="txtTranscription">texte</p>
-            </div>
+                <div id="ctnTranscription" >		
+                    <p id="txtTranscription">texte</p>
+                </div>
                 <textarea id="txtSortie"></textarea>
             </div>
             <nav>
-<!--            <ul><li><a href="#un">un</a></li><li><a href="#deux">deux</a></li><li><a href="#trois">trois</a></li><li><a href="#quatre">quatre</a></li><li><a href="#cinq">cinq</a></li></ul>-->
-<input type="number" id="inNum"></input>
-<button onclick="goto();">GO</button>
-        </nav>
+
+                <input type="number" id="inNum"></input>
+                <button onclick="goto();">GO</button>
+            </nav>
             <h1> TEST</h1>
             <button onclick="btnPos()">oueston?</button>
         </main>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script>
-            	var ctnTranscription = document.getElementById("ctnTranscription");
-                $(function () {
-                    console.log("en route");
-                    $("#txtTranscription").load("scrollTxt.html");
-                    
-                    var txtSortie = document.getElementById("txtSortie");
-                    
-                    txtSortie.value = "num\tspanoffsetTop\tctn.scrollTop\n";
-                })
+		var ctnTranscription = document.getElementById("ctnTranscription");
+		$(function () {
+		    $("#txtTranscription").load("scrollTxt.html");
+		    var txtSortie = document.getElementById("txtSortie");
 
-                function btnPos() {
-                    console.log("ctnTranscription.scrollTop = " + ctnTranscription.scrollTop + " /ctnTranscription.scrollheight" + ctnTranscription.scrollHeight);
-                    var temp = document.getElementById("span_" + document.getElementById("inNum").value);
-                    console.log("offsetTop cible" + temp.offsetTop);
-                }
+		    txtSortie.value = "num\tspanoffsetTop\tctn.scrollTop\n";
+		})
 
-                function goto(){
-                    var inNum = document.getElementById("inNum").value;
-                    console.log ("goto " + inNum);
-                    window.location = "#span_" + inNum;
-                    var txt = inNum + "\t";
-                    var temp = document.getElementById("span_" + inNum);
-                    txt += temp.offsetTop+ "\t";
-                    txt += ctnTranscription.scrollTop+ "\t";
-                    var diff = temp.offsetTop - ctnTranscription.scrollTop;
-                    txt += diff + "\t";
-                    txt += ctnTranscription.scrollHeight+ "\n";
-                    
-                     txtSortie.value += txt;  
-    }
+		function btnPos() {
+		    var temp = document.getElementById("span_" + document.getElementById("inNum").value);
+		}
+
+		function goto() {
+		    var inNum = document.getElementById("inNum").value;
+		    window.location = "#span_" + inNum;
+		    var txt = inNum + "\t";
+		    var temp = document.getElementById("span_" + inNum);
+		    txt += temp.offsetTop + "\t";
+		    txt += ctnTranscription.scrollTop + "\t";
+		    var diff = temp.offsetTop - ctnTranscription.scrollTop;
+		    txt += diff + "\t";
+		    txt += ctnTranscription.scrollHeight + "\n";
+
+		    txtSortie.value += txt;
+		}
         </script>
 
 </html>

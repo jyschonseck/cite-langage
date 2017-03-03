@@ -49,13 +49,13 @@
             <div id="menuGeneral" role="menubar" >
 <!--                <nav role="navigation" aria-label="Menu principal">-->
                 <button id="ctnMenuCarte" onClick=" window.location.hash = '#parcours';"  class="menuClicable " >Parcours</button>
-                <button id="ctnMenuQuestion"  onClick="window.location.hash = '#questions'; " class="menuClicable " >Vidéothèque	</button>
+                <button id="ctnMenuQuestion"  onClick="window.location.hash = '#questions'; " class="menuClicable " >Vidéothèque</button>
                 <button id="ctnMenuGlossaire" onClick="window.location.hash = '#glossaire';" class="menuClicable " >Glossaire</button>
                 <div id="ctnRecherche" role="search">Recherche...</div>
 <!--                </nav>-->
             </div>
             <div id="ctnFituraide"></div>
-            <main id="ctnPrincipal" role="main">
+            <main id="ctnPrincipal" aria-live="polite">
 		
 			<div id="ctnHome">
 					<div id="ctnResumeItem_0_0" onkeypress="if (event.keyCode==13) {window.location.hash = '#parcours';}" onClick="window.location.hash = '#parcours';" class="ctnLienHome" tabindex="0"><!-- l'id est celui du premier lien de la page vidéothèque : le bouton d'évitement du fituraide pointe dessus-->

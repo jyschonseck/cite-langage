@@ -208,59 +208,39 @@ function btnPdfClckHdlr() {
 function onPlayProgress(donnees) {
     var heure = donnees.seconds;
     scrollAmplitude = ctnTranscription.scrollHeight;//-pour décoller text du haut
-//    console.log(transcriptionPos + " - envoi  à " + heure );
     if (heure > trans[transcriptionPos].dataset.fin) { // position après fin TXT 
-//        console.log(transcriptionPos + " - envoi  à " + heure + "est > " + trans[transcriptionPos].dataset.fin);
 	$("#txtTranscription span").removeClass("transActive");//enleve le style 
 	//incremente transcriptionPos
 	while (heure > trans[transcriptionPos].dataset.fin && transcriptionPos < trans.length - 1) {
 	    transcriptionPos++;
 	}
-//	console.log(" donc on a incrémenté pour avoir transcriptionPos = " + transcriptionPos); 
 	txtTransPosition(transcriptionPos);
     } else { // donc on  est avant la fin de pos en cours
 	if (heure > trans[transcriptionPos].dataset.debut) {
-//	    console.log("envoi - 2a, heure est > à " + trans[transcriptionPos].dataset.debut);
 	    $("#txtTranscription span:eq(" + transcriptionPos + ")").addClass("transActive");
 	} else {
 	    //if (transcriptionPos > 0 ) {transcriptionPos -- ; }
 	    while (transcriptionPos > 0 && heure < trans[transcriptionPos].dataset.debut) {
 		transcriptionPos--;
 	    }
-//            console.log("envoi - 2b, on a décrementer pour arriver à " + transcriptionPos );
             txtTransPosition(transcriptionPos);
 	}
     }
 }
 
 function txtTransPosition(dest) {
-    //****scroll *****//
-//	var fenetreTransHauteur = parseInt( $("#ctnTranscription").css("height"));
-//	if (dest < trans.length -1 && !scrollEnCours){
-//		if ((trans[dest+1].dataset.caract / nbCaractFin) * ctnTranscription.scrollHeight > ctnTranscription.scrollTop  + fenetreTransHauteur -100){
-//			monScroll(ctnTranscription , ((trans[dest].dataset.caract / nbCaractFin)) * ctnTranscription.scrollHeight , dest);
-//		}else if ((trans[dest].dataset.caract / nbCaractFin) * ctnTranscription.scrollHeight < ctnTranscription.scrollTop + 20){
-//			monScroll(ctnTranscription , ((trans[dest].dataset.caract / nbCaractFin)) * ctnTranscription.scrollHeight , dest);
-//		}
-//	}
+
 //****scroll  V2*****//
-    console.log("C'est ICI " + dest);
     var temp = document.getElementById("span_" + dest);
     var margeOffsetTop = document.getElementById("span_0").offsetTop;
 
     if (dest < trans.length -1 && !scrollEnCours) {
-	console.log("1-" + document.getElementById("span_" + (dest + 1)).offsetTop);
-	console.log("2-" + ctnTranscription.scrollTop);
-	console.log("3-" + $("#ctnTranscription").css("height"));
-	var basTextarea = ctnTranscription.scrollTop + parseInt($("#ctnTranscription").css("height")) + margeOffsetTop;
-	console.log("4-" + basTextarea);
+	var basTextarea = ctnTranscription.scrollTop + parseInt($("#ctnTranscription").css("height")) + margeOffsetTop ;
 	if (document.getElementById("span_" + (dest + 1)).offsetTop > basTextarea ||  temp.offsetTop < (ctnTranscription.scrollTop + margeOffsetTop)){
-	    console.log("je scroll");
 	    monScroll(ctnTranscription, temp.offsetTop - margeOffsetTop, dest);//
 	}
     }
 
-    // jyAffichPos(dest);
 
 }
 
@@ -270,7 +250,6 @@ function monScroll(obj, valeur, trPos) {
 	valeur -= 40;
     } // pour avaoir une marge 
     var topMax = ctnTranscription.scrollHeight - parseInt($("#ctnTranscription").css("height"));
-    console.log("topMax = " + topMax + ", valeur = " + valeur);
 
     if (valeur !== topMax) {
 	if (valeur > topMax) {
@@ -285,7 +264,6 @@ function monScroll(obj, valeur, trPos) {
 	    } else {
 		scrollEnCours = false;
 		clearInterval(tempoScroll);
-//		console.log("fin du scroll ctnTranscription.scrollTop = " + ctnTranscription.scrollTop);
 	    }
 	}, 4);
     }
@@ -294,12 +272,4 @@ function monScroll(obj, valeur, trPos) {
 
 function triTags(a, b) {
     return a.terme.localeCompare(b.terme);
-}
-
-function jyAffichPos(dest) {
-    var temp = document.getElementById("span_" + dest);
-    console.log("  span_ " + dest + " offsetTop " + temp.offsetTop);
-    console.log("ctnTranscription.scrollTop = " + ctnTranscription.scrollTop);
-    console.log("ctnTranscription.scrollHeight = " + ctnTranscription.scrollHeight);
-    console.log("ctnTranscription height = " + $("#ctnTranscription").css("height"));
 }
